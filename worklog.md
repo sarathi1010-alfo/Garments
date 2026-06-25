@@ -99,3 +99,23 @@ Stage Summary:
 - Footer logo renders (naturalWidth 64, complete) next to gold brand name; VLM confirms clean.
 - Lint clean (0 errors, 0 warnings). No page/console errors.
 - Dev server running persistently on port 3000 (HTTP 200).
+
+---
+Task ID: 12
+Agent: orchestrator (main)
+Task: Straighten the logo — make the symbol upright/vertical and centered symmetrically inside the circle, keeping the same minimal style. Applies to both the website logo and favicon.
+
+Work Log:
+- Analyzed the original logo via VLM: symbol tilted ~11° clockwise, slightly off-center.
+- Measured empirically via PCA on dark pixels: centroid offset from circle center was dx=-10.2px (-1.9% of r), dy=16px (2.9% of r); eigenvalue ratio 1.12 (near-isotropic, so PCA angle unreliable — trusted VLM's ~11° visual estimate).
+- Wrote scripts/straighten-logo.cjs (sharp): (1) detect white circle bbox + crop square centered on it; (2) build circular alpha mask (2px aa) for transparent corners; (3) rotate emblem -11° (counter-clockwise) with transparent background — the circle is rotationally symmetric so stays inscribed while the symbol straightens; (4) recrop to side x side centered; (5) compute dark-pixel centroid and composite onto a fresh transparent canvas at the offset needed to center the symbol exactly; (6) re-apply circular alpha mask to clean edges; (7) emit 4 sizes (logo-mark 512, logo-mark-2x 96, icon 256, apple-icon 180).
+- Fixed a buffer-handling bug (PNG buffers were being passed with raw `info` options → "unsupported image format"); switched to passing PNG buffers directly to sharp() and using composite without raw.
+- Result: symbol centroid now (255.7, 255.8) vs image center (256, 256) — offset 0.3px (essentially perfect). Transparent corners preserved (21%).
+- Wiped corrupted .next cache (previous timed-out command left it half-written) and restarted dev server fresh.
+
+Stage Summary:
+- VLM confirms on logo-mark.png: upright/no tilt, symmetric/centered, clean round circle, transparent corners, minimal style preserved.
+- VLM confirms in-browser: nav logo upright + centered next to navy wordmark; footer logo upright + centered next to gold brand name.
+- Favicon served matches new icon.png exactly (51,471 bytes, hash 19be2f1a — changed from old b77f82f6).
+- Lint clean (0 errors, 0 warnings). No page/console errors.
+- Dev server running on port 3000 (HTTP 200).
