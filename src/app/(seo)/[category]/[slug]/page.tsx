@@ -23,6 +23,7 @@ import { TopNav } from "@/components/site/top-nav";
 import { SiteFooter } from "@/components/site/site-footer";
 import { SeoFooter } from "@/components/site/seo-footer";
 import { slugify } from "@/utils/slugify";
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import Link from 'next/link';
 
 interface PageProps {
@@ -30,6 +31,22 @@ interface PageProps {
     category: string;
     slug: string;
   }>;
+}
+
+function getCategoryTitle(category: string): string {
+  const map: Record<string, string> = {
+    districts: "Districts",
+    products: "Products",
+    fabrics: "Fabrics",
+    business: "Business",
+    services: "Services",
+    quality: "Quality",
+    occasions: "Occasions",
+    buyers: "Buyers",
+    sellers: "Sellers",
+    locations: "Locations"
+  };
+  return map[category] || category.charAt(0).toUpperCase() + category.slice(1);
 }
 
 function getPageData(category: string, slug: string): PageData | null {
@@ -119,9 +136,26 @@ export default async function GenericSeoPage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <TopNav />
-      <main className="flex-1 container mx-auto px-4 py-12 max-w-4xl">
+      <main className="flex-1 container mx-auto px-margin-mobile md:px-margin-desktop py-12 max-w-4xl">
+        <div className="mb-8">
+          <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbItem>
+                <BreadcrumbLink href="/">Home</BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbLink href={`/${category}`}>{getCategoryTitle(category)}</BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbPage>{data.h1.split(':')[0].split('-')[0].trim()}</BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+        </div>
         <article className="prose prose-lg dark:prose-invert max-w-none">
-          <h1 className="text-4xl font-bold mb-8 text-primary">{data.h1}</h1>
+          <h1 className="text-4xl font-bold mb-8 text-primary font-serif-display tracking-tight">{data.h1}</h1>
           <div
             className="seo-content space-y-6"
             dangerouslySetInnerHTML={{ __html: data.content }}

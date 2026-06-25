@@ -19,6 +19,18 @@ export async function GET() {
 
   const pages: string[] = [
     '', // Home
+    '/directory',
+    '/districts',
+    '/products',
+    '/fabrics',
+    '/business',
+    '/services',
+    '/quality',
+    '/occasions',
+    '/buyers',
+    '/sellers',
+    '/locations',
+    '/cities',
   ];
 
   districts.forEach(d => pages.push(`/districts/${slugify(d)}`));
@@ -33,6 +45,7 @@ export async function GET() {
   geoLocations.forEach(l => pages.push(`/locations/${slugify(l)}`));
 
   Object.entries(cityZones).forEach(([city, zones]) => {
+    pages.push(`/cities/${city}`);
     zones.forEach(zone => {
       pages.push(`/cities/${city}/${zone}`);
     });
