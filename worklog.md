@@ -166,3 +166,24 @@ Stage Summary:
 - 4 featured items: Kabaddi Team Kit, Performance Polos, Engineered Mobility, Navy Round-Neck Tee.
 - Lint clean (0 errors, 0 warnings). No page/console errors.
 - Dev server running on port 3000 (HTTP 200).
+
+---
+Task ID: 15
+Agent: orchestrator (main)
+Task: Create a Privacy Policy page (verbatim from user-provided text) and generate a Sustainability page; wire the footer "Privacy Policy" and "Sustainability" links to open them.
+
+Work Log:
+- Read footer (Privacy Policy + Sustainability were dead "#" anchors) and the shadcn Dialog component API.
+- Since only the / route is user-visible, built both pages as in-page modal dialogs (no new routes).
+- Created legal-modal.tsx: a client Dialog with sticky header (label/title/last-updated), a ScrollArea body (max-h-60vh), and a contact CTA footer (WhatsApp + Email buttons that prefill context). Added body-scroll lock + sr-only DialogTitle/Description for a11y.
+- Created legal-content.tsx with PRIVACY_DOC (verbatim user text: 9 sections covering info collected, usage, WhatsApp consent, data protection, third-party services, cookies, rights, policy changes, contact) and SUSTAINABILITY_DOC (generated, on-brand: 6 sections — Responsible Material Sourcing, Low-Impact Sublimation, Ethical Manufacturing, Made-to-Order Not Mass-Produced, Waste Reduction, Ongoing Commitment + closing tagline).
+- Rewrote site-footer.tsx as a client component with useState<LegalDocId|null>; replaced the dead "#" anchors for Privacy Policy and Sustainability with buttons that open the modal. (Contact Us, About Us, Terms of Service kept as-is.)
+- Wired LegalModal onOpenChange to close on backdrop/Esc.
+
+Stage Summary:
+- Privacy Policy modal: opens with title "Privacy Policy", subtitle "Legal", "Last Updated: June 2026", 9 numbered sections, all user content verbatim, WhatsApp + Email CTAs. VLM confirmed all elements + clean on-brand design.
+- Sustainability modal: opens with title "Sustainability", subtitle "Our Commitment", 6 numbered sections (01-06), intro paragraph, CTAs. VLM confirmed.
+- Both modals close via Esc/backdrop; dialog state resets properly.
+- Footer "Privacy Policy" and "Sustainability" are now clickable buttons (cursor-pointer, hover gold).
+- Lint clean (0 errors, 0 warnings). No page/console errors.
+- Dev server running on port 3000 (HTTP 200).
