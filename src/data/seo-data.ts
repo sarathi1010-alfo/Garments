@@ -25,6 +25,8 @@ export const products = [
   "Handloom", "Export Quality", "Premium Garments", "Activewear",
   "Compression Wear", "Team Kits", "Gym Wear", "Fitness Apparel",
   "Lounge Wear", "Nightwear", "Workwear", "Safety Apparel"
+  "Handloom", "Export Quality", "Premium Garments"
+ main
 ];
 
 export const buyers = [
@@ -35,6 +37,8 @@ export const buyers = [
   "Security Uniform Buyers", "Medical Uniform Buyers", "Event Management Buyers", "Wedding Garment Buyers",
   "International Buyers", "Global Sourcing Agents", "Fashion Retail Chains", "Buying Houses", "Sourcing Agents",
   "Gift Shops", "Supermarkets", "Distributors", "Agencies", "Brokers"
+  "International Buyers", "Global Sourcing Agents", "Fashion Retail Chains", "Buying Houses", "Sourcing Agents"
+ main
 ];
 
 export const sellers = [
@@ -43,6 +47,7 @@ export const sellers = [
   "Raw Material Suppliers", "Yarn Suppliers", "Fabric Suppliers", "Buttons Suppliers",
   "Zips Suppliers", "Labels Suppliers", "Tags Suppliers", "Thread Suppliers",
   "Elastic Suppliers", "Linings Suppliers", "Interlinings Suppliers", "Fusing Suppliers",
+feat-seo-aeo-expansion-8060314519370347745
   "Trims Suppliers", "Accessories Suppliers", "Machinery Suppliers", "Sewing Machines Suppliers",
   "Spare Parts Suppliers", "Chemical Suppliers", "Design Agencies", "Merchandising Houses"
 ];
@@ -58,6 +63,22 @@ export const cityZones: Record<string, string[]> = {
   vellore: ['vellore-central', 'ranipet', 'katpadi', 'ambur', 'vaniyambadi', 'gudiyatham', 'pallikonda', 'karigiri', 'kanniyambadi', 'membalam', 'walajapet', 'arcot', 'sholinghur', 'tiruvalam', 'sathuvachari'],
   thanjavur: ['thanjavur-central', 'kumbakonam', 'pattukkottai', 'mayiladuthurai-zone', 'nagapattinam-zone', 'mylapore-thanjavur', 'mannargudi-zone', 'oradai', 'kondavayal', 'vijayapuram', 'papanasam', 'thiruvaiyaru', 'oranadu', 'vallam', 'budalur'],
   tuticorin: ['tuticorin-central', 'kayalpatnam', 'iru', 'sawyerpuram', 'rathinapuri-tuticorin', 'pudur-tuticorin', 'mudhal', 'pappa', 'kamaraj', 'periyar', 'kovilpatti', 'tiruchendur', 'srivaikuntam', 'ottapidaram', 'ettayapuram']
+
+  "Trims Suppliers", "Accessories Suppliers", "Machinery Suppliers", "Sewing Machines Suppliers"
+];
+
+export const cityZones: Record<string, string[]> = {
+  chennai: ['north', 'south', 'east', 'west', 'central', 't-nagar', 'ambattur', 'perambur', 'adyar', 'mylapore'],
+  coimbatore: ['peelamedu', 'singanallur', 'gandhipuram', 'rathinapuri', 'saibaba-colony', 'goundampalayam', 'kavundampalayam', 'kk-pudur', 'ram-nagar', 'town-hall'],
+  tiruppur: ['uthukuli', 'avanashi', 'palladam', 'sullur', 'velampalayam', 'kangeyam', 'vellakoil', 'dharapuram', 'gobichettipalayam', 'perundurai'],
+  madurai: ['meenakshi-market', 'vilakkuthoon-market', 'chinthamani', 'arasaradi', 'k-pudur', 'annapatti', 'sellur', 'thirumangalam', 'usilampatti', 'melur'],
+  salem: ['amman-koil', 'attur', 'edappadi', 'mettur', 'omallur', 'rasipuram', 'sankar', 'tharamangalam', 'valappady', 'yercaud'],
+  erode: ['erode-central', 'perundurai', 'modakurichi', 'pallipalayam', 'kangayam', 'sathyamangalam', 'bhavani', 'gobichettipalayam', 'anthiyur', 'kavindapadi'],
+  trichy: ['trichy-central', 'srirangam', 'golden-rock', 'thillai-nagar', 'woraiyur', 'crawford', 'sangiliyandapuram', 'pettai', 'beemanagar', 'k-k-nagar'],
+  vellore: ['vellore-central', 'ranipet', 'katpadi', 'ambur', 'vaniyambadi', 'gudiyatham', 'pallikonda', 'karigiri', 'kanniyambadi', 'membalam'],
+  thanjavur: ['thanjavur-central', 'kumbakonam', 'pattukkottai', 'mayiladuthurai', 'nagapattinam', 'mylapore', 'mannargudi', 'oradai', 'kondavayal', 'vijayapuram'],
+  tuticorin: ['tuticorin-central', 'kayalpatnam', 'iru', 'sawyerpuram', 'rathinapuri', 'pudur', 'mudhal', 'pappa', 'kamaraj', 'periyar']
+main
 };
 
 export const fabricTypes = [

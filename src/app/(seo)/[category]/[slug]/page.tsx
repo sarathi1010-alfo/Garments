@@ -22,7 +22,9 @@ import { generateMetadata as getMetadata, generateStructuredData } from '@/lib/s
 import { TopNav } from "@/components/site/top-nav";
 import { SiteFooter } from "@/components/site/site-footer";
 import { SeoFooter } from "@/components/site/seo-footer";
+ feat-seo-aeo-expansion-8060314519370347745
 import { slugify } from "@/utils/slugify";
+ main
 
 interface PageProps {
   params: Promise<{
@@ -31,6 +33,11 @@ interface PageProps {
   }>;
 }
 
+feat-seo-aeo-expansion-8060314519370347745
+function slugify(text: string) {
+  return text.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
+}
+main
 function getPageData(category: string, slug: string): PageData | null {
   if (category === 'districts') {
     const district = districts.find(d => slugify(d) === slug);
