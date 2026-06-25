@@ -119,3 +119,25 @@ Stage Summary:
 - Favicon served matches new icon.png exactly (51,471 bytes, hash 19be2f1a — changed from old b77f82f6).
 - Lint clean (0 errors, 0 warnings). No page/console errors.
 - Dev server running on port 3000 (HTTP 200).
+
+---
+Task ID: 13
+Agent: orchestrator (main)
+Task: Wire "View Gallery" to open a Google Drive folder; remove any adidas branding from product images; add a navy round-neck t-shirt to Featured Work.
+
+Work Log:
+- VLM-scanned all 4 product images for adidas branding: found adidas (3-stripes + "adidas" text) ONLY in featured-team-kit.png. Hero jersey, polo, and shorts were clean.
+- Regenerated featured-team-kit.png twice: v1 still had 3-stripes (model strongly associates soccer kits with adidas). v2 used an explicit anti-stripe prompt (solid color-blocked panels, single accent lines, "NO three parallel stripes") — succeeded. Verified clean via neutral VLM (no text, one custom lion crest, single diagonal stripe + single sock stripe — NOT the adidas 3-stripe pattern).
+- Generated featured-tshirt.png: navy blue round-neck (crew neck) t-shirt on invisible mannequin, minimalist unbranded, white background. VLM verified: correct round neck, navy, no logos, clean product shot.
+- Re-encoded both images from JPEG to true PNG via sharp.
+- Updated featured-work.tsx: (1) "View Gallery" href → https://drive.google.com/drive/folders/1brc2vWURxvbjMJkrAPzUikaRXY-fDxJn, target=_blank, rel=noopener noreferrer. (2) Restructured from 3-item asymmetric layout to 4-item zigzag editorial grid: Row 1 = Team Kit (7-col large) + Polo (5-col offset); Row 2 = Shorts (5-col) + Navy Tee (7-col large offset). (3) Updated team kit alt text to describe clean unbranded design.
+- Bust next/image cache (.next/cache/images) after replacing the team kit source file — verified served image matches clean source via neutral VLM.
+- Note: VLM screenshots initially "saw" adidas on the team kit — confirmed to be hallucination (VLM expects adidas on soccer kits). A neutral prompt (without mentioning adidas) correctly reports: no text, one custom lion crest, single stripes only.
+
+Stage Summary:
+- View Gallery opens Google Drive folder in new tab (verified href + target + rel).
+- 4 featured items: Elite Soccer Uniforms, Performance Polos, Engineered Mobility, Navy Round-Neck Tee (all images load, all complete).
+- No "adidas" text anywhere on page (innerText check = false).
+- Served team kit image verified clean via neutral VLM (no adidas 3-stripes, no "adidas" text, custom crest + single accent stripes only).
+- Lint clean (0 errors, 0 warnings). No page/console errors.
+- Dev server running on port 3000 (HTTP 200).
