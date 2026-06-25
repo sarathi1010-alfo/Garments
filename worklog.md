@@ -77,3 +77,25 @@ Stage Summary:
 - Lint clean (0 errors, 0 warnings). No page errors or console warnings.
 - VLM confirmed: footer shows brand in gold + all contact details with gold icons on navy bg; floating green WhatsApp button visible bottom-right after scroll.
 - Dev server running on port 3000 (HTTP 200).
+
+---
+Task ID: 11
+Agent: orchestrator (main)
+Task: Use the uploaded image (pasted_image_1782363094616.png) as both the website logo and favicon.
+
+Work Log:
+- Analyzed the uploaded image via VLM: an abstract emblem — black "S-like + flame" symbol inside a white circle on a beige background, no text, 1199x1600 portrait PNG.
+- Sampled pixel data to map the layout: beige background (~180 brightness), white circle (~1100px diameter, centered ~(587,871)), black symbol inside.
+- Wrote scripts/process-logo.cjs (sharp): detects the white circle's bbox, crops a square centered on it, builds a circular alpha mask (2px anti-alias band) so corners outside the circle are transparent. Emits 4 sizes: public/images/logo-mark.png (512), logo-mark-2x.png (96), src/app/icon.png (256 favicon), src/app/apple-icon.png (180).
+- Verified transparency: 21% transparent pixels = exactly the corners outside the inscribed circle (1 - pi/4 = 21.5%). Correct.
+- TopNav: replaced text-only wordmark with logo Image (40px) + "Vinayaga Garments" wordmark, hover scale. Mobile Sheet brand area also gets a 36px logo.
+- Footer: added 56px logo Image next to the gold "Vinayaga Garments" brand name.
+- Favicon: relied on Next.js App Router file convention (src/app/icon.png + apple-icon.png) — auto-generates <link rel="icon"> and <link rel="apple-touch-icon">. No metadata.icons needed.
+- Excluded scripts/ from ESLint (build script uses CommonJS require, not app code).
+
+Stage Summary:
+- Favicon auto-detected: <link rel="icon" href="/icon.png?..." sizes="256x256"> + apple-touch-icon, HTTP 200 (46KB PNG). Verified in rendered HTML head.
+- Nav logo renders (naturalWidth 48, complete) next to navy "Vinayaga Garments" wordmark; VLM confirms clean circular emblem, no beige box.
+- Footer logo renders (naturalWidth 64, complete) next to gold brand name; VLM confirms clean.
+- Lint clean (0 errors, 0 warnings). No page/console errors.
+- Dev server running persistently on port 3000 (HTTP 200).

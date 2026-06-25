@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import { Menu, MessageCircle } from "lucide-react";
 import { whatsappLink } from "@/lib/contact";
+import Image from "next/image";
 
 const NAV_LINKS = [
   { label: "Products", href: "#featured" },
@@ -19,10 +20,21 @@ export function TopNav() {
       <div className="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-6 max-w-[1440px] mx-auto">
         {/* Brand Logo */}
         <a
-          className="font-headline-sm text-headline-sm font-bold text-primary tracking-tight"
+          className="flex items-center gap-3 group"
           href="#"
+          aria-label="Vinayaga Garments — home"
         >
-          Vinayaga Garments
+          <Image
+            src="/images/logo-mark.png"
+            alt="Vinayaga Garments logo — a stylized monogram in a circular emblem"
+            width={40}
+            height={40}
+            priority
+            className="size-10 shrink-0 transition-transform duration-300 group-hover:scale-105"
+          />
+          <span className="font-headline-sm text-headline-sm font-bold text-primary tracking-tight">
+            Vinayaga Garments
+          </span>
         </a>
 
         {/* Navigation Links (Desktop) */}
@@ -70,9 +82,18 @@ export function TopNav() {
               Site navigation links and primary call to action.
             </SheetDescription>
             <div className="flex flex-col gap-8 pt-16 px-6">
-              <span className="font-headline-sm text-headline-sm font-bold text-primary">
-                Vinayaga Garments
-              </span>
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/images/logo-mark.png"
+                  alt=""
+                  width={36}
+                  height={36}
+                  className="size-9 shrink-0"
+                />
+                <span className="font-headline-sm text-headline-sm font-bold text-primary">
+                  Vinayaga Garments
+                </span>
+              </div>
               <nav className="flex flex-col gap-6 font-label-md text-label-md uppercase tracking-[0.1em]">
                 {NAV_LINKS.map((link) => (
                   <SheetClose asChild key={link.label}>

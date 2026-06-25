@@ -1,4 +1,5 @@
 import { Phone, PhoneCall, Mail, MessageCircle, User } from "lucide-react";
+import Image from "next/image";
 import { CONTACT, whatsappLink } from "@/lib/contact";
 
 export function SiteFooter() {
@@ -7,8 +8,17 @@ export function SiteFooter() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 px-margin-mobile md:px-margin-desktop py-[100px] max-w-[1440px] mx-auto">
         {/* Brand + contact details */}
         <div className="md:col-span-6 space-y-6">
-          <div className="font-headline-md text-headline-md text-secondary tracking-tight">
-            Vinayaga Garments
+          <div className="flex items-center gap-4">
+            <Image
+              src="/images/logo-mark.png"
+              alt="Vinayaga Garments logo"
+              width={56}
+              height={56}
+              className="size-14 shrink-0"
+            />
+            <div className="font-headline-md text-headline-md text-secondary tracking-tight">
+              Vinayaga Garments
+            </div>
           </div>
           <p className="font-body-md text-body-md text-on-primary-container/70 max-w-sm">
             Premium Athletic Craftsmanship. Engineered for performance, tailored
