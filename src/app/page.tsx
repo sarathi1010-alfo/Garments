@@ -6,6 +6,7 @@ import { Process } from "@/components/site/process";
 import { CtaBanner } from "@/components/site/cta-banner";
 import { SiteFooter } from "@/components/site/site-footer";
 import { FloatingWhatsApp } from "@/components/site/floating-whatsapp";
+import { SeoFooter } from "@/components/site/seo-footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <FeaturedWork />
         <Process />
         <CtaBanner />
+        <SeoFooter />
       </main>
       <SiteFooter />
       <FloatingWhatsApp />
