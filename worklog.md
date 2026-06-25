@@ -141,3 +141,28 @@ Stage Summary:
 - Served team kit image verified clean via neutral VLM (no adidas 3-stripes, no "adidas" text, custom crest + single accent stripes only).
 - Lint clean (0 errors, 0 warnings). No page/console errors.
 - Dev server running on port 3000 (HTTP 200).
+
+---
+Task ID: 14
+Agent: orchestrator (main)
+Task: (1) Create a navy kabaddi team kit image without any logo. (2) Remove existing logo and favicon. (3) Use the newly uploaded image (pasted_image_1782365150616.png) as the new logo and favicon.
+
+Work Log:
+- VLM-analyzed the new uploaded image: a stylized black cursive "V" monogram on a light blue-gray background (~brightness 210, not pure white), upright, centered, fills ~80-90% of frame (1600x1475). Clean monogram for "Vinayaga".
+- Sampled source pixels: bg is RGB(197,216,223) light blue-gray (v~210), V is RGB(23,27,38) near-black (v~25). Two clear populations, no pure white.
+- Wrote scripts/process-new-logo.cjs (sharp): finds the V's dark-pixel bbox, squares the crop to min(W,H) centered on the V centroid, then threshold-luminance-keys the background to transparent (v<100 opaque, v>180 transparent, smooth ramp between for anti-aliasing). Emits 5 files: logo-mark.png (black V, 512), logo-mark-2x.png (96), logo-mark-light.png (WHITE V for dark footer bg, 512), icon.png (256 favicon), apple-icon.png (180).
+- First keying attempt (alpha=255-v) failed: left a semi-transparent gray box because bg isn't pure white (v=210 → alpha=45). Fixed with the threshold approach (v>180 → alpha=0). Verified: 53.4% transparent, file sizes dropped 62KB→25KB.
+- Generated featured-kabaddi.png: navy blue kabaddi half-sleeve jersey, single bold gold chest bar, thin gold armhole piping. First attempt had 5-6 busy chest stripes + a small neckline label; regenerated with explicit "single bold gold accent bar, NO labels, NO tags" prompt — clean result (VLM: half-sleeve fitted jersey, no brand logos, single gold chest stripe).
+- Removed old logo/favicon by overwriting: logo-mark.png, logo-mark-2x.png, icon.png, apple-icon.png all replaced with the new V. (Old circular emblem gone.)
+- Updated site-footer.tsx: logo src → /images/logo-mark-light.png (white V, visible on dark navy footer).
+- Updated featured-work.tsx: replaced Elite Soccer Uniforms (featured-team-kit.png) with Kabaddi Team Kit (featured-kabaddi.png) — updated src, alt text, and title. Kept the 4-item zigzag layout.
+- Wiped .next (bust favicon hash + image cache) and cleanly restarted dev server (previous restart left .next in a corrupted 500 state; full kill+wipe+restart resolved it).
+
+Stage Summary:
+- Favicon served = new V icon (hash 5fe9436d, matches src/app/icon.png exactly).
+- Nav logo = black V monogram on transparent, visible on light nav bg. VLM confirms: black V, clean, no box, old emblem gone.
+- Footer logo = white V monogram (logo-mark-light.png), clearly visible on dark navy footer. VLM confirms: white V, visible, old emblem gone.
+- Featured Work: Kabaddi Team Kit (navy jersey, no logos) replaces soccer kit. DOM confirms title "Kabaddi Team Kit", no "soccer"/"Elite Soccer" text remains. VLM confirms navy half-sleeve jersey, no adidas/brand logos.
+- 4 featured items: Kabaddi Team Kit, Performance Polos, Engineered Mobility, Navy Round-Neck Tee.
+- Lint clean (0 errors, 0 warnings). No page/console errors.
+- Dev server running on port 3000 (HTTP 200).

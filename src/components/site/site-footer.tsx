@@ -10,7 +10,7 @@ export function SiteFooter() {
         <div className="md:col-span-6 space-y-6">
           <div className="flex items-center gap-4">
             <Image
-              src="/images/logo-mark.png"
+              src="/images/logo-mark-light.png"
               alt="Vinayaga Garments logo"
               width={56}
               height={56}

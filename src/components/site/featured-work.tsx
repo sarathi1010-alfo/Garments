@@ -32,12 +32,12 @@ export function FeaturedWork() {
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
           {/* Row 1 — Large feature (left) + small (right, offset) */}
-          {/* Team Kit */}
+          {/* Kabaddi Team Kit */}
           <Reveal className="md:col-span-7 group relative cursor-pointer" delay={0.05}>
             <div className="overflow-hidden aspect-[4/5] bg-surface relative">
               <Image
-                src="/images/featured-team-kit.png"
-                alt="A complete professional soccer team kit — jersey, shorts, and socks — laid out on a pristine white surface. Clean unbranded custom design in rich navy with gold accent panels and a geometric team crest. No brand logos."
+                src="/images/featured-kabaddi.png"
+                alt="A premium navy blue kabaddi team jersey laid out on a pristine white surface. Half-sleeve fitted playing jersey with a single bold gold accent bar across the chest. Clean unbranded custom manufacturing — no logos or text."
                 fill
                 sizes="(max-width: 768px) 100vw, 58vw"
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
@@ -48,7 +48,7 @@ export function FeaturedWork() {
                 Custom Team Kits
               </span>
               <h3 className="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors">
-                Elite Soccer Uniforms
+                Kabaddi Team Kit
               </h3>
             </div>
           </Reveal>
