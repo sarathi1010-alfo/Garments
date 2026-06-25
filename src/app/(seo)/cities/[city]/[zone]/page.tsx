@@ -2,10 +2,11 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { cityZones } from '@/data/seo-data';
 import { generateCityZoneContent } from '@/lib/content-templates';
-import { generateMetadata as getMetadata, generateStructuredData } from '@/lib/seo-utils';
+import { generateMetadata as getMetadata, generateStructuredData, getInternalLinks } from '@/lib/seo-utils';
 import { TopNav } from "@/components/site/top-nav";
 import { SiteFooter } from "@/components/site/site-footer";
 import { SeoFooter } from "@/components/site/seo-footer";
+import Link from 'next/link';
 
 interface PageProps {
   params: Promise<{
@@ -43,8 +44,10 @@ export default async function CityZoneSeoPage({ params }: PageProps) {
     notFound();
   }
 
+  const path = `/cities/${city}/${zone}`;
   const data = generateCityZoneContent(city, zone);
-  const structuredData = generateStructuredData(data, `/cities/${city}/${zone}`);
+  const structuredData = generateStructuredData(data, path);
+  const internalLinks = getInternalLinks(path);
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -72,11 +75,24 @@ export default async function CityZoneSeoPage({ params }: PageProps) {
               ))}
             </div>
           </section>
+
+          <section className="mt-16 border-t pt-12">
+            <h2 className="text-2xl font-bold mb-6 text-primary">Related Industry Hubs</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {internalLinks.map((link, index) => (
+                <Link
+                  key={index}
+                  href={link.href}
+                  className="p-4 bg-muted hover:bg-muted/80 rounded-lg transition-colors border border-transparent hover:border-secondary flex items-center"
+                >
+                  <span className="text-sm font-medium">{link.label}</span>
+                </Link>
+              ))}
+            </div>
+          </section>
         </article>
-        <div className="mt-20">
-          <SeoFooter />
-        </div>
       </main>
+      <SeoFooter />
       <SiteFooter />
     </div>
   );

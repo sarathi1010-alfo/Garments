@@ -1,13 +1,6 @@
 import Link from "next/link";
 import { districts, products } from "@/data/seo-data";
-feat-seo-aeo-expansion-8060314519370347745
 import { slugify } from "@/utils/slugify";
-
-
-function slugify(text: string) {
-  return text.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
-}
-main
 
 export function SeoFooter() {
   // Only show a subset of links in the footer to keep it clean but provide crawl paths

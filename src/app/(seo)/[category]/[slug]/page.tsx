@@ -18,13 +18,12 @@ import {
   generateGenericContent,
   PageData
 } from '@/lib/content-templates';
-import { generateMetadata as getMetadata, generateStructuredData } from '@/lib/seo-utils';
+import { generateMetadata as getMetadata, generateStructuredData, getInternalLinks } from '@/lib/seo-utils';
 import { TopNav } from "@/components/site/top-nav";
 import { SiteFooter } from "@/components/site/site-footer";
 import { SeoFooter } from "@/components/site/seo-footer";
- feat-seo-aeo-expansion-8060314519370347745
 import { slugify } from "@/utils/slugify";
- main
+import Link from 'next/link';
 
 interface PageProps {
   params: Promise<{
@@ -33,11 +32,6 @@ interface PageProps {
   }>;
 }
 
-feat-seo-aeo-expansion-8060314519370347745
-function slugify(text: string) {
-  return text.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
-}
-main
 function getPageData(category: string, slug: string): PageData | null {
   if (category === 'districts') {
     const district = districts.find(d => slugify(d) === slug);
@@ -114,7 +108,9 @@ export default async function GenericSeoPage({ params }: PageProps) {
     notFound();
   }
 
-  const structuredData = generateStructuredData(data, `/${category}/${slug}`);
+  const path = `/${category}/${slug}`;
+  const structuredData = generateStructuredData(data, path);
+  const internalLinks = getInternalLinks(path);
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -142,11 +138,24 @@ export default async function GenericSeoPage({ params }: PageProps) {
               ))}
             </div>
           </section>
+
+          <section className="mt-16 border-t pt-12">
+            <h2 className="text-2xl font-bold mb-6 text-primary">Related Industry Hubs</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {internalLinks.map((link, index) => (
+                <Link
+                  key={index}
+                  href={link.href}
+                  className="p-4 bg-muted hover:bg-muted/80 rounded-lg transition-colors border border-transparent hover:border-secondary flex items-center"
+                >
+                  <span className="text-sm font-medium">{link.label}</span>
+                </Link>
+              ))}
+            </div>
+          </section>
         </article>
-        <div className="mt-20">
-          <SeoFooter />
-        </div>
       </main>
+      <SeoFooter />
       <SiteFooter />
     </div>
   );
