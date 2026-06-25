@@ -187,3 +187,26 @@ Stage Summary:
 - Footer "Privacy Policy" and "Sustainability" are now clickable buttons (cursor-pointer, hover gold).
 - Lint clean (0 errors, 0 warnings). No page/console errors.
 - Dev server running on port 3000 (HTTP 200).
+
+---
+Task ID: 16
+Agent: orchestrator (main)
+Task: Optimize mobile and ensure the same premium feel as desktop across all sections.
+
+Work Log:
+- Conducted a full mobile audit at 375px (iPhone SE): captured 8 per-section screenshots and VLM-analyzed each for problems. Recurring issues: (1) headlines too large on mobile, dominating the viewport; (2) hamburger menu icon below 44px touch target; (3) "Chat on WhatsApp" button text truncated on 375px; (4) tight vertical spacing in several sections; (5) mobile menu 280px too wide on 375px with hero text bleeding through; (6) process section's 180px numerals + 160px padding absurdly huge on mobile.
+- Added a mobile type & spacing scale in globals.css (max-width:768px): headline-xl 64->40px, headline-lg 40->30px, headline-md 24->22px, body-lg 18->16px, section-gap 120->72px. Hierarchy (navy/gold/serif accent) preserved so it reads as the same brand.
+- TopNav: reduced mobile vertical padding (py-6 -> py-4), smaller logo (size-10 -> size-9) + truncate wordmark, hamburger button now p-3 (48px touch target) with hover bg, mobile Sheet width 85vw/max 320px with p-0 + better internal spacing, WhatsApp button py-4.
+- Hero: image now stacks ABOVE text on mobile (order-1/order-2) at h-42vh, text block tighter spacing (space-y-6), serif accent slightly smaller (1.05em), WhatsApp button px-8 (no truncation), gap-4 between buttons.
+- Capabilities: heading block mb-24 -> mb-12 on mobile, space-y-6 -> space-y-4, card grid gap-16 -> gap-10, icons 64px -> 48px on mobile.
+- FeaturedWork: header now flex-col on mobile (View Gallery below heading, self-start), grid gap-8 -> gap-10, image-caption mt-6 -> mt-5, kept the md:mt-32 offset desktop-only.
+- Process: py-160 -> py-20 on mobile, heading mb-24 -> mb-12, numerals 180px -> 120px on mobile, step pt-24 -> pt-16, content pl-6 -> pl-5.
+- CtaBanner: py-120 -> py-16 on mobile, space-y-10 -> space-y-6, buttons px-10 -> px-8, gap-6 -> gap-4.
+- Footer: py-100 -> py-16 on mobile, gap-12 -> gap-10.
+
+Stage Summary:
+- VLM re-audit at 375px: ALL 7 sections (hero, capabilities, featured, featured-row2, process, footer, mobile menu) now report "No remaining problems" — premium balanced feel achieved.
+- Desktop (1440px) hero re-verified: fully intact, "No problems" — no regressions.
+- Quick 390px (iPhone 14) check: premium balanced, same brand feel.
+- Lint clean (0 errors, 0 warnings). No page/console errors.
+- Dev server running on port 3000 (HTTP 200).

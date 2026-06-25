@@ -11,13 +11,13 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative w-full min-h-[90vh] flex items-center pt-20 pb-section-gap overflow-hidden"
+      className="relative w-full min-h-[90vh] flex items-center pt-12 md:pt-20 pb-12 md:pb-section-gap overflow-hidden"
     >
       <div className="max-w-[1440px] mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-0 items-center">
         {/* Text Content */}
-        <div className="lg:col-span-5 px-margin-mobile md:px-margin-desktop z-20 space-y-10 relative">
+        <div className="lg:col-span-5 px-margin-mobile md:px-margin-desktop z-20 space-y-6 md:space-y-10 relative order-2 lg:order-1">
           <motion.div
-            className="space-y-4"
+            className="space-y-3 md:space-y-4"
             initial={reduce ? false : { opacity: 0, y: 24 }}
             animate={reduce ? undefined : { opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
@@ -26,7 +26,7 @@ export function Hero() {
               Engineered for <br />
               Performance.
               <br />
-              <span className="font-serif-display text-secondary italic block mt-2 text-[1.1em] font-medium tracking-normal">
+              <span className="font-serif-display text-secondary italic block mt-2 text-[1.05em] md:text-[1.1em] font-medium tracking-normal">
                 Tailored for Trust.
               </span>
             </h1>
@@ -48,7 +48,7 @@ export function Hero() {
           </motion.p>
 
           <motion.div
-            className="flex flex-col sm:flex-row gap-6 pt-6"
+            className="flex flex-col sm:flex-row gap-4 md:gap-6 pt-2 md:pt-6"
             initial={reduce ? false : { opacity: 0, y: 24 }}
             animate={reduce ? undefined : { opacity: 1, y: 0 }}
             transition={{
@@ -61,7 +61,7 @@ export function Hero() {
               href={whatsappLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-secondary text-on-secondary px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer"
+              className="bg-secondary text-on-secondary px-8 md:px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer"
             >
               <MessageCircle className="size-[18px]" />
               Chat on WhatsApp
@@ -76,9 +76,9 @@ export function Hero() {
           </motion.div>
         </div>
 
-        {/* Image — Bleeding right */}
+        {/* Image — Bleeding right (desktop) / stacked above text (mobile) */}
         <motion.div
-          className="lg:col-span-7 h-[60vh] lg:h-[85vh] w-full relative mt-16 lg:mt-0 lg:translate-x-12 lg:scale-125 z-10"
+          className="lg:col-span-7 h-[42vh] sm:h-[55vh] lg:h-[85vh] w-full relative mt-0 mb-8 lg:mt-0 lg:mb-0 lg:translate-x-12 lg:scale-125 z-10 order-1 lg:order-2"
           initial={reduce ? false : { opacity: 0, scale: 0.96 }}
           animate={
             reduce ? undefined : { opacity: 1, scale: 1 }

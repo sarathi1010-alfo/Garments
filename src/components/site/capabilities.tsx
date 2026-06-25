@@ -27,7 +27,7 @@ export function Capabilities() {
       className="py-section-gap w-full bg-surface"
     >
       <div className="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop">
-        <Reveal className="max-w-3xl mb-24 space-y-6">
+        <Reveal className="max-w-3xl mb-12 md:mb-24 space-y-4 md:space-y-6">
           <h2 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary">
             Manufacturing Excellence
           </h2>
@@ -40,15 +40,15 @@ export function Capabilities() {
           </p>
         </Reveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-24">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-24">
           {CAPABILITIES.map((item, i) => (
             <Reveal key={item.title} delay={i * 0.1} className="group">
-              <div className="mb-8 text-secondary">
-                <span className="material-symbols-outlined text-[64px] font-light transition-transform duration-500 group-hover:scale-110 inline-block">
+              <div className="mb-6 md:mb-8 text-secondary">
+                <span className="material-symbols-outlined text-[48px] md:text-[64px] font-light transition-transform duration-500 group-hover:scale-110 inline-block">
                   {item.icon}
                 </span>
               </div>
-              <h3 className="font-headline-md text-headline-md text-primary mb-4">
+              <h3 className="font-headline-md text-headline-md text-primary mb-3 md:mb-4">
                 {item.title}
               </h3>
               <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">

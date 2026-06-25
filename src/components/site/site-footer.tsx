@@ -16,7 +16,7 @@ export function SiteFooter() {
 
   return (
     <footer className="bg-primary-container w-full border-t border-on-primary/10 mt-auto">
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-12 px-margin-mobile md:px-margin-desktop py-[100px] max-w-[1440px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12 px-margin-mobile md:px-margin-desktop py-16 md:py-[100px] max-w-[1440px] mx-auto">
         {/* Brand + contact details */}
         <div className="md:col-span-6 space-y-6">
           <div className="flex items-center gap-4">

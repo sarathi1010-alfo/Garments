@@ -217,6 +217,34 @@
   }
 }
 
+/* ============================================================
+   Mobile type & spacing scale — keeps the editorial premium
+   feel without overwhelming a 375px viewport. Headlines shrink,
+   section gaps relax, but the hierarchy (navy/gold/serif accent)
+   is preserved so it reads as the same brand.
+   ============================================================ */
+@media (max-width: 768px) {
+  :root {
+    --text-headline-xl: 40px;
+    --text-headline-xl--line-height: 46px;
+    --text-headline-xl--letter-spacing: -0.015em;
+    --text-headline-lg: 30px;
+    --text-headline-lg--line-height: 38px;
+    --text-headline-lg-mobile: 30px;
+    --text-headline-lg-mobile--line-height: 38px;
+    --text-headline-md: 22px;
+    --text-headline-md--line-height: 30px;
+    --text-headline-sm: 18px;
+    --text-headline-sm--line-height: 26px;
+    --text-body-lg: 16px;
+    --text-body-lg--line-height: 26px;
+    --text-body-md: 15px;
+    --text-body-md--line-height: 24px;
+    --spacing-section-gap: 72px;
+    --spacing-margin-desktop: 20px;
+  }
+}
+
 @layer components {
   /* Material Symbols base — monoline geometric icons */
   .material-symbols-outlined {
