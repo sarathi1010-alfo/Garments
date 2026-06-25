@@ -22,7 +22,11 @@ export const products = [
   "Western Wear", "Fusion Wear", "Kids Ethnic",
   "Infant Clothing", "Maternity Wear", "Plus Size",
   "Petite Wear", "Sustainable Fashion", "Organic Cotton",
+  "Handloom", "Export Quality", "Premium Garments", "Activewear",
+  "Compression Wear", "Team Kits", "Gym Wear", "Fitness Apparel",
+  "Lounge Wear", "Nightwear", "Workwear", "Safety Apparel"
   "Handloom", "Export Quality", "Premium Garments"
+ main
 ];
 
 export const buyers = [
@@ -31,7 +35,10 @@ export const buyers = [
   "Corporate Buyers", "Hospitality Buyers", "Hotel Linen Buyers", "Restaurant Uniform Buyers",
   "School Uniform Buyers", "College Uniform Buyers", "Industrial Uniform Buyers",
   "Security Uniform Buyers", "Medical Uniform Buyers", "Event Management Buyers", "Wedding Garment Buyers",
+  "International Buyers", "Global Sourcing Agents", "Fashion Retail Chains", "Buying Houses", "Sourcing Agents",
+  "Gift Shops", "Supermarkets", "Distributors", "Agencies", "Brokers"
   "International Buyers", "Global Sourcing Agents", "Fashion Retail Chains", "Buying Houses", "Sourcing Agents"
+ main
 ];
 
 export const sellers = [
@@ -40,6 +47,23 @@ export const sellers = [
   "Raw Material Suppliers", "Yarn Suppliers", "Fabric Suppliers", "Buttons Suppliers",
   "Zips Suppliers", "Labels Suppliers", "Tags Suppliers", "Thread Suppliers",
   "Elastic Suppliers", "Linings Suppliers", "Interlinings Suppliers", "Fusing Suppliers",
+feat-seo-aeo-expansion-8060314519370347745
+  "Trims Suppliers", "Accessories Suppliers", "Machinery Suppliers", "Sewing Machines Suppliers",
+  "Spare Parts Suppliers", "Chemical Suppliers", "Design Agencies", "Merchandising Houses"
+];
+
+export const cityZones: Record<string, string[]> = {
+  chennai: ['north', 'south', 'east', 'west', 'central', 't-nagar', 'ambattur', 'perambur', 'adyar', 'mylapore', 'guindy', 'velachery', 'anna-nagar', 'porur', 'chromepet'],
+  coimbatore: ['peelamedu', 'singanallur', 'gandhipuram', 'rathinapuri', 'saibaba-colony', 'goundampalayam', 'kavundampalayam', 'kk-pudur', 'ram-nagar', 'town-hall', 'saravanampatti', 'vadavalli', 'perur', 'sulur', 'pollachi-road'],
+  tiruppur: ['uthukuli', 'avanashi', 'palladam', 'sullur', 'velampalayam', 'kangeyam', 'vellakoil', 'dharapuram', 'gobichettipalayam', 'perundurai', 'rayapuram', 'thennampalayam', 'nallur', 'muthunagar', 'serangadu'],
+  madurai: ['meenakshi-market', 'vilakkuthoon-market', 'chinthamani', 'arasaradi', 'k-pudur', 'annapatti', 'sellur', 'thirumangalam', 'usilampatti', 'melur', 'anna-nagar-madurai', 'kk-nagar-madurai', 'simmakkal', 'south-gate', 'thallakulam'],
+  salem: ['amman-koil', 'attur', 'edappadi', 'mettur', 'omallur', 'rasipuram', 'sankar', 'tharamangalam', 'valappady', 'yercaud', 'fairlands', 'alaggapuram', 'hasthampatti', 'gugai', 'shevapet'],
+  erode: ['erode-central', 'perundurai', 'modakurichi', 'pallipalayam', 'kangayam', 'sathyamangalam', 'bhavani', 'gobichettipalayam', 'anthiyur', 'kavindapadi', 'nasiyanur', 'chennimalai', 'kodumudi', 'unialur', 'thindal'],
+  trichy: ['trichy-central', 'srirangam', 'golden-rock', 'thillai-nagar', 'woraiyur', 'crawford', 'sangiliyandapuram', 'pettai', 'beemanagar', 'k-k-nagar', 'lantana', 'bhel-township', 'tiruverumbur', 'mannarpuram', 'puthur'],
+  vellore: ['vellore-central', 'ranipet', 'katpadi', 'ambur', 'vaniyambadi', 'gudiyatham', 'pallikonda', 'karigiri', 'kanniyambadi', 'membalam', 'walajapet', 'arcot', 'sholinghur', 'tiruvalam', 'sathuvachari'],
+  thanjavur: ['thanjavur-central', 'kumbakonam', 'pattukkottai', 'mayiladuthurai-zone', 'nagapattinam-zone', 'mylapore-thanjavur', 'mannargudi-zone', 'oradai', 'kondavayal', 'vijayapuram', 'papanasam', 'thiruvaiyaru', 'oranadu', 'vallam', 'budalur'],
+  tuticorin: ['tuticorin-central', 'kayalpatnam', 'iru', 'sawyerpuram', 'rathinapuri-tuticorin', 'pudur-tuticorin', 'mudhal', 'pappa', 'kamaraj', 'periyar', 'kovilpatti', 'tiruchendur', 'srivaikuntam', 'ottapidaram', 'ettayapuram']
+
   "Trims Suppliers", "Accessories Suppliers", "Machinery Suppliers", "Sewing Machines Suppliers"
 ];
 
@@ -54,12 +78,13 @@ export const cityZones: Record<string, string[]> = {
   vellore: ['vellore-central', 'ranipet', 'katpadi', 'ambur', 'vaniyambadi', 'gudiyatham', 'pallikonda', 'karigiri', 'kanniyambadi', 'membalam'],
   thanjavur: ['thanjavur-central', 'kumbakonam', 'pattukkottai', 'mayiladuthurai', 'nagapattinam', 'mylapore', 'mannargudi', 'oradai', 'kondavayal', 'vijayapuram'],
   tuticorin: ['tuticorin-central', 'kayalpatnam', 'iru', 'sawyerpuram', 'rathinapuri', 'pudur', 'mudhal', 'pappa', 'kamaraj', 'periyar']
+main
 };
 
 export const fabricTypes = [
   "Cotton", "Silk", "Polyester", "Linen", "Wool", "Nylon", "Spandex", "Viscose", "Rayon", "Jute", "Hemp", "Bamboo", "Recycled Polyester", "Khadi",
   "Organic Cotton", "Blended Fabrics", "Polycotton", "Denim Fabric", "Handloom Fabrics", "Powerloom Fabrics", "Knitted Fabrics", "Woven Fabrics",
-  "Non Woven", "Technical Textiles", "Sustainable Fabrics", "Luxury Fabrics", "Chiffon", "Georgette", "Velvet", "Satin"
+  "Non Woven", "Technical Textiles", "Sustainable Fabrics", "Luxury Fabrics", "Chiffon", "Georgette", "Velvet", "Satin", "Canvas", "Drill", "Twill", "Poplin", "Jersey", "Interlock", "Rib", "Pique", "Fleece", "Terry"
 ];
 
 export const businessCategories = [
@@ -67,7 +92,8 @@ export const businessCategories = [
   "Spinning Mills", "Weaving Mills", "Knitting Mills", "Processing Mills", "Finishing Mills", "Printing Mills", "Dyeing Mills", "Embroidery Units",
   "Packaging Units", "Accessories Units", "Trims Units", "Raw Material Suppliers", "Yarn Suppliers", "Fabric Suppliers", "Chemical Suppliers",
   "Machinery Suppliers", "Spare Parts Suppliers", "Maintenance Services", "Consultancy Services", "Design Services", "Merchandising Services",
-  "Sourcing Services", "Procurement Services", "Logistics Services", "Warehousing Services", "Distribution Services", "Marketing Services", "Sales Services", "Online Platforms"
+  "Sourcing Services", "Procurement Services", "Logistics Services", "Warehousing Services", "Distribution Services", "Marketing Services", "Sales Services", "Online Platforms",
+  "Trade Portals", "Business Directories", "Export Houses", "Trading Companies", "Sourcing Hubs", "Manufacturing Centers", "Textile Parks", "Industrial Estates"
 ];
 
 export const services = [
@@ -76,20 +102,21 @@ export const services = [
   "Warehousing", "Logistics Services", "Courier Services", "Freight Forwarding", "Customs Clearance", "Trade Compliance", "Certification Services",
   "Laboratory Testing", "Product Development", "Design Services", "Pattern Making", "Grading Services", "Marker Making", "Spreading Services",
   "Fusing Services", "Pressing Services", "Folding Services", "Tagging Services", "Barcoding Services", "Inventory Management", "Order Fulfillment",
-  "Fabric Sourcing", "Trims Sourcing"
+  "Fabric Sourcing", "Trims Sourcing", "Washing Services", "Finishing Services", "Labeling Services", "Digital Printing", "Screen Printing", "Sublimation"
 ];
 
 export const qualityCertifications = [
   "ISO Certified", "OEKO-TEX", "GOTS", "Global Recycle Standard", "Bluesign", "Sedex", "SA8000", "ISO 9001", "ISO 14001", "ISO 45001",
   "Quality Control", "Quality Assurance", "Quality Management", "Testing Procedures", "Inspection Services", "Audit Services", "Compliance Services",
   "Certification Process", "Standards Compliance", "Regulatory Compliance", "Safety Standards", "Environmental Standards", "Social Standards",
-  "Ethical Manufacturing", "Sustainable Production", "Eco Friendly", "Green Manufacturing", "Carbon Footprint", "Water Management", "Waste Management"
+  "Ethical Manufacturing", "Sustainable Production", "Eco Friendly", "Green Manufacturing", "Carbon Footprint", "Water Management", "Waste Management",
+  "Product Testing", "Fabric Inspection", "Inline Inspection", "Final Random Inspection", "Factory Audit", "Social Compliance"
 ];
 
 export const occasions = [
   "Summer", "Winter", "Rainy Season", "Festival", "Pongal", "Diwali", "Ramadan", "Christmas", "New Year", "Wedding", "Engagement", "Corporate",
   "Sports", "Casual", "Formal", "Party", "Traditional", "Modern", "Trendy", "Classic", "Premium", "Budget", "Value", "Luxury", "Affordable",
-  "Designer", "Special Occasions", "Office Wear", "School Wear", "Daily Wear", "Holiday Wear"
+  "Designer", "Special Occasions", "Office Wear", "School Wear", "Daily Wear", "Holiday Wear", "Athletic", "Fitness", "Workout", "Gym", "Active"
 ];
 
 export const geoLocations = [
@@ -104,5 +131,5 @@ export const geoLocations = [
   "Industry Bodies", "Chambers of Commerce", "Export Promotion Councils", "Textile Committees", "Garment Associations", "Merchant Associations",
   "Manufacturer Associations", "Exporter Associations", "Importer Associations", "Buyer Seller Meets", "Trade Fairs", "Exhibitions", "Buying Houses",
   "Sourcing Agencies", "Quality Control Agencies", "Certification Bodies", "Testing Laboratories", "Research Development", "Innovation Centers",
-  "Technology Parks", "Software Parks", "Business Parks", "Corporate Offices", "Branch Offices", "Regional Offices"
+  "Technology Parks", "Software Parks", "Business Parks", "Corporate Offices", "Branch Offices", "Regional Offices", "Industrial Zones", "Economic Clusters", "Trade Hubs"
 ];

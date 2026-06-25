@@ -11,10 +11,14 @@ import {
   sellers,
   geoLocations
 } from '@/data/seo-data';
+feat-seo-aeo-expansion-8060314519370347745
+import { slugify } from '@/utils/slugify';
+
 
 function slugify(text: string) {
   return text.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
 }
+ main
 
 export async function GET() {
   const baseUrl = 'https://garment.alfo.online';
