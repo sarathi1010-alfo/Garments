@@ -155,32 +155,101 @@ export function generateStructuredData(data: PageData, path: string) {
   return [breadcrumb, localBusiness, faq, article];
 }
 
+const ANCHOR_TEMPLATES = {
+  products: [
+    (name: string) => `Shop ${name}`,
+    (name: string) => `Explore ${name} Collection`,
+    (name: string) => `Our ${name} Range`,
+    (name: string) => `View ${name} Products`,
+    (name: string) => `${name} Catalog`,
+    (name: string) => `Quality ${name}`,
+    (name: string) => `${name} Solutions`
+  ],
+  locations: [
+    (name: string) => `Our ${name} Operations`,
+    (name: string) => `Serving ${name}`,
+    (name: string) => `${name} Garment Services`,
+    (name: string) => `Visit ${name} Location`,
+    (name: string) => `${name} Presence`,
+    (name: string) => `Garments in ${name}`,
+    (name: string) => `${name} Manufacturing Hub`
+  ],
+  services: [
+    (name: string) => `Custom ${name} Services`,
+    (name: string) => `Our ${name} Capabilities`,
+    (name: string) => `${name} Solutions`,
+    (name: string) => `Contract ${name}`,
+    (name: string) => `${name} Expertise`,
+    (name: string) => `Professional ${name}`
+  ],
+  quality: [
+    (name: string) => `Our ${name} Standards`,
+    (name: string) => `${name} Excellence`,
+    (name: string) => `${name} Program`,
+    (name: string) => `Learn About ${name}`,
+    (name: string) => `${name} Accreditation`
+  ]
+};
+
+function getRandomAnchor(type: keyof typeof ANCHOR_TEMPLATES, name: string) {
+  const templates = ANCHOR_TEMPLATES[type];
+  const template = templates[Math.floor(Math.random() * templates.length)];
+  return template(name);
+}
+
 export function getInternalLinks(currentPath: string) {
   const links: { href: string; label: string }[] = [];
   const getRandom = (arr: any[]) => arr[Math.floor(Math.random() * arr.length)];
 
-  for (let i = 0; i < 2; i++) {
-    const d = getRandom(districts);
-    links.push({ href: `/districts/${slugify(d)}`, label: `Garment Hub in ${d}` });
+  const category = currentPath.split('/')[1];
+
+  // Implement Silo Structure: Pages primarily link to their own category
+  if (category === 'districts' || category === 'cities') {
+    // Location Silo
+    for (let i = 0; i < 6; i++) {
+      const d = getRandom(districts);
+      links.push({ href: `/districts/${slugify(d)}`, label: getRandomAnchor('locations', d) });
+    }
+    const city = getRandom(Object.keys(cityZones));
+    const zone = getRandom(cityZones[city]);
+    links.push({ href: `/cities/${city}/${zone}`, label: getRandomAnchor('locations', zone.replace(/-/g, ' ')) });
+
+    // Minimal cross-linking to landing pages only
+    links.push({ href: '/', label: 'Return Home' });
+    links.push({ href: '/services/custom-manufacturing', label: 'View Our Services' });
+  } else if (category === 'products') {
+    // Product Silo
+    for (let i = 0; i < 8; i++) {
+      const p = getRandom(products);
+      links.push({ href: `/products/${slugify(p)}`, label: getRandomAnchor('products', p) });
+    }
+    links.push({ href: '/', label: 'Garment Solutions' });
+  } else if (category === 'services') {
+    // Service Silo
+    for (let i = 0; i < 5; i++) {
+      const s = getRandom(services);
+      links.push({ href: `/services/${slugify(s)}`, label: getRandomAnchor('services', s) });
+    }
+    // Services link to product categories (not individual products)
+    links.push({ href: '/', label: 'View All Products' });
+  } else if (category === 'quality') {
+    // Quality Silo
+    for (let i = 0; i < 5; i++) {
+      const q = getRandom(qualityCertifications);
+      links.push({ href: `/quality/${slugify(q)}`, label: getRandomAnchor('quality', q) });
+    }
+    links.push({ href: '/', label: 'Our Commitment' });
+  } else {
+    // General fallback for other categories (occasions, buyers, sellers)
+    for (let i = 0; i < 3; i++) {
+      const p = getRandom(products);
+      links.push({ href: `/products/${slugify(p)}`, label: getRandomAnchor('products', p) });
+    }
+    for (let i = 0; i < 3; i++) {
+      const d = getRandom(districts);
+      links.push({ href: `/districts/${slugify(d)}`, label: getRandomAnchor('locations', d) });
+    }
   }
-
-  for (let i = 0; i < 3; i++) {
-    const p = getRandom(products);
-    links.push({ href: `/products/${slugify(p)}`, label: `${p} Manufacturing` });
-  }
-
-  const city = getRandom(Object.keys(cityZones));
-  const zone = getRandom(cityZones[city]);
-  links.push({ href: `/cities/${city}/${zone}`, label: `${zone.replace(/-/g, ' ')} Textile Zone` });
-
-  const s = getRandom(services);
-  links.push({ href: `/services/${slugify(s)}`, label: `Professional ${s}` });
-
-  const b = getRandom(buyers);
-  links.push({ href: `/buyers/${slugify(b)}`, label: `For ${b}` });
-
-  const sel = getRandom(sellers);
-  links.push({ href: `/sellers/${slugify(sel)}`, label: `Top ${sel}` });
 
   return links.filter(link => link.href !== currentPath).slice(0, 10);
 }

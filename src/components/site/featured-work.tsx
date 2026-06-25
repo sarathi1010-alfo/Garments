@@ -24,9 +24,9 @@ export function FeaturedWork() {
             className="inline-flex self-start md:self-auto font-label-md text-label-md text-secondary items-center gap-3 border-b border-secondary pb-1 uppercase tracking-[0.1em] hover:text-primary hover:border-primary transition-all duration-300"
             href={GALLERY_URL}
             target="_blank"
-            rel="nofollow noopener noreferrer"
+            rel="nofollow external noopener noreferrer"
           >
-            View Gallery <ArrowRight className="size-[18px]" />
+            View Our Gallery <ArrowRight className="size-[18px]" />
           </a>
         </Reveal>
 

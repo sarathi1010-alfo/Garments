@@ -67,10 +67,10 @@ export function SiteFooter() {
               className="flex items-center gap-3 hover:text-secondary transition-colors"
               href={whatsappLink()}
               target="_blank"
-              rel="nofollow noopener noreferrer"
+              rel="nofollow external noopener noreferrer"
             >
               <MessageCircle className="size-4 text-secondary shrink-0" aria-hidden />
-              <span>WhatsApp: {CONTACT.whatsappDisplay}</span>
+              <span>Chat on WhatsApp</span>
             </a>
           </div>
 

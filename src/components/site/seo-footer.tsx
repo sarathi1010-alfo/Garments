@@ -13,13 +13,13 @@ export function SeoFooter() {
         <div>
           <h3 className="font-headline-sm text-headline-sm text-primary mb-6">Manufacturing Hubs</h3>
           <ul className="space-y-2">
-            {topDistricts.map((d) => (
+            {topDistricts.map((d, idx) => (
               <li key={d}>
                 <Link
                   href={`/districts/${slugify(d)}`}
                   className="text-muted-foreground hover:text-primary transition-colors text-sm"
                 >
-                  Garments in {d}
+                  {idx % 3 === 0 ? `Garments in ${d}` : idx % 3 === 1 ? `${d} Manufacturing` : `Serving ${d}`}
                 </Link>
               </li>
             ))}
@@ -28,13 +28,13 @@ export function SeoFooter() {
         <div>
           <h3 className="font-headline-sm text-headline-sm text-primary mb-6">Product Categories</h3>
           <ul className="space-y-2">
-            {topProducts.map((p) => (
+            {topProducts.map((p, idx) => (
               <li key={p}>
                 <Link
                   href={`/products/${slugify(p)}`}
                   className="text-muted-foreground hover:text-primary transition-colors text-sm"
                 >
-                  {p} Manufacturers
+                  {idx % 3 === 0 ? `${p} Manufacturers` : idx % 3 === 1 ? `Shop ${p}` : `View ${p} Catalog`}
                 </Link>
               </li>
             ))}
