@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat, Open_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
+import { Analytics, AnalyticsNoScript } from "@/components/site/analytics";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -65,6 +66,8 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} ${openSans.variable} ${playfairDisplay.variable} antialiased bg-background text-on-surface font-body-md`}
       >
+        <AnalyticsNoScript />
+        <Analytics />
         {children}
         <Toaster />
       </body>
