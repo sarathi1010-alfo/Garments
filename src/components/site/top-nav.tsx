@@ -55,7 +55,7 @@ export function TopNav() {
           <a
             href={whatsappLink()}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="bg-secondary text-on-secondary px-8 py-3 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex items-center gap-2 cursor-pointer"
           >
             <MessageCircle className="size-[18px]" />
@@ -110,7 +110,7 @@ export function TopNav() {
                 <a
                   href={whatsappLink()}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="bg-secondary text-on-secondary px-8 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <MessageCircle className="size-[18px]" />

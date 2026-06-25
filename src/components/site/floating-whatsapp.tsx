@@ -63,7 +63,7 @@ export function FloatingWhatsApp() {
           <a
             href={whatsappLink()}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             aria-label={`Chat with ${CONTACT.brand} on WhatsApp — ${CONTACT.whatsappDisplay}`}
             className="group flex items-center justify-center size-14 rounded-full text-white shadow-lg hover:scale-105 active:scale-95 transition-transform duration-300 cursor-pointer"
             style={{ backgroundColor: "#25D366" }}
