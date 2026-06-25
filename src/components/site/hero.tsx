@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MessageCircle } from "lucide-react";
+import { whatsappLink } from "@/lib/contact";
 
 export function Hero() {
   const reduce = useReducedMotion();
@@ -56,13 +57,22 @@ export function Hero() {
               ease: [0.16, 1, 0.3, 1],
             }}
           >
-            <button className="bg-secondary text-on-secondary px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer">
-              Request a Quote
-              <ArrowRight className="size-[18px]" />
-            </button>
-            <button className="bg-transparent border-b border-primary text-primary px-2 py-4 rounded-none font-label-md text-label-md uppercase tracking-[0.1em] hover:text-secondary hover:border-secondary transition-all duration-300 inline-flex justify-center items-center cursor-pointer">
+            <a
+              href={whatsappLink()}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-secondary text-on-secondary px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer"
+            >
+              <MessageCircle className="size-[18px]" />
+              Chat on WhatsApp
+            </a>
+            <a
+              href="#featured"
+              className="bg-transparent border-b border-primary text-primary px-2 py-4 rounded-none font-label-md text-label-md uppercase tracking-[0.1em] hover:text-secondary hover:border-secondary transition-all duration-300 inline-flex justify-center items-center cursor-pointer"
+            >
               Explore Products
-            </button>
+              <ArrowRight className="size-[18px] ml-3" />
+            </a>
           </motion.div>
         </div>
 

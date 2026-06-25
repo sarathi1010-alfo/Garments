@@ -55,3 +55,25 @@ Stage Summary:
 - Lint clean (0 errors, 0 warnings). No page errors. A11y warnings resolved.
 - Dev server running persistently on port 3000 (double-fork daemon, PID 5114).
 - Artifacts: DESIGN_STRATEGY.md, src/components/site/*.tsx, src/app/{page,layout,globals.css}, 4 images in public/images/, screenshots in project root.
+
+---
+Task ID: 10
+Agent: orchestrator (main)
+Task: Add contact details (owner Selvaraj Rayamuthu, mobile 8973854526, landline 04282 291 256, email rajuselvan786@gmail.com, WhatsApp 7200551500); remove all "Get a Quote"/"Request a Quote"/"Contact Sales Team" CTAs and replace with WhatsApp links; add a floating WhatsApp button.
+
+Work Log:
+- Created src/lib/contact.ts as single source of truth (owner, phone +91 89738 54526, landline 04282 291 256, email, whatsapp 917200551500 + whatsappLink() helper with prefilled message).
+- TopNav: replaced "Get a Quote" with a gold "WhatsApp" button (desktop + mobile Sheet), links to wa.me/917200551500?text=...
+- Hero: replaced "Request a Quote" with "Chat on WhatsApp" (gold, MessageCircle icon); "Explore Products" now an anchor to #featured.
+- CtaBanner: replaced "Contact Sales Team" with "Chat on WhatsApp"; replaced "Download Catalog" with "Email Us" (mailto).
+- Footer: added a contact block with owner name + mobile (tel:) + landline (tel:) + email (mailto:) + WhatsApp (wa.me), each with a gold lucide icon (User/Phone/PhoneCall/Mail/MessageCircle).
+- Created floating-whatsapp.tsx: circular WhatsApp-green button (official glyph SVG), fixed bottom-right, appears after 600px scroll, framer-motion entrance, hover tooltip "Chat with Selvaraj", full aria-label, reduced-motion aware.
+- Wired FloatingWhatsApp into page.tsx.
+
+Stage Summary:
+- All 5 old CTAs removed; verified no "Get a Quote"/"Request a Quote"/"Contact Sales Team" text remains.
+- 5 wa.me links live (desktop nav, hero, CTA, footer, floating) + mobile sheet link — all use international format 917200551500 with prefilled message.
+- Footer contact details all present and clickable (tel:+918973854526, tel:+914282291256, mailto, wa.me).
+- Lint clean (0 errors, 0 warnings). No page errors or console warnings.
+- VLM confirmed: footer shows brand in gold + all contact details with gold icons on navy bg; floating green WhatsApp button visible bottom-right after scroll.
+- Dev server running on port 3000 (HTTP 200).

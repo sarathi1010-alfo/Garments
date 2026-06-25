@@ -5,6 +5,7 @@ import { FeaturedWork } from "@/components/site/featured-work";
 import { Process } from "@/components/site/process";
 import { CtaBanner } from "@/components/site/cta-banner";
 import { SiteFooter } from "@/components/site/site-footer";
+import { FloatingWhatsApp } from "@/components/site/floating-whatsapp";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <CtaBanner />
       </main>
       <SiteFooter />
+      <FloatingWhatsApp />
     </div>
   );
 }

@@ -1,7 +1,11 @@
+import { Phone, PhoneCall, Mail, MessageCircle, User } from "lucide-react";
+import { CONTACT, whatsappLink } from "@/lib/contact";
+
 export function SiteFooter() {
   return (
     <footer className="bg-primary-container w-full border-t border-on-primary/10 mt-auto">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 px-margin-mobile md:px-margin-desktop py-[100px] max-w-[1440px] mx-auto">
+        {/* Brand + contact details */}
         <div className="md:col-span-6 space-y-6">
           <div className="font-headline-md text-headline-md text-secondary tracking-tight">
             Vinayaga Garments
@@ -10,6 +14,45 @@ export function SiteFooter() {
             Premium Athletic Craftsmanship. Engineered for performance, tailored
             for trust.
           </p>
+
+          {/* Contact details */}
+          <div className="pt-4 space-y-3 font-body-sm text-body-sm text-on-primary-container/80">
+            <div className="flex items-center gap-3">
+              <User className="size-4 text-secondary shrink-0" aria-hidden />
+              <span>{CONTACT.owner}</span>
+            </div>
+            <a
+              className="flex items-center gap-3 hover:text-secondary transition-colors"
+              href={CONTACT.phoneHref}
+            >
+              <Phone className="size-4 text-secondary shrink-0" aria-hidden />
+              <span>{CONTACT.phoneDisplay}</span>
+            </a>
+            <a
+              className="flex items-center gap-3 hover:text-secondary transition-colors"
+              href={CONTACT.telHref}
+            >
+              <PhoneCall className="size-4 text-secondary shrink-0" aria-hidden />
+              <span>{CONTACT.telDisplay}</span>
+            </a>
+            <a
+              className="flex items-center gap-3 hover:text-secondary transition-colors"
+              href={CONTACT.emailHref}
+            >
+              <Mail className="size-4 text-secondary shrink-0" aria-hidden />
+              <span>{CONTACT.email}</span>
+            </a>
+            <a
+              className="flex items-center gap-3 hover:text-secondary transition-colors"
+              href={whatsappLink()}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MessageCircle className="size-4 text-secondary shrink-0" aria-hidden />
+              <span>WhatsApp: {CONTACT.whatsappDisplay}</span>
+            </a>
+          </div>
+
           <div className="pt-8">
             <p className="font-body-sm text-body-sm text-on-primary-container/50">
               © 2024 Vinayaga Garments. All rights reserved.
@@ -24,7 +67,7 @@ export function SiteFooter() {
           <div className="flex flex-col space-y-4">
             <a
               className="font-body-md text-body-md text-on-primary-container/80 hover:text-secondary transition-colors"
-              href="#"
+              href={CONTACT.emailHref}
             >
               Contact Us
             </a>

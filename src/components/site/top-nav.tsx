@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetTitle, SheetDescription } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { Menu, MessageCircle } from "lucide-react";
+import { whatsappLink } from "@/lib/contact";
 
 const NAV_LINKS = [
   { label: "Products", href: "#featured" },
@@ -37,11 +38,17 @@ export function TopNav() {
           ))}
         </div>
 
-        {/* Trailing Action (Desktop) */}
+        {/* Trailing Action (Desktop) — WhatsApp */}
         <div className="hidden md:block">
-          <button className="bg-secondary text-on-secondary px-8 py-3 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 cursor-pointer">
-            Get a Quote
-          </button>
+          <a
+            href={whatsappLink()}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-secondary text-on-secondary px-8 py-3 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex items-center gap-2 cursor-pointer"
+          >
+            <MessageCircle className="size-[18px]" />
+            WhatsApp
+          </a>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -79,9 +86,15 @@ export function TopNav() {
                 ))}
               </nav>
               <SheetClose asChild>
-                <button className="bg-secondary text-on-secondary px-8 py-3 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 cursor-pointer">
-                  Get a Quote
-                </button>
+                <a
+                  href={whatsappLink()}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-secondary text-on-secondary px-8 py-3 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex items-center justify-center gap-2 cursor-pointer"
+                >
+                  <MessageCircle className="size-[18px]" />
+                  WhatsApp
+                </a>
               </SheetClose>
             </div>
           </SheetContent>
