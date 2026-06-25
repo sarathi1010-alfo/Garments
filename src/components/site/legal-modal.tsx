@@ -11,7 +11,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { MessageCircle, Mail } from "lucide-react";
 import { CONTACT, whatsappLink } from "@/lib/contact";
 
-export type LegalDocId = "privacy" | "sustainability";
+export type LegalDocId = "privacy" | "sustainability" | "terms";
 
 export type LegalDoc = {
   id: LegalDocId;

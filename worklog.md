@@ -210,3 +210,24 @@ Stage Summary:
 - Quick 390px (iPhone 14) check: premium balanced, same brand feel.
 - Lint clean (0 errors, 0 warnings). No page/console errors.
 - Dev server running on port 3000 (HTTP 200).
+
+---
+Task ID: 17
+Agent: orchestrator (main)
+Task: (1) Remove any contact form present on the website. (2) Add Terms & Conditions.
+
+Work Log:
+- Searched the codebase for any contact form: grep for <form, onSubmit, handleSubmit, "contact form". Result: NO actual contact form exists on the site — the only matches were (a) generic shadcn UI primitives (form.tsx, textarea.tsx) that aren't used anywhere, and (b) the Privacy Policy text mentioning "contact forms".
+- Confirmed via Agent Browser: document.querySelectorAll('form').length === 0, and no "contact form" text on the rendered page.
+- Updated Privacy Policy to remove the now-inaccurate contact-form references: §1 removed "Any information you submit through contact forms"; §9 contact list reduced from [WhatsApp, Email, Contact form] to [WhatsApp, Email].
+- Added TERMS_DOC to legal-content.tsx with 10 sections tailored to a custom apparel manufacturer: (1) Use of Website, (2) Custom Manufacturing & Quotations, (3) Artwork/Designs/IP (incl. no third-party brand logos without authorization), (4) Production/Lead Times/Delivery, (5) Payment Terms (50% advance, balance before dispatch), (6) Quality & Rejections (7-day claim window), (7) Returns & Cancellations (custom orders non-returnable except defects), (8) Limitation of Liability, (9) Governing Law (India), (10) Changes to Terms. Subtitle "Legal", updated "Last Updated: June 2026".
+- Added "terms" to the LegalDocId union type in legal-modal.tsx and registered TERMS_DOC in LEGAL_DOCS.
+- Wired footer "Terms of Service" from a dead "#" anchor to a button that opens the Terms modal (same pattern as Privacy Policy + Sustainability).
+
+Stage Summary:
+- No contact form on the website (verified: 0 <form> elements, no "contact form" text).
+- Privacy Policy text updated: no more contact-form references.
+- Terms & Conditions modal: opens from footer "Terms of Service", 10 numbered sections, intro + WhatsApp/Email CTAs, on-brand design. VLM confirmed all elements + clean design.
+- Footer Legal column now has two working buttons: Privacy Policy + Terms of Service (both open modals).
+- Lint clean (0 errors, 0 warnings). No page/console errors.
+- Dev server running on port 3000 (HTTP 200).

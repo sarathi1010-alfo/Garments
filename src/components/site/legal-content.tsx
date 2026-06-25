@@ -64,7 +64,6 @@ export const PRIVACY_DOC: LegalDoc = {
             "Email address",
             "WhatsApp contact details",
             "Business inquiry details",
-            "Any information you submit through contact forms",
           ]}
         />
       </Section>
@@ -144,11 +143,7 @@ export const PRIVACY_DOC: LegalDoc = {
           contact us through:
         </p>
         <UL
-          items={[
-            "WhatsApp",
-            "Email",
-            "Contact form available on the website",
-          ]}
+          items={["WhatsApp", "Email"]}
         />
       </Section>
     </>
@@ -246,7 +241,123 @@ export const SUSTAINABILITY_DOC: LegalDoc = {
   ),
 };
 
+export const TERMS_DOC: LegalDoc = {
+  id: "terms",
+  title: "Terms & Conditions",
+  subtitle: "Legal",
+  updated: "Last Updated: June 2026",
+  body: (
+    <>
+      <p className="font-body-lg text-body-lg text-on-surface leading-relaxed mb-8">
+        These Terms &amp; Conditions govern your use of the Vinayaga Garments
+        website and any orders, inquiries, or custom manufacturing engagements
+        you make with us. By accessing our website or contacting us, you agree
+        to the terms below.
+      </p>
+
+      <Section n="1" title="Use of Our Website">
+        <p>
+          You agree to use this website for lawful purposes only — to learn
+          about our products and services and to contact us with genuine
+          business inquiries. You must not misuse the site, attempt to gain
+          unauthorized access, or introduce harmful code.
+        </p>
+      </Section>
+
+      <Section n="2" title="Custom Manufacturing & Quotations">
+        <UL
+          items={[
+            "All garments are custom-manufactured to your specifications; quotes are provided based on agreed artwork, fabrics, sizes, and quantities.",
+            "A quotation is valid for 30 days from the date issued, unless stated otherwise.",
+            "Prices are subject to change based on fabric availability, order volume, and design complexity confirmed at the time of order.",
+            "An order is confirmed only after a written approval and any agreed advance payment is received.",
+          ]}
+        />
+      </Section>
+
+      <Section n="3" title="Artwork, Designs & Intellectual Property">
+        <UL
+          items={[
+            "You confirm that all artwork, logos, and designs you supply to us are either owned by you or you have permission to use them.",
+            "Vinayaga Garments is not liable for trademark or copyright infringement arising from client-supplied artwork.",
+            "We will not reproduce any third-party brand logos (e.g. adidas, Nike) or trademarked designs without proof of authorization.",
+            "Production samples and design mockups created by us remain our intellectual property until full payment is received.",
+          ]}
+        />
+      </Section>
+
+      <Section n="4" title="Production, Lead Times & Delivery">
+        <UL
+          items={[
+            "Standard production lead times are communicated at order confirmation and are estimates, not guarantees.",
+            "Delays caused by force majeure, fabric supply issues, or changes requested after production begins are not the responsibility of Vinayaga Garments.",
+            "Delivery timelines apply from the date of confirmed artwork and advance payment, not the initial inquiry date.",
+            "Risk in goods passes to the customer upon handover to the shipping carrier.",
+          ]}
+        />
+      </Section>
+
+      <Section n="5" title="Payment Terms">
+        <UL
+          items={[
+            "An advance payment (typically 50%) is required to commence production, with the balance due before dispatch.",
+            "Orders are not shipped until full payment is received, unless agreed otherwise in writing.",
+            "Payments are non-refundable once production has commenced, as fabrics are cut and processed to your specification.",
+          ]}
+        />
+      </Section>
+
+      <Section n="6" title="Quality & Rejections">
+        <UL
+          items={[
+            "Every garment undergoes in-house quality control before dispatch.",
+            "Claims for defects must be notified within 7 days of delivery with photographic evidence.",
+            "We will repair or replace confirmed manufacturing defects free of charge.",
+            "Claims arising from incorrect sizes, artwork, or specifications approved by the client are not eligible for replacement.",
+          ]}
+        />
+      </Section>
+
+      <Section n="7" title="Returns & Cancellations">
+        <p>
+          Because all apparel is custom-manufactured to order, returns and
+          exchanges are not accepted except for confirmed manufacturing defects.
+          Orders may only be cancelled before production has commenced; advance
+          payments are non-refundable once fabrics are procured or cutting has
+          begun.
+        </p>
+      </Section>
+
+      <Section n="8" title="Limitation of Liability">
+        <p>
+          Vinayaga Garments shall not be liable for any indirect, incidental, or
+          consequential damages arising from the use of our products or
+          services. Our total liability is limited to the invoice value of the
+          goods in question.
+        </p>
+      </Section>
+
+      <Section n="9" title="Governing Law">
+        <p>
+          These Terms &amp; Conditions are governed by the laws of India. Any
+          disputes shall be subject to the exclusive jurisdiction of the courts
+          at our registered business location.
+        </p>
+      </Section>
+
+      <Section n="10" title="Changes to These Terms">
+        <p>
+          We may update these Terms &amp; Conditions at any time. Updates will be
+          posted on this page, and continued use of our website or services
+          constitutes acceptance of the revised terms.
+        </p>
+      </Section>
+    </>
+  ),
+};
+
 export const LEGAL_DOCS: Record<string, LegalDoc> = {
   privacy: PRIVACY_DOC,
   sustainability: SUSTAINABILITY_DOC,
+  terms: TERMS_DOC,
 };

@@ -120,12 +120,13 @@ export function SiteFooter() {
             >
               Privacy Policy
             </button>
-            <a
-              className="font-body-md text-body-md text-on-primary-container/80 hover:text-secondary transition-colors"
-              href="#"
+            <button
+              type="button"
+              onClick={() => openDoc("terms")}
+              className="font-body-md text-body-md text-on-primary-container/80 hover:text-secondary transition-colors text-left cursor-pointer w-fit"
             >
               Terms of Service
-            </a>
+            </button>
           </div>
         </div>
       </div>
