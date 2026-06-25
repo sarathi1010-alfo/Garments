@@ -231,3 +231,19 @@ Stage Summary:
 - Footer Legal column now has two working buttons: Privacy Policy + Terms of Service (both open modals).
 - Lint clean (0 errors, 0 warnings). No page/console errors.
 - Dev server running on port 3000 (HTTP 200).
+
+---
+Task ID: 18
+Agent: orchestrator (main)
+Task: Fix the "unfinished" feeling in the Terms & Conditions modal.
+
+Work Log:
+- VLM-analyzed the user's screenshot of the Terms modal: text wasn't truncated, but the modal "ends abruptly" — no closing statement, tagline, or acknowledgement after section 10. Compared to the Sustainability doc (which has a closing tagline "Engineered for performance. Tailored for trust. Made with responsibility."), the Terms doc had no conclusion.
+- Added a closing block to TERMS_DOC after section 10: a top-border divider, an acknowledgement paragraph ("By using our website, contacting us, or placing an order with Vinayaga Garments, you acknowledge that you have read, understood, and agree to be bound by these Terms & Conditions in full."), and an italic closing tagline ("Engineered for performance. Tailored for trust. Built on terms that respect both sides.").
+
+Stage Summary:
+- Terms & Conditions modal now concludes properly: acknowledgement statement + italic tagline + border divider, mirroring the Sustainability doc's closing pattern.
+- Verified via Agent Browser: hasAcknowledge=true, hasClosingTagline=true, hasBorderDivider=true, section 10 still present, WhatsApp + Email CTAs visible.
+- VLM confirmed: "modal feels properly concluded with the tagline and contact buttons, avoiding abruptness."
+- Lint clean (0 errors, 0 warnings). No page/console errors.
+- Dev server running on port 3000 (HTTP 200).

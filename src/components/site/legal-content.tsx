@@ -352,6 +352,18 @@ export const TERMS_DOC: LegalDoc = {
           constitutes acceptance of the revised terms.
         </p>
       </Section>
+
+      <div className="mt-10 pt-8 border-t border-border-silver space-y-4">
+        <p className="font-body-md text-body-md text-on-surface leading-relaxed">
+          By using our website, contacting us, or placing an order with Vinayaga
+          Garments, you acknowledge that you have read, understood, and agree to
+          be bound by these Terms &amp; Conditions in full.
+        </p>
+        <p className="font-body-md text-body-md text-on-surface-variant italic">
+          Engineered for performance. Tailored for trust. Built on terms that
+          respect both sides.
+        </p>
+      </div>
     </>
   ),
 };
