@@ -22,8 +22,24 @@ export function generateMetadata(data: PageData, path: string) {
     title: data.title,
     description: data.description,
     keywords: data.keywords.join(', '),
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     alternates: {
       canonical: url,
+      languages: {
+        'en-IN': url,
+        'ta': url,
+        'x-default': url,
+      },
     },
     openGraph: {
       title: data.title,
@@ -32,11 +48,26 @@ export function generateMetadata(data: PageData, path: string) {
       siteName: 'Vinayaga Garments',
       locale: 'en_IN',
       type: 'website',
+      images: [
+        {
+          url: 'https://garment.alfo.online/api/placeholder/1200/630',
+          width: 1200,
+          height: 630,
+          alt: data.imageAlt,
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: data.title,
       description: data.description,
+      images: ['https://garment.alfo.online/api/placeholder/1200/630'],
+    },
+    other: {
+      'geo.region': 'IN-TN',
+      'geo.placename': 'Tamil Nadu',
+      'geo.position': '13.0827;80.2707',
+      'ICBM': '13.0827, 80.2707',
     }
   };
 }
@@ -81,8 +112,9 @@ export function generateStructuredData(data: PageData, path: string) {
       "latitude": 13.0827,
       "longitude": 80.2707
     },
-    "telephone": "+91-44-12345678",
-    "openingHours": "Mo-Sa 09:00-18:00"
+    "telephone": "+91-7200551500",
+    "email": "info@alfo.online",
+    "openingHours": "Mo-Su 09:00-18:00"
   };
 
   const faq = {
@@ -116,7 +148,8 @@ export function generateStructuredData(data: PageData, path: string) {
         "url": "https://garment.alfo.online/images/logo-mark-light.png"
       }
     },
-    "datePublished": "2024-06-25"
+    "datePublished": "2024-06-25",
+    "dateModified": new Date().toISOString().split('T')[0]
   };
 
   return [breadcrumb, localBusiness, faq, article];
@@ -124,32 +157,25 @@ export function generateStructuredData(data: PageData, path: string) {
 
 export function getInternalLinks(currentPath: string) {
   const links: { href: string; label: string }[] = [];
-
-  // Randomly pick from various clusters to ensure a mesh network
   const getRandom = (arr: any[]) => arr[Math.floor(Math.random() * arr.length)];
 
-  // 2-3 Districts
   for (let i = 0; i < 2; i++) {
     const d = getRandom(districts);
     links.push({ href: `/districts/${slugify(d)}`, label: `Garment Hub in ${d}` });
   }
 
-  // 2-3 Products
   for (let i = 0; i < 3; i++) {
     const p = getRandom(products);
     links.push({ href: `/products/${slugify(p)}`, label: `${p} Manufacturing` });
   }
 
-  // 2 City Zones
   const city = getRandom(Object.keys(cityZones));
   const zone = getRandom(cityZones[city]);
   links.push({ href: `/cities/${city}/${zone}`, label: `${zone.replace(/-/g, ' ')} Textile Zone` });
 
-  // 1 Service
   const s = getRandom(services);
   links.push({ href: `/services/${slugify(s)}`, label: `Professional ${s}` });
 
-  // 1 Buyer/Seller
   const b = getRandom(buyers);
   links.push({ href: `/buyers/${slugify(b)}`, label: `For ${b}` });
 
