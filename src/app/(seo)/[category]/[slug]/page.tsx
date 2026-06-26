@@ -156,10 +156,43 @@ export default async function GenericSeoPage({ params }: PageProps) {
         </div>
         <article className="prose prose-lg dark:prose-invert max-w-none">
           <h1 className="text-4xl font-bold mb-8 text-primary font-serif-display tracking-tight">{data.h1}</h1>
+
+          {data.answerBlock && (
+            <div className="bg-secondary/10 p-6 rounded-xl border-l-4 border-secondary mb-10">
+              <h2 className="text-sm uppercase tracking-wider text-secondary font-bold mb-2">Quick Summary</h2>
+              <p className="text-xl font-medium text-primary leading-relaxed italic">
+                {data.answerBlock}
+              </p>
+            </div>
+          )}
+
+          {data.highlights && (
+            <div className="bg-muted p-8 rounded-xl mb-10 border border-border">
+              <h2 className="text-2xl font-bold mb-4 text-primary">Key Highlights</h2>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 list-none p-0 m-0">
+                {data.highlights.map((highlight, i) => (
+                  <li key={i} className="flex items-start gap-3 text-base">
+                    <span className="text-secondary font-bold text-xl leading-none">✓</span>
+                    <span>{highlight}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <div
             className="seo-content space-y-6"
             dangerouslySetInnerHTML={{ __html: data.content }}
           />
+
+          {data.semanticSummary && (
+            <div className="mt-12 p-8 bg-primary text-on-primary rounded-xl">
+              <h2 className="text-2xl font-bold mb-4">Semantic Authority Insights</h2>
+              <p className="text-lg opacity-90 leading-relaxed">
+                {data.semanticSummary}
+              </p>
+            </div>
+          )}
 
           <section className="mt-16 bg-muted p-8 rounded-lg">
             <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions</h2>

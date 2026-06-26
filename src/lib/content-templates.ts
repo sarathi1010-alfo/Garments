@@ -17,6 +17,9 @@ export type PageData = {
   faqs: { q: string; a: string }[];
   keywords: string[];
   imageAlt: string;
+  answerBlock?: string;
+  highlights?: string[];
+  semanticSummary?: string;
 };
 
 const commonIndustryInsights = (location: string) => `
@@ -61,6 +64,14 @@ export function generateDistrictContent(name: string): PageData {
     h1: `${name}: Tamil Nadu's Garment & Textile Capital`,
     keywords: [`${name} garment manufacturers`, `${name} textiles`, `${name} apparel exporters`, `wholesale garments ${name}`],
     imageAlt: `High-quality garment manufacturing facility in ${name}, Tamil Nadu`,
+    answerBlock: `${name} is a major garment manufacturing hub in Tamil Nadu, India, specializing in high-quality apparel production, textile exports, and wholesale garment trade. It features advanced infrastructure, a skilled workforce, and excellent port connectivity for global sourcing.`,
+    highlights: [
+      "Diverse garment manufacturing clusters from knitwear to specialized embroidery",
+      "Modern industrial infrastructure with dedicated textile parks",
+      "Strategic proximity to major export ports like Chennai and Thoothukudi",
+      "High concentration of ISO, GOTS, and SA8000 certified manufacturing units",
+      "Robust wholesale markets offering factory-direct pricing"
+    ],
     content: `
       <p>${name} stands as a cornerstone of Tamil Nadu's thriving garment industry, contributing significantly to India's textile exports. The region is known for its robust infrastructure and skilled workforce in the apparel sector.</p>
       <div class="my-8 aspect-video bg-muted flex items-center justify-center rounded-lg overflow-hidden border">
@@ -80,7 +91,8 @@ export function generateDistrictContent(name: string): PageData {
       { q: `What certifications do factories in ${name} typically hold?`, a: `Most reputable manufacturers in ${name} hold certifications like ISO, GOTS, and SA8000, ensuring high quality and ethical labor practices.` },
       { q: `How well-connected is ${name} to major export ports?`, a: `${name} is excellently connected by road and rail to Chennai and Thoothukudi ports, facilitating rapid international exports.` },
       { q: `Are there specialized garment parks in ${name}?`, a: `Yes, ${name} features several state-of-the-art textile and garment parks that provide integrated facilities for manufacturers.` }
-    ]
+    ],
+    semanticSummary: `As a leading entity in the Tamil Nadu textile landscape, ${name} offers comprehensive garment manufacturing solutions, merging traditional craftsmanship with modern Industry 4.0 standards to serve global and domestic apparel markets.`
   };
 }
 
@@ -91,6 +103,14 @@ export function generateProductContent(name: string): PageData {
     h1: `Premium ${name} Production in Tamil Nadu`,
     keywords: [`${name} manufacturers Tamil Nadu`, `wholesale ${name} TN`, `custom ${name} production`, `bulk ${name} suppliers`],
     imageAlt: `Premium quality ${name} manufactured in Tamil Nadu`,
+    answerBlock: `Tamil Nadu is a global leader in ${name} manufacturing, offering high-quality products through advanced production techniques, sustainable fabric sourcing, and extensive customization options including private labeling and custom branding for international clients.`,
+    highlights: [
+      "Precision CAD-based cutting and high-grade stitching for durability",
+      "Extensive customization options: embroidery, sublimation, and custom prints",
+      "Flexible Minimum Order Quantities (MOQ) for diverse business needs",
+      "Rigorous quality control and adherence to international safety standards",
+      "Efficient lead times (4-8 weeks) for bulk manufacturing orders"
+    ],
     content: `
       <p>Tamil Nadu is a global leader in the production of ${name}, offering unparalleled quality and craftsmanship. Our manufacturers use the finest materials to ensure durability and style.</p>
       <div class="my-8 aspect-video bg-muted flex items-center justify-center rounded-lg overflow-hidden border">
@@ -110,7 +130,8 @@ export function generateProductContent(name: string): PageData {
       { q: `What is the minimum order quantity (MOQ) for ${name}?`, a: `MOQs vary by manufacturer, but many units in Tamil Nadu are flexible, catering to both small businesses and large enterprises.` },
       { q: `How do you ensure the colorfastness of ${name}?`, a: `We use high-quality eco-friendly dyes and follow standardized dyeing processes that include multiple washes to ensure maximum colorfastness.` },
       { q: `What are the lead times for bulk ${name} orders?`, a: `Lead times typically range from 4 to 8 weeks depending on the order volume and customization requirements.` }
-    ]
+    ],
+    semanticSummary: `Our ${name} manufacturing services in Tamil Nadu prioritize topical authority and semantic quality, delivering custom apparel solutions that meet the highest standards of the global garment industry.`
   };
 }
 
@@ -124,6 +145,14 @@ export function generateCityZoneContent(city: string, zone: string): PageData {
     h1: `Garment Manufacturing Hub: ${zoneName}, ${cityName}`,
     keywords: [`${zoneName} ${cityName} garments`, `textile units in ${zoneName}`, `wholesale market ${zoneName} ${cityName}`],
     imageAlt: `The textile and garment district of ${zoneName} in ${cityName}`,
+    answerBlock: `${zoneName} is a critical micro-cluster for the garment industry in ${cityName}, Tamil Nadu, featuring a high density of specialized manufacturing units, wholesale dealers, and finishing houses that offer rapid prototyping and bulk supply solutions.`,
+    highlights: [
+      `Concentrated cluster of finishing, embroidery, and specialized units`,
+      `Proximity to major wholesale markets for competitive factory pricing`,
+      `Strategic location near ${cityName} transit hubs for easy logistics`,
+      `Support for rapid prototyping and short-lead-time production`,
+      `Diverse mix of small, medium, and large-scale textile enterprises`
+    ],
     content: `
       <p>${zoneName} is a vital part of ${cityName}'s garment infrastructure. This area is known for its high concentration of specialized textile units and wholesale dealers.</p>
       <div class="my-8 aspect-video bg-muted flex items-center justify-center rounded-lg overflow-hidden border">
@@ -143,7 +172,8 @@ export function generateCityZoneContent(city: string, zone: string): PageData {
       { q: `Is ${zoneName} easily accessible for transportation?`, a: `Absolutely, ${zoneName} is strategically located near major transit hubs in ${cityName}, ensuring easy movement of goods.` },
       { q: `What kind of businesses are most common in ${zoneName}?`, a: `The area is a mix of small to medium manufacturing units, specialized finishing houses, and large-scale wholesale showrooms.` },
       { q: `Can I find eco-friendly garment units in ${zoneName}?`, a: `Yes, many newer units in ${zoneName} are adopting green manufacturing practices and sustainable fabric sourcing.` }
-    ]
+    ],
+    semanticSummary: `As a pivotal zone for ${cityName}'s textile authority, ${zoneName} offers deep topical expertise in garment finishing and wholesale distribution, supporting the broader Tamil Nadu apparel ecosystem.`
   };
 }
 
@@ -155,6 +185,14 @@ export function generateGenericContent(category: string, name: string): PageData
     h1: `${name} ${category} Services in Tamil Nadu`,
     keywords: [`${name} ${category} Tamil Nadu`, `${category} services TN`, `top ${name} providers`],
     imageAlt: `Professional ${name} ${category} services in Tamil Nadu`,
+    answerBlock: `Vinayaga Garments provides expert ${name} ${category} services in Tamil Nadu, utilizing advanced technology and specialized expertise to deliver high-quality results for fashion brands, corporate clients, and international export markets.`,
+    highlights: [
+      `Specialized expertise in ${name} ${category} with years of industry experience`,
+      `High-end machinery and professional software for precision and accuracy`,
+      `Scalable solutions for both high-volume orders and complex custom projects`,
+      `Compliance with international quality, safety, and environmental standards`,
+      `End-to-end service management from initial consultation to final delivery`
+    ],
     content: `
       <p>Tamil Nadu's garment industry excels in providing ${name} ${category}. Our facilities are equipped with the latest technology to deliver superior results for fashion brands and corporate clients alike.</p>
       <div class="my-8 aspect-video bg-muted flex items-center justify-center rounded-lg overflow-hidden border">
@@ -174,6 +212,7 @@ export function generateGenericContent(category: string, name: string): PageData
       { q: `Do you provide ${category} for international exports?`, a: `Yes, all our ${name} ${category} services are performed to meet international quality and compliance standards.` },
       { q: `Can you handle custom requirements for ${name} ${category}?`, a: `Specialization and customization are our core strengths; we can adapt our ${category} services to your specific needs.` },
       { q: `What certifications do your ${category} units hold?`, a: `Our units are typically certified with ISO and other relevant industry-standard certifications to ensure reliable and high-quality service.` }
-    ]
+    ],
+    semanticSummary: `Our commitment to ${name} ${category} in Tamil Nadu strengthens our topical authority and entity trust, providing searchable knowledge and professional services for the global textile industry.`
   };
 }

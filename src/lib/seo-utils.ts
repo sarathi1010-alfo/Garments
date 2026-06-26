@@ -13,6 +13,7 @@ import {
   geoLocations
 } from '../data/seo-data';
 import { slugify } from '@/utils/slugify';
+import { CONTACT } from './contact';
 
 export function generateMetadata(data: PageData, path: string) {
   const baseUrl = 'https://garment.alfo.online';
@@ -112,8 +113,8 @@ export function generateStructuredData(data: PageData, path: string) {
       "latitude": 13.0827,
       "longitude": 80.2707
     },
-    "telephone": "+91-7200551500",
-    "email": "info@alfo.online",
+    "telephone": CONTACT.whatsappDisplay,
+    "email": CONTACT.email,
     "openingHours": "Mo-Su 09:00-18:00"
   };
 
@@ -152,7 +153,57 @@ export function generateStructuredData(data: PageData, path: string) {
     "dateModified": new Date().toISOString().split('T')[0]
   };
 
-  return [breadcrumb, localBusiness, faq, article];
+  const organization = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Vinayaga Garments",
+    "alternateName": ["Alfo", "Sarathi"],
+    "description": "Leading manufacturer of custom athletic apparel and corporate uniforms in Tamil Nadu, part of the Alfo ecosystem.",
+    "url": baseUrl,
+    "logo": "https://garment.alfo.online/images/logo-mark-light.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": CONTACT.phoneDisplay,
+      "contactType": "customer service",
+      "email": CONTACT.email,
+      "availableLanguage": ["English", "Tamil"]
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/alfo",
+      "https://github.com/alfo-ecosystem"
+    ]
+  };
+
+  const schemas: any[] = [breadcrumb, localBusiness, faq, article, organization];
+
+  // Add Product schema if the path indicates a product
+  if (path.startsWith('/products/')) {
+    const productName = data.h1.replace('Premium ', '').replace(' Production in Tamil Nadu', '');
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": productName,
+      "description": data.description,
+      "image": "https://garment.alfo.online/api/placeholder/1200/675",
+      "brand": {
+        "@type": "Brand",
+        "name": "Vinayaga Garments"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "offerCount": "1",
+        "lowPrice": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Vinayaga Garments"
+        }
+      }
+    });
+  }
+
+  return schemas;
 }
 
 const ANCHOR_TEMPLATES = {

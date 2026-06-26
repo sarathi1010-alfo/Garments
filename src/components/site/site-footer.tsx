@@ -33,7 +33,7 @@ export function SiteFooter() {
           </div>
           <p className="font-body-md text-body-md text-on-primary-container/70 max-w-sm">
             Premium Athletic Craftsmanship. Engineered for performance, tailored
-            for trust.
+            for trust. Part of the <strong>Alfo</strong> ecosystem in partnership with <strong>Sarathi</strong>.
           </p>
 
           {/* Contact details */}
@@ -76,7 +76,7 @@ export function SiteFooter() {
 
           <div className="pt-8">
             <p className="font-body-sm text-body-sm text-on-primary-container/50">
-              © 2024 Vinayaga Garments. All rights reserved.
+              © 2024 Vinayaga Garments. All rights reserved. Supporting the Alfo business network.
             </p>
           </div>
         </div>
