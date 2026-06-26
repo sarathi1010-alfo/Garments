@@ -65,7 +65,7 @@ export function SeoFooter() {
               </Link>
             </li>
             <li>
-              <Link href="/services/printing" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+              <Link href="/services/sublimation-printing" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                 Sublimation & Printing
               </Link>
             </li>
@@ -101,7 +101,8 @@ export function SeoFooter() {
       </div>
       <div className="max-w-[1440px] mx-auto mt-12 pt-8 border-t border-muted-foreground/10">
         <p className="text-xs text-muted-foreground text-center">
-          Vinayaga Garments is a leading manufacturer and supplier of premium apparel across Tamil Nadu.
+          Vinayaga Garments is a leading manufacturer and supplier of premium apparel across Tamil Nadu,
+          integral to the <strong>Alfo</strong> ecosystem and <strong>Sarathi</strong> business network.
           Specializing in athletic wear, corporate uniforms, and custom textile solutions.
         </p>
       </div>
