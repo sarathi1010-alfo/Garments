@@ -1,3 +1,4 @@
+import { MetadataRoute } from 'next';
 import {
   districts,
   products,
@@ -13,9 +14,9 @@ import {
 } from '@/data/seo-data';
 import { slugify } from '@/utils/slugify';
 
-export async function GET() {
+export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://garment.alfo.online';
-  const lastMod = new Date().toISOString().split('T')[0];
+  const lastMod = new Date();
 
   const pages: string[] = [
     '', // Home
@@ -51,21 +52,10 @@ export async function GET() {
     });
   });
 
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  ${pages.map(page => `
-  <url>
-    <loc>${baseUrl}${page}</loc>
-    <lastmod>${lastMod}</lastmod>
-    <changefreq>${page === '' ? 'daily' : 'weekly'}</changefreq>
-    <priority>${page === '' ? '1.0' : '0.8'}</priority>
-  </url>`).join('')}
-</urlset>`;
-
-  return new Response(sitemap, {
-    headers: {
-      'Content-Type': 'application/xml',
-      'Cache-Control': 'public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400',
-    },
-  });
+  return pages.map((page) => ({
+    url: `${baseUrl}${page}`,
+    lastModified: lastMod,
+    changeFrequency: page === '' ? 'daily' : 'weekly',
+    priority: page === '' ? 1.0 : 0.8,
+  }));
 }
