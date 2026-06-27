@@ -5,11 +5,13 @@ import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetTitle, SheetDescrip
 import { Menu, MessageCircle } from "lucide-react";
 import { whatsappLink } from "@/lib/contact";
 import Image from "next/image";
+import Link from "next/link";
 
 const NAV_LINKS = [
-  { label: "Products", href: "#featured" },
-  { label: "Custom Services", href: "#capabilities" },
-  { label: "About Us", href: "#process" },
+  { label: "Products", href: "/products" },
+  { label: "Custom Services", href: "/services" },
+  { label: "Guides", href: "/guides" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export function TopNav() {
@@ -19,9 +21,9 @@ export function TopNav() {
     <nav className="bg-surface/90 backdrop-blur-sm sticky top-0 w-full z-50 border-b border-border-silver/30">
       <div className="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 md:py-6 max-w-[1440px] mx-auto">
         {/* Brand Logo */}
-        <a
+        <Link
           className="flex items-center gap-2 md:gap-3 group min-w-0"
-          href="#"
+          href="/"
           aria-label="Vinayaga Garments — home"
         >
           <Image
@@ -35,18 +37,18 @@ export function TopNav() {
           <span className="font-headline-sm text-headline-sm font-bold text-primary tracking-tight truncate">
             Vinayaga Garments
           </span>
-        </a>
+        </Link>
 
         {/* Navigation Links (Desktop) */}
         <div className="hidden md:flex space-x-12 items-center font-label-md text-label-md uppercase tracking-[0.1em]">
           {NAV_LINKS.map((link) => (
-            <a
+            <Link
               key={link.label}
               className="text-on-surface-variant hover:text-primary transition-colors duration-300"
               href={link.href}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -97,12 +99,12 @@ export function TopNav() {
               <nav className="flex flex-col gap-8 font-label-md text-label-md uppercase tracking-[0.1em]">
                 {NAV_LINKS.map((link) => (
                   <SheetClose asChild key={link.label}>
-                    <a
+                    <Link
                       className="text-on-surface-variant hover:text-primary transition-colors duration-300 py-1"
                       href={link.href}
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   </SheetClose>
                 ))}
               </nav>

@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { districts, products } from "@/data/seo-data";
 import { slugify } from "@/utils/slugify";
+import { guides } from "@/data/guides-data";
 
 export function SeoFooter() {
   // Only show a subset of links in the footer to keep it clean but provide crawl paths
   const topDistricts = districts.slice(0, 10);
   const topProducts = products.slice(0, 10);
+  const latestGuides = guides.slice(0, 5);
 
   return (
     <section className="bg-muted py-16 px-margin-mobile md:px-margin-desktop border-t">
@@ -46,27 +48,22 @@ export function SeoFooter() {
         </div>
         <div>
           <h3 className="font-headline-sm text-headline-sm text-primary mb-6">
-            <Link href="/services" className="hover:text-secondary transition-colors">Our Services</Link>
+            <Link href="/guides" className="hover:text-secondary transition-colors">Expert Guides</Link>
           </h3>
           <ul className="space-y-2">
+            {latestGuides.map((guide) => (
+              <li key={guide.slug}>
+                <Link
+                  href={`/guides/${guide.slug}`}
+                  className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                >
+                  {guide.title}
+                </Link>
+              </li>
+            ))}
             <li>
-              <Link href="/services/custom-manufacturing" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                Custom Manufacturing
-              </Link>
-            </li>
-            <li>
-              <Link href="/services/private-label" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                Private Label Production
-              </Link>
-            </li>
-            <li>
-              <Link href="/services/oem-production" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                OEM Garment Production
-              </Link>
-            </li>
-            <li>
-              <Link href="/services/sublimation-printing" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                Sublimation & Printing
+              <Link href="/guides" className="text-secondary font-bold text-sm hover:underline">
+                View All Guides &rarr;
               </Link>
             </li>
           </ul>
@@ -92,8 +89,8 @@ export function SeoFooter() {
               </Link>
             </li>
             <li>
-              <Link href="/occasions/sports" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                Athletic & Sports Wear
+              <Link href="/contact" className="text-secondary font-bold text-sm hover:underline">
+                Request a Custom Quote &rarr;
               </Link>
             </li>
           </ul>

@@ -13,6 +13,7 @@ import {
   geoLocations
 } from '@/data/seo-data';
 import { slugify } from '@/utils/slugify';
+import { guides } from '@/data/guides-data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://garment.alfo.online';
@@ -32,6 +33,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/sellers',
     '/locations',
     '/cities',
+    '/guides',
+    '/contact',
   ];
 
   districts.forEach(d => pages.push(`/districts/${slugify(d)}`));
@@ -44,6 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   buyers.forEach(b => pages.push(`/buyers/${slugify(b)}`));
   sellers.forEach(s => pages.push(`/sellers/${slugify(s)}`));
   geoLocations.forEach(l => pages.push(`/locations/${slugify(l)}`));
+  guides.forEach(g => pages.push(`/guides/${g.slug}`));
 
   Object.entries(cityZones).forEach(([city, zones]) => {
     pages.push(`/cities/${city}`);
