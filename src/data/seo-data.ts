@@ -26,7 +26,8 @@ export const products = [
   "Compression Wear", "Team Kits", "Gym Wear", "Fitness Apparel",
   "Lounge Wear", "Nightwear", "Workwear", "Safety Apparel",
   "Sportswear", "Cricket Jerseys", "Football Kits", "School Uniforms",
-  "Corporate T-Shirts", "Custom Apparel"
+  "Corporate T-Shirts", "Custom Apparel", "Kabaddi Jerseys",
+  "Marathon T-Shirts", "Chef Coats", "Safety Vests", "Reflective Jackets"
 ];
 
 export const buyers = [
@@ -51,7 +52,7 @@ export const sellers = [
 
 export const cityZones: Record<string, string[]> = {
   chennai: ['north', 'south', 'east', 'west', 'central', 't-nagar', 'ambattur', 'perambur', 'adyar', 'mylapore', 'guindy', 'velachery', 'anna-nagar', 'porur', 'chromepet'],
-  coimbatore: ['peelamedu', 'singanallur', 'gandhipuram', 'rathinapuri', 'saibaba-colony', 'goundampalayam', 'kavundampalayam', 'kk-pudur', 'ram-nagar', 'town-hall', 'saravanampatti', 'vadavalli', 'perur', 'sulur', 'pollachi-road'],
+  coimbatore: ['peelamedu', 'singanallur', 'gandhipuram', 'rathinapuri', 'saibaba-colony', 'goundampalayam', 'kavundampalayam', 'kk-pudur', 'ram-nagar', 'town-hall', 'saravanampatti', 'vadavalli', 'perur', 'pollachi-road'],
   tiruppur: ['uthukuli', 'avanashi', 'palladam', 'sullur', 'velampalayam', 'kangeyam', 'vellakoil', 'dharapuram', 'gobichettipalayam', 'perundurai', 'rayapuram', 'thennampalayam', 'nallur', 'muthunagar', 'serangadu'],
   madurai: ['meenakshi-market', 'vilakkuthoon-market', 'chinthamani', 'arasaradi', 'k-pudur', 'annapatti', 'sellur', 'thirumangalam', 'usilampatti', 'melur', 'anna-nagar-madurai', 'kk-nagar-madurai', 'simmakkal', 'south-gate', 'thallakulam'],
   salem: ['amman-koil', 'attur', 'edappadi', 'mettur', 'omallur', 'rasipuram', 'sankar', 'tharamangalam', 'valappady', 'yercaud', 'fairlands', 'alaggapuram', 'hasthampatti', 'gugai', 'shevapet'],
@@ -84,7 +85,8 @@ export const services = [
   "Laboratory Testing", "Product Development", "Design Services", "Pattern Making", "Grading Services", "Marker Making", "Spreading Services",
   "Fusing Services", "Pressing Services", "Folding Services", "Tagging Services", "Barcoding Services", "Inventory Management", "Order Fulfillment",
   "Fabric Sourcing", "Trims Sourcing", "Washing Services", "Finishing Services", "Labeling Services", "Digital Printing", "Screen Printing", "Sublimation",
-  "Sublimation Printing", "Local Business Services", "AI SEO", "AEO Optimization", "Semantic Search", "Programmatic SEO"
+  "Sublimation Printing", "Local Business Services", "AI SEO", "AEO Optimization", "Semantic Search", "Programmatic SEO", "Logo Digitizing",
+  "Bulk Screen Printing", "Textile Quality Auditing"
 ];
 
 export const qualityCertifications = [
