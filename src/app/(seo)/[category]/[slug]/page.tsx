@@ -185,8 +185,34 @@ export default async function GenericSeoPage({ params }: PageProps) {
             dangerouslySetInnerHTML={{ __html: data.content }}
           />
 
+          {data.comparison && (
+            <section className="mt-12 bg-card border rounded-xl overflow-hidden shadow-sm">
+              <div className="bg-primary px-6 py-4">
+                <h2 className="text-xl font-bold text-primary-foreground m-0">{data.comparison.title}</h2>
+              </div>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse m-0">
+                  <thead>
+                    <tr className="bg-muted">
+                      <th className="px-6 py-3 text-left text-sm font-bold border-b">Feature / Aspect</th>
+                      <th className="px-6 py-3 text-left text-sm font-bold border-b">Competitive Advantage</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {data.comparison.points.map((point, i) => (
+                      <tr key={i} className="hover:bg-muted/30 transition-colors">
+                        <td className="px-6 py-4 text-sm font-semibold border-b">{point.aspect}</td>
+                        <td className="px-6 py-4 text-sm border-b">{point.advantage}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          )}
+
           {data.semanticSummary && (
-            <div className="mt-12 p-8 bg-primary text-on-primary rounded-xl">
+            <div className="mt-12 p-8 bg-primary text-primary-foreground rounded-xl">
               <h2 className="text-2xl font-bold mb-4">Semantic Authority Insights</h2>
               <p className="text-lg opacity-90 leading-relaxed">
                 {data.semanticSummary}

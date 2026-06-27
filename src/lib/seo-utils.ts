@@ -160,7 +160,10 @@ export function generateStructuredData(data: PageData, path: string) {
     "alternateName": ["Alfo", "Sarathi"],
     "description": "Leading manufacturer of custom athletic apparel and corporate uniforms in Tamil Nadu, part of the Alfo ecosystem.",
     "url": baseUrl,
-    "logo": "https://garment.alfo.online/images/logo-mark-light.png",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://garment.alfo.online/images/logo-mark-light.png"
+    },
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": CONTACT.phoneDisplay,
@@ -170,7 +173,8 @@ export function generateStructuredData(data: PageData, path: string) {
     },
     "sameAs": [
       "https://www.linkedin.com/company/alfo",
-      "https://github.com/alfo-ecosystem"
+      "https://github.com/alfo-ecosystem",
+      "https://www.youtube.com/@alfo-online"
     ]
   };
 
@@ -250,56 +254,53 @@ function getRandomAnchor(type: keyof typeof ANCHOR_TEMPLATES, name: string) {
 
 export function getInternalLinks(currentPath: string) {
   const links: { href: string; label: string }[] = [];
-  const getRandom = (arr: any[]) => arr[Math.floor(Math.random() * arr.length)];
+  const parts = currentPath.split('/').filter(Boolean);
+  const category = parts[0];
+  const slug = parts[1];
 
-  const category = currentPath.split('/')[1];
-
-  // Implement Silo Structure: Pages primarily link to their own category
-  if (category === 'districts' || category === 'cities') {
-    // Location Silo
-    for (let i = 0; i < 6; i++) {
-      const d = getRandom(districts);
-      links.push({ href: `/districts/${slugify(d)}`, label: getRandomAnchor('locations', d) });
+  const getAdjacent = (arr: string[], current: string, count: number) => {
+    const idx = arr.findIndex(item => slugify(item) === current);
+    if (idx === -1) return [];
+    const result: string[] = [];
+    for (let i = 1; i <= count; i++) {
+      result.push(arr[(idx + i) % arr.length]);
+      result.push(arr[(idx - i + arr.length) % arr.length]);
     }
-    const city = getRandom(Object.keys(cityZones));
-    const zone = getRandom(cityZones[city]);
-    links.push({ href: `/cities/${city}/${zone}`, label: getRandomAnchor('locations', zone.replace(/-/g, ' ')) });
+    return [...new Set(result)];
+  };
 
-    // Minimal cross-linking to landing pages only
-    links.push({ href: '/', label: 'Return Home' });
-    links.push({ href: '/services/custom-manufacturing', label: 'View Our Services' });
+  if (category === 'districts') {
+    const adjacent = getAdjacent(districts, slug, 3);
+    adjacent.forEach(d => links.push({ href: `/districts/${slugify(d)}`, label: getRandomAnchor('locations', d) }));
+    links.push({ href: '/cities', label: 'Explore Cities' });
   } else if (category === 'products') {
-    // Product Silo
-    for (let i = 0; i < 8; i++) {
-      const p = getRandom(products);
-      links.push({ href: `/products/${slugify(p)}`, label: getRandomAnchor('products', p) });
-    }
-    links.push({ href: '/', label: 'Garment Solutions' });
+    const adjacent = getAdjacent(products, slug, 4);
+    adjacent.forEach(p => links.push({ href: `/products/${slugify(p)}`, label: getRandomAnchor('products', p) }));
+    links.push({ href: '/services', label: 'Manufacturing Services' });
   } else if (category === 'services') {
-    // Service Silo
-    for (let i = 0; i < 5; i++) {
-      const s = getRandom(services);
-      links.push({ href: `/services/${slugify(s)}`, label: getRandomAnchor('services', s) });
+    const adjacent = getAdjacent(services, slug, 3);
+    adjacent.forEach(s => links.push({ href: `/services/${slugify(s)}`, label: getRandomAnchor('services', s) }));
+    links.push({ href: '/products', label: 'View Products' });
+  } else if (category === 'cities') {
+    const city = slug;
+    const zone = parts[2];
+    if (city && zone && cityZones[city]) {
+      const adjacentZones = getAdjacent(cityZones[city], zone, 3);
+      adjacentZones.forEach(z => links.push({ href: `/cities/${city}/${slugify(z)}`, label: getRandomAnchor('locations', z.replace(/-/g, ' ')) }));
     }
-    // Services link to product categories (not individual products)
-    links.push({ href: '/', label: 'View All Products' });
-  } else if (category === 'quality') {
-    // Quality Silo
-    for (let i = 0; i < 5; i++) {
-      const q = getRandom(qualityCertifications);
-      links.push({ href: `/quality/${slugify(q)}`, label: getRandomAnchor('quality', q) });
-    }
-    links.push({ href: '/', label: 'Our Commitment' });
+    links.push({ href: '/districts', label: 'Manufacturing Districts' });
+  } else if (category === 'fabrics') {
+    const adjacent = getAdjacent(fabricTypes, slug, 3);
+    adjacent.forEach(f => links.push({ href: `/fabrics/${slugify(f)}`, label: `Explore ${f} Fabric` }));
   } else {
-    // General fallback for other categories (occasions, buyers, sellers)
-    for (let i = 0; i < 3; i++) {
-      const p = getRandom(products);
-      links.push({ href: `/products/${slugify(p)}`, label: getRandomAnchor('products', p) });
-    }
-    for (let i = 0; i < 3; i++) {
-      const d = getRandom(districts);
-      links.push({ href: `/districts/${slugify(d)}`, label: getRandomAnchor('locations', d) });
-    }
+    // Default fallback
+    const p = products.slice(0, 5);
+    p.forEach(item => links.push({ href: `/products/${slugify(item)}`, label: getRandomAnchor('products', item) }));
+  }
+
+  // Add a link back to home if not enough links
+  if (links.length < 5) {
+    links.push({ href: '/', label: 'Vinayaga Garments Home' });
   }
 
   return links.filter(link => link.href !== currentPath).slice(0, 10);

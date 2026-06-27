@@ -20,6 +20,10 @@ export type PageData = {
   answerBlock?: string;
   highlights?: string[];
   semanticSummary?: string;
+  comparison?: {
+    title: string;
+    points: { aspect: string; advantage: string }[];
+  };
 };
 
 const commonIndustryInsights = (location: string) => `
@@ -72,6 +76,15 @@ export function generateDistrictContent(name: string): PageData {
       "High concentration of ISO, GOTS, and SA8000 certified manufacturing units",
       "Robust wholesale markets offering factory-direct pricing"
     ],
+    comparison: {
+      title: `Why ${name} Leads in Garment Production`,
+      points: [
+        { aspect: "Infrastructure", advantage: "Concentrated textile parks and industrial estates" },
+        { aspect: "Workforce", advantage: "Generations of skilled artisans and specialized labor" },
+        { aspect: "Logistics", advantage: "Seamless connectivity to international shipping ports" },
+        { aspect: "Innovation", advantage: "Early adoption of ZLD and sustainable manufacturing" }
+      ]
+    },
     content: `
       <p>${name} stands as a cornerstone of Tamil Nadu's thriving garment industry, contributing significantly to India's textile exports. The region is known for its robust infrastructure and skilled workforce in the apparel sector.</p>
       <div class="my-8 aspect-video bg-muted flex items-center justify-center rounded-lg overflow-hidden border">
@@ -111,6 +124,15 @@ export function generateProductContent(name: string): PageData {
       "Rigorous quality control and adherence to international safety standards",
       "Efficient lead times (4-8 weeks) for bulk manufacturing orders"
     ],
+    comparison: {
+      title: `The Alfo Advantage for ${name}`,
+      points: [
+        { aspect: "Quality Control", advantage: "100% inline and final random inspection protocols" },
+        { aspect: "Customization", advantage: "In-house design studio for rapid prototyping" },
+        { aspect: "Pricing", advantage: "Direct-from-factory rates without intermediary markups" },
+        { aspect: "Compliance", advantage: "Full adherence to global ethical manufacturing standards" }
+      ]
+    },
     content: `
       <p>Tamil Nadu is a global leader in the production of ${name}, offering unparalleled quality and craftsmanship. Our manufacturers use the finest materials to ensure durability and style.</p>
       <div class="my-8 aspect-video bg-muted flex items-center justify-center rounded-lg overflow-hidden border">
@@ -153,6 +175,15 @@ export function generateCityZoneContent(city: string, zone: string): PageData {
       `Support for rapid prototyping and short-lead-time production`,
       `Diverse mix of small, medium, and large-scale textile enterprises`
     ],
+    comparison: {
+      title: `Why Source from ${zoneName}`,
+      points: [
+        { aspect: "Specialization", advantage: "Niche expertise in garment finishing and detailing" },
+        { aspect: "Accessibility", advantage: "Central location with direct logistics routes" },
+        { aspect: "Volume", advantage: "Capacity to handle both high-volume and boutique orders" },
+        { aspect: "Speed", advantage: "Optimized workflows for quick turnaround times" }
+      ]
+    },
     content: `
       <p>${zoneName} is a vital part of ${cityName}'s garment infrastructure. This area is known for its high concentration of specialized textile units and wholesale dealers.</p>
       <div class="my-8 aspect-video bg-muted flex items-center justify-center rounded-lg overflow-hidden border">
@@ -193,6 +224,15 @@ export function generateGenericContent(category: string, name: string): PageData
       `Compliance with international quality, safety, and environmental standards`,
       `End-to-end service management from initial consultation to final delivery`
     ],
+    comparison: {
+      title: `Excellence in ${category}`,
+      points: [
+        { aspect: "Technology", advantage: "Latest Industry 4.0 compliant machinery" },
+        { aspect: "Expertise", advantage: "Certified professionals with deep domain knowledge" },
+        { aspect: "Reliability", advantage: "Proven track record with international brands" },
+        { aspect: "Value", advantage: "Cost-optimized solutions without quality compromise" }
+      ]
+    },
     content: `
       <p>Tamil Nadu's garment industry excels in providing ${name} ${category}. Our facilities are equipped with the latest technology to deliver superior results for fashion brands and corporate clients alike.</p>
       <div class="my-8 aspect-video bg-muted flex items-center justify-center rounded-lg overflow-hidden border">
