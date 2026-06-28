@@ -12,6 +12,7 @@ import {
   sellers,
   geoLocations
 } from '@/data/seo-data';
+import { guides } from '@/data/guides-data';
 import { slugify } from '@/utils/slugify';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -32,8 +33,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/sellers',
     '/locations',
     '/cities',
+    '/guides',
+    '/contact',
   ];
 
+  guides.forEach(g => pages.push(`/guides/${g.slug}`));
   districts.forEach(d => pages.push(`/districts/${slugify(d)}`));
   products.forEach(p => pages.push(`/products/${slugify(p)}`));
   fabricTypes.forEach(f => pages.push(`/fabrics/${slugify(f)}`));
