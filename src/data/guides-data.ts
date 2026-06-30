@@ -259,5 +259,164 @@ export const guides: Guide[] = [
         a: "Yes, we manufacture for everyone from professional Pro-Kabaddi style teams to local village clubs and school teams, with scalable pricing based on quantity."
       }
     ]
+  },
+  {
+    slug: "custom-apparel-manufacturing-process-step-by-step",
+    title: "Custom Apparel Manufacturing Process — Step-by-Step",
+    description: "A complete walkthrough of the custom apparel manufacturing process, from initial design to final delivery.",
+    h1: "The Custom Apparel Manufacturing Process Explained",
+    category: "Fundamentals",
+    answerBlock: "The custom apparel manufacturing process consists of six key steps: 1) Design & Specification, where concepts and technical packs are created; 2) Pattern Making & Grading; 3) Sourcing & Fabric Selection; 4) Prototyping & Sampling for approval; 5) Bulk Production, which includes cutting, printing (like sublimation), and stitching; and 6) Quality Control & Delivery. Working with vertically integrated manufacturers ensures better communication and faster lead times.",
+    keywords: ["custom apparel process", "apparel manufacturing steps", "clothing production process", "garment manufacturing"],
+    imageAlt: "A step-by-step flowchart of the custom apparel manufacturing process from design to delivery",
+    highlights: [
+      "Technical packs are crucial for ensuring your vision translates accurately to production",
+      "Prototyping is a necessary step to test fabric feel, fit, and color accuracy",
+      "Bulk production combines precision cutting, specialized printing, and expert stitching",
+      "Quality control should occur at multiple stages, not just at the end",
+      "Dye-sublimation printing happens before the garment is stitched together"
+    ],
+    content: `
+      <p>Understanding the manufacturing process is crucial for anyone looking to produce custom team kits, corporate wear, or a new fashion line. It demystifies timelines, justifies costs, and highlights where your input is most critical.</p>
+
+      <h2>Phase 1: Design and Tech Packs</h2>
+      <p>Everything starts with a concept. However, factories don't run on concepts; they run on specifications. A 'Tech Pack' is created, detailing everything from Pantone colors and fabric GSM to stitch types and logo placements.</p>
+
+      <h2>Phase 2: Pattern Making and Sourcing</h2>
+      <p>Before any fabric is cut, a digital or physical pattern must be made. This acts as the blueprint for the garment. Simultaneously, the correct fabrics, trims (like zippers or buttons), and threads are sourced to match the tech pack requirements.</p>
+
+      <h2>Phase 3: Prototyping (Sampling)</h2>
+      <p>This is where your idea becomes physical. A prototype is created using the selected materials and patterns. This sample allows you to review the fit, the drape of the fabric, and the accuracy of the colors. Revisions are made here before bulk production begins.</p>
+
+      <h2>Phase 4: Production — Printing and Cutting</h2>
+      <p>Once the sample is approved, bulk production starts. For high-performance sportswear, this often involves <strong>dye-sublimation printing</strong>. The design is printed onto special paper and then heat-transferred directly into the fabric fibers. After printing, the fabric is precision-cut according to the graded patterns.</p>
+
+      <h2>Phase 5: Stitching and Assembly</h2>
+      <p>The cut fabric pieces move to the sewing floor. Specialized machines (like flatlock machines for sportswear) assemble the garments. Skilled operators ensure seams are straight, strong, and consistent.</p>
+
+      <h2>Phase 6: Quality Control and Shipping</h2>
+      <p>The final garments undergo rigorous inspection. We check for loose threads, printing flaws, and dimensional accuracy. Once approved, the items are packaged according to client specifications and shipped to their final destination.</p>
+    `,
+    faqs: [
+      {
+        q: "How long does the custom apparel manufacturing process take?",
+        a: "Typically, the process takes 4-8 weeks depending on the complexity of the design, the required fabric, and the manufacturer's current capacity. Prototyping alone can take 1-2 weeks."
+      },
+      {
+        q: "What is a tech pack and do I need one?",
+        a: "A tech pack is a blueprint for your garment. If you don't have one, professional manufacturers like Vinayaga Garments have in-house design teams to help create the necessary technical specifications based on your ideas."
+      },
+      {
+        q: "Can I skip the sampling phase to save time?",
+        a: "It is highly discouraged. Skipping the sampling phase significantly increases the risk of errors in the final bulk order, which will ultimately cost more time and money to fix."
+      }
+    ]
+  },
+  {
+    slug: "minimum-order-quantities-moq-explained",
+    title: "Minimum Order Quantities (MOQs) Explained — What You Need to Know",
+    description: "Understand what MOQs are in custom apparel manufacturing, why factories enforce them, and how to navigate them for your brand.",
+    h1: "Understanding Minimum Order Quantities (MOQs) in Apparel Manufacturing",
+    category: "Fundamentals",
+    answerBlock: "Minimum Order Quantity (MOQ) is the lowest number of units a manufacturer will agree to produce in a single order. MOQs exist because factories incur significant setup costs for custom production—including pattern making, machine calibration, and fabric sourcing. By requiring a minimum volume, manufacturers ensure the production run is economically viable for both the factory and the client.",
+    keywords: ["what is MOQ", "apparel MOQ explained", "minimum order quantity clothing", "low MOQ manufacturer"],
+    imageAlt: "Stacks of custom manufactured t-shirts representing bulk order quantities",
+    highlights: [
+      "MOQs help offset the fixed costs of setting up a production line",
+      "Different processes (e.g., sublimation vs. custom dyeing) have different MOQs",
+      "Lower MOQs often result in a higher cost-per-unit",
+      "Building a relationship with a manufacturer can sometimes provide flexibility with MOQs",
+      "Consolidating styles or colors can help you reach MOQ thresholds faster"
+    ],
+    content: `
+      <p>One of the most common hurdles new brands and teams face when sourcing custom apparel is the Minimum Order Quantity (MOQ). Understanding why MOQs exist can help you negotiate better terms and plan your inventory more effectively.</p>
+
+      <h2>Why Do Manufacturers Enforce MOQs?</h2>
+      <p>Manufacturing is an economy of scale. Setting up a production line involves significant fixed costs, regardless of whether you are producing 10 shirts or 10,000. These costs include:</p>
+      <ul>
+        <li><strong>Pattern Making and Grading:</strong> Creating the technical blueprints for different sizes.</li>
+        <li><strong>Machine Calibration:</strong> Setting up specialized sewing and printing machines for a specific fabric and design.</li>
+        <li><strong>Raw Material Sourcing:</strong> Fabric mills also have their own MOQs. To get the specific high-performance fabric you want, the factory must buy it in bulk.</li>
+      </ul>
+
+      <h2>Types of MOQs</h2>
+      <p>It's important to clarify how a factory defines its MOQ. It could be:</p>
+      <ul>
+        <li><strong>MOQ per Order:</strong> The total number of items across your entire purchase.</li>
+        <li><strong>MOQ per Style/Design:</strong> The minimum number required for a specific garment type (e.g., 50 polo shirts).</li>
+        <li><strong>MOQ per Color or Size:</strong> The minimum required for a specific variation (e.g., 20 items in Navy Blue, Size Large).</li>
+      </ul>
+
+      <h2>How to Navigate High MOQs</h2>
+      <p>If a factory's MOQ is higher than your current needs, you have a few options:</p>
+      <ol>
+        <li><strong>Pay a Surcharge:</strong> Some factories will produce below their MOQ if you pay a premium per item to cover their setup costs.</li>
+        <li><strong>Standardize Colors/Fabrics:</strong> Use the same fabric and base color across multiple styles to combine the volume.</li>
+        <li><strong>Look for Specialized Partners:</strong> Manufacturers utilizing digital processes like dye-sublimation (such as Vinayaga Garments) can often offer lower MOQs than traditional cut-and-sew operations that require custom fabric dyeing.</li>
+      </ol>
+    `,
+    faqs: [
+      {
+        q: "What is a standard MOQ for custom apparel?",
+        a: "Standard MOQs can range from 50 to 500 units depending on the factory and the complexity of the garment. For fully custom cut-and-sew operations, 100-300 is typical."
+      },
+      {
+        q: "Why does the price go down when I order more?",
+        a: "The fixed setup costs (pattern making, machine setup) remain the same regardless of volume. When you order more units, those fixed costs are distributed across a larger number of items, reducing the cost-per-unit."
+      },
+      {
+        q: "Do you offer low MOQs for sports teams?",
+        a: "Yes, at Vinayaga Garments, our digital dye-sublimation technology allows us to be highly flexible, making it viable to produce custom kits for individual sports teams without demanding massive volumes."
+      }
+    ]
+  },
+  {
+    slug: "common-custom-apparel-mistakes",
+    title: "Common Custom Apparel Mistakes and How to Avoid Them",
+    description: "Learn about the most frequent pitfalls in custom clothing manufacturing and how to ensure your project is a success.",
+    h1: "Costly Custom Apparel Mistakes and How to Avoid Them",
+    category: "Fundamentals",
+    answerBlock: "The most common mistakes in custom apparel manufacturing include skipping the prototyping phase, choosing incorrect fabrics for the intended use, and failing to provide detailed technical specifications (Tech Packs). These errors lead to ill-fitting garments, poor durability, and missed deadlines. Prevent them by partnering with an experienced, transparent manufacturer, mandating a physical sample before bulk production, and communicating clearly.",
+    keywords: ["custom apparel mistakes", "manufacturing pitfalls", "clothing production errors", "apparel design tips"],
+    imageAlt: "A quality control inspector pointing out a stitching error on a garment",
+    highlights: [
+      "Never skip the physical sample phase, even if you are in a rush",
+      "Fabric choice must be dictated by function, not just appearance",
+      "Vague communication is the enemy of accurate manufacturing",
+      "Relying solely on digital color proofs can lead to mismatched physical garments",
+      "Ignoring care instructions during the design phase compromises garment longevity"
+    ],
+    content: `
+      <p>Creating custom apparel is a complex process. Even small miscommunications can result in large-scale production errors. Over our years in the industry, we've seen the same mistakes repeated by teams and brands.</p>
+
+      <h2>Mistake 1: Skipping the Prototype</h2>
+      <p>The number one mistake is rushing to bulk production without approving a physical sample. Digital mockups look perfect, but they cannot show you how a fabric drapes, how true the colors print on physical material, or if the sizing is accurate. Always insist on a prototype.</p>
+
+      <h2>Mistake 2: Choosing the Wrong Fabric</h2>
+      <p>A beautiful design won't save a garment made from the wrong material. For example, using a heavy cotton blend for a high-intensity sport like Kabaddi will result in overheating and poor performance. Always consult with your manufacturer on the technical properties of the fabric (GSM, breathability, stretch) relative to its intended use.</p>
+
+      <h2>Mistake 3: Incomplete Specifications</h2>
+      <p>Saying "make the logo big and blue" is a recipe for disaster. Factories need precise measurements (e.g., "Logo should be 4 inches wide, centered 3 inches below the neckline") and exact Pantone color codes. A detailed Tech Pack eliminates guesswork.</p>
+
+      <h2>Mistake 4: Unrealistic Timelines</h2>
+      <p>Custom manufacturing takes time. Prototyping, adjustments, fabric sourcing, and bulk stitching cannot happen overnight. Planning a launch or an event without factoring in realistic lead times—including potential shipping delays—often forces compromised quality.</p>
+
+      <h2>Mistake 5: Chasing the Lowest Price</h2>
+      <p>If a quote seems too good to be true, it likely is. Rock-bottom prices usually mean shortcuts: inferior fabrics, skipped quality control steps, or poor working conditions. Invest in a reputable partner; the cost of re-doing a botched order is always higher than doing it right the first time.</p>
+    `,
+    faqs: [
+      {
+        q: "What happens if the final product doesn't match the sample?",
+        a: "A professional manufacturer will have a quality guarantee. If the bulk production deviates from the approved physical sample, they should correct the issue or replace the defective units."
+      },
+      {
+        q: "How can I ensure my team's colors are perfectly accurate?",
+        a: "Always provide standardized color codes (like Pantone Solid Coated). Furthermore, ask for a 'strike-off'—a small fabric swatch printed with your specific colors—before approving the full sample."
+      },
+      {
+        q: "Is it my fault if the manufacturer makes a mistake?",
+        a: "If you provided clear, documented specifications and approved a correct sample, manufacturing defects are the factory's responsibility. However, if your initial instructions were vague, accountability becomes blurred."
+      }
+    ]
   }
 ];
