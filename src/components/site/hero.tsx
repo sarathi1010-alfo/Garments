@@ -58,13 +58,20 @@ export function Hero() {
             }}
           >
             <a
+              href="/contact"
+              className="bg-primary text-on-primary px-8 md:px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer"
+            >
+              Get a Quote
+              <ArrowRight className="size-[18px]" />
+            </a>
+            <a
               href={whatsappLink()}
               target="_blank"
               rel="nofollow external noopener noreferrer"
               className="bg-secondary text-on-secondary px-8 md:px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer"
             >
               <MessageCircle className="size-[18px]" />
-              Chat on WhatsApp
+              WhatsApp
             </a>
             <a
               href="#featured"

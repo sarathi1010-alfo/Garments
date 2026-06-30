@@ -7,9 +7,11 @@ import { whatsappLink } from "@/lib/contact";
 import Image from "next/image";
 
 const NAV_LINKS = [
-  { label: "Products", href: "#featured" },
-  { label: "Custom Services", href: "#capabilities" },
-  { label: "About Us", href: "#process" },
+  { label: "Products", href: "/#featured" },
+  { label: "Custom Services", href: "/#capabilities" },
+  { label: "About Us", href: "/#process" },
+  { label: "Guides", href: "/guides" },
+  { label: "Get a Quote", href: "/contact" },
 ];
 
 export function TopNav() {
