@@ -55,6 +55,28 @@ export default async function GuidePage({ params }: PageProps) {
     }))
   };
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": guide.h1,
+    "description": guide.description,
+    "image": "https://garment.alfo.online/api/placeholder/1200/675",
+    "author": {
+      "@type": "Organization",
+      "name": "Vinayaga Garments"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Vinayaga Garments",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://garment.alfo.online/icon.png"
+      }
+    },
+    "datePublished": "2026-06-27",
+    "dateModified": new Date().toISOString().split('T')[0]
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <TopNav />
@@ -128,6 +150,10 @@ export default async function GuidePage({ params }: PageProps) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
         />
       </main>
       <SeoFooter />
