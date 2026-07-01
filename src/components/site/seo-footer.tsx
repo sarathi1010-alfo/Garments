@@ -73,27 +73,27 @@ export function SeoFooter() {
         </div>
         <div>
           <h3 className="font-headline-sm text-headline-sm text-primary mb-6">
-            <Link href="/directory" className="hover:text-secondary transition-colors">Industry Directory</Link>
+            <Link href="/guides" className="hover:text-secondary transition-colors">Resources & Guides</Link>
           </h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/fabrics/cotton" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                Cotton Garment Production
+              <Link href="/guides/custom-kabaddi-team-kits" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                Kabaddi Team Kits Guide
               </Link>
             </li>
             <li>
-              <Link href="/business/exporters" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                Garment Export Services
+              <Link href="/guides/custom-cricket-jerseys" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                Cricket Jersey Manufacturing
               </Link>
             </li>
             <li>
-              <Link href="/quality/iso-certified" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                ISO Certified Quality
+              <Link href="/guides/custom-basketball-jerseys" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                Basketball Kit Design
               </Link>
             </li>
             <li>
-              <Link href="/occasions/sports" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                Athletic & Sports Wear
+              <Link href="/guides/comprehensive-custom-apparel-faq" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                Custom Apparel FAQ
               </Link>
             </li>
           </ul>
