@@ -56,10 +56,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  return pages.map((page) => ({
-    url: `${baseUrl}${page}`,
-    lastModified: lastMod,
-    changeFrequency: page === '' ? 'daily' : 'weekly',
-    priority: page === '' ? 1.0 : 0.8,
-  }));
+  return pages.map((page) => {
+    let priority = 0.8;
+    let changeFrequency: "daily" | "weekly" | "monthly" | "yearly" | "always" | "never" | undefined = 'weekly';
+
+    if (page === '') {
+      priority = 1.0;
+      changeFrequency = 'daily';
+    } else if (page.startsWith('/guides/')) {
+      priority = 0.9;
+      changeFrequency = 'weekly';
+    } else if (page === '/contact') {
+      priority = 0.7;
+      changeFrequency = 'monthly';
+    }
+
+    return {
+      url: `${baseUrl}${page}`,
+      lastModified: lastMod,
+      changeFrequency,
+      priority,
+    };
+  });
 }
