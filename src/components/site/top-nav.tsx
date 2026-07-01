@@ -34,13 +34,13 @@ export function TopNav() {
             priority
             className="size-9 md:size-10 shrink-0 transition-transform duration-300 group-hover:scale-105"
           />
-          <span className="font-headline-sm text-headline-sm font-bold text-primary tracking-tight truncate">
+          <span className="font-headline-sm text-headline-sm font-bold text-primary tracking-tight">
             Vinayaga Garments
           </span>
         </a>
 
         {/* Navigation Links (Desktop) */}
-        <div className="hidden md:flex space-x-12 items-center font-label-md text-label-md uppercase tracking-[0.1em]">
+        <div className="hidden lg:flex space-x-8 xl:space-x-12 items-center font-label-md text-label-md uppercase tracking-[0.1em]">
           {NAV_LINKS.map((link) => (
             <a
               key={link.label}
@@ -53,7 +53,7 @@ export function TopNav() {
         </div>
 
         {/* Trailing Action (Desktop) — WhatsApp */}
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <a
             href={whatsappLink()}
             target="_blank"
@@ -69,7 +69,7 @@ export function TopNav() {
         <Sheet open={open} onOpenChange={setOpen}>
           <SheetTrigger asChild>
             <button
-              className="md:hidden text-primary -mr-2 p-3 cursor-pointer rounded-md hover:bg-surface-container-low transition-colors"
+              className="lg:hidden text-primary -mr-2 p-3 cursor-pointer rounded-md hover:bg-surface-container-low transition-colors"
               aria-label="Open menu"
             >
               <Menu className="size-6" />
