@@ -921,5 +921,150 @@ export const guides: Guide[] = [
       { q: "Can you match our club's traditional colors exactly?", a: "Yes. By using the Pantone Matching System (PMS), we can ensure that your new kits perfectly match your club's historical colors." },
       { q: "How long do the jerseys last?", a: "Our professional-grade sublimated jerseys are designed to last for multiple seasons of intense match play and regular washing without any fading or loss of quality." }
     ]
+  },
+  {
+    slug: "custom-basketball-jerseys",
+    title: "Custom Basketball Jerseys — Complete Guide",
+    description: "The ultimate guide to designing and manufacturing elite basketball jerseys. Learn about moisture-management, jersey cuts, and durability for high-intensity play.",
+    h1: "Professional Custom Basketball Jerseys: The Complete Guide",
+    category: "Sports Specific",
+    answerBlock: "Professional basketball jerseys are engineered for high-intensity movement, requiring superior moisture-management fabrics, lightweight mesh panels for ventilation, and ergonomic sleeveless cuts that allow for unrestricted shooting and rebounding. Elite kits utilize dye-sublimation for vibrant, permanent branding and are designed to withstand the physical rigors of a full competitive season.",
+    keywords: ["custom basketball jerseys", "basketball kit manufacturer", "sublimated basketball uniforms", "performance basketball gear"],
+    imageAlt: "A professional basketball player in a high-performance custom team jersey",
+    highlights: [
+      "Lightweight micro-mesh fabrics (135-155 GSM) for maximum breathability",
+      "Ergonomic sleeveless design for full range of motion during shots",
+      "Dye-sublimation ensures numbers and logos never peel or crack",
+      "Reinforced necklines and armholes for enhanced durability",
+      "Moisture-wicking technology to keep players light throughout the game"
+    ],
+    content: `
+      <p>Basketball is a sport of explosive movements, constant verticality, and high-intensity sprints. The requirements for a basketball jersey are highly specific: it must be exceptionally lightweight to prevent fatigue, breathable to manage high metabolic heat, and cut in a way that provides absolute freedom for the shoulders and arms.</p>
+
+      <h2>1. Fabric Engineering for the Court</h2>
+      <p>At Vinayaga Garments, we utilize advanced 'Court-Tech' fabrics for our basketball kits. We typically recommend 140 GSM micro-mesh polyester. This fabric features thousands of microscopic perforations that allow for rapid airflow, which is critical in an indoor court environment where air movement can be limited.</p>
+
+      <h2>2. Design and Ergonomic Considerations</h2>
+      <h3>The Importance of the Sleeveless Cut</h3>
+      <p>A basketball jersey's sleeveless design isn't just about tradition; it's about biomechanical efficiency. Our patterns are engineered with deep-cut armholes and a narrowed 'racer-back' silhouette to ensure that even during a maximum-extension jump shot, there is zero fabric resistance around the shoulder joint.</p>
+
+      <p>For a detailed look at how we engineer these garments, read our guide on the <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Manufacturing Process</a>.</p>
+
+      <h3>Sublimation: The Weightless Branding</h3>
+      <p>Basketball jerseys often feature large player numbers and prominent sponsor logos. Traditional screen printing adds weight and creates 'hot spots' where sweat cannot escape. We use 100% dye-sublimation, which fuses the ink directly into the fibers, maintaining the fabric's natural breathability and ensuring the design remains as light as a blank jersey.</p>
+
+      <h2>3. Technical Features for Elite Play</h2>
+      <ul>
+        <li><strong>Reinforced Binding:</strong> We use high-tensile binding on the neck and armholes to prevent stretching or tearing during physical play in the paint.</li>
+        <li><strong>V-Neck vs. Round-Neck:</strong> We offer multiple collar styles designed to sit flat against the body, reducing the chance of them being pulled by opponents.</li>
+        <li><strong>Integrated Ventilation:</strong> For professional-grade kits, we can incorporate side-panel mesh inserts with a different GSM to target high-sweat areas.</li>
+      </ul>
+
+      <h2>4. Scalable Production for Teams and Leagues</h2>
+      <p>Whether you are outfitting a local high school team or a professional state league, our production pipeline ensures consistency in color and fit across every jersey. We understand the importance of matching team colors exactly, which is why we use the Pantone Matching System for all our <a href="/guides/how-to-design-custom-team-jerseys">custom designs</a>.</p>
+
+      <p>To plan your team's budget, explore our <a href="/guides/understanding-custom-apparel-pricing">Complete Guide to Pricing</a> and check our <a href="/guides/minimum-order-quantities-moqs-explained">Minimum Order Quantities</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What is the best fabric for basketball jerseys?", a: "A lightweight (140 GSM) micro-mesh or birds-eye polyester is best. It provides the necessary breathability and durability for indoor and outdoor play." },
+      { q: "How do you ensure the player numbers don't peel off?", a: "We use 100% dye-sublimation for all basketball kits. The numbers are part of the fabric itself, meaning they will never peel, crack, or fade, even after years of heavy washing." },
+      { q: "Can you provide matching basketball shorts?", a: "Yes, we manufacture complete kits including jerseys and matching shorts with breathable waistbands and reinforced seams." },
+      { q: "What is the typical lead time for a team order?", a: "A standard team order typically takes 4-6 weeks from design approval to delivery." },
+      { q: "Are your jerseys suitable for professional leagues?", a: "Absolutely. We manufacture according to international standards for fit, fabric quality, and branding durability used by professional organizations." }
+    ]
+  },
+  {
+    slug: "custom-volleyball-kits",
+    title: "Custom Volleyball Kits — Complete Guide",
+    description: "Design and manufacture elite volleyball kits. Learn about 4-way stretch fabrics, range of motion, and specialized stitching for jumps and dives.",
+    h1: "The Definitive Guide to Custom Volleyball Kits",
+    category: "Sports Specific",
+    answerBlock: "Elite volleyball kits are engineered for maximum mobility, featuring high-elastane '4-way stretch' fabrics that support explosive vertical jumps and rapid defensive dives. They incorporate ergonomic seams to prevent chafing, moisture-wicking technology for rapid sweat evaporation, and 100% sublimated designs that maintain their vibrancy and integrity during intense physical competition.",
+    keywords: ["custom volleyball kits", "volleyball jersey manufacturer", "sublimated volleyball uniforms", "volleyball apparel design"],
+    imageAlt: "A volleyball player in a high-performance custom team kit during a jump",
+    highlights: [
+      "4-way stretch fabrics (85% Poly, 15% Spandex) for maximum mobility",
+      "Lightweight, aerodynamic 'pro-fit' silhouettes to minimize drag",
+      "Reinforced flatlock stitching to prevent seam failure during dives",
+      "Advanced moisture-wicking to keep athletes dry during long sets",
+      "Dye-sublimation for permanent, breathable team branding"
+    ],
+    content: `
+      <p>Volleyball is a sport defined by sudden vertical movements, lateral agility, and high-impact dives. The apparel must act like a second skin—moving with the athlete without restriction, managing sweat instantly, and being durable enough to survive constant friction with the court floor.</p>
+
+      <h2>1. Fabric Engineering for Vertical Performance</h2>
+      <p>Unlike other sports, volleyball kits require a high percentage of Spandex (or Elastane) to provide '4-way stretch.' At Vinayaga Garments, we use a specialized 160-180 GSM interlock blend that provides the necessary compression and elasticity. This ensures the jersey returns to its original shape after a maximum-reach spike or a defensive block.</p>
+
+      <h2>2. Ergonomics and Seam Engineering</h2>
+      <h3>The 'Action-Ready' Silhouette</h3>
+      <p>Our volleyball patterns are designed for an 'overhead' posture. We engineer the shoulder and underarm sections to prevent the jersey from riding up when the athlete raises their arms for a block or a serve. This 'pro-fit' ensures the athlete stays focused on the game, not their gear.</p>
+
+      <p>Learn more about our technical construction in the <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Step-by-Step Manufacturing Guide</a>.</p>
+
+      <h3>Durability for the Floor: Reinforced Stitching</h3>
+      <p>Volleyball players spend a significant amount of time diving and sliding on the court. We utilize 4-needle 6-thread flatlock stitching, which creates a seam that is actually stronger than the fabric itself. This prevents seam 'blowouts' and provides a smooth internal surface to eliminate chafing.</p>
+
+      <h2>3. Ventilation and Moisture Management</h2>
+      <p>Volleyball matches often go into long sets, making heat management crucial. We incorporate laser-cut ventilation zones and moisture-management treatments that pull sweat away from the skin, where it can evaporate rapidly, keeping the athlete light and comfortable.</p>
+
+      <h2>4. Branding and Customization</h2>
+      <p>Dye-sublimation is the gold standard for volleyball. It allows for vibrant team identities and sponsor logos without adding any physical weight or stiffness to the high-stretch fabric. This is essential for maintaining the 'feel' of the compression gear. See our tips on <a href="/guides/how-to-design-custom-team-jerseys">designing professional jerseys</a>.</p>
+
+      <p>Ready to equip your team? Check our <a href="/guides/minimum-order-quantities-moqs-explained">MOQs</a> and request a <a href="/guides/how-to-get-a-quote-for-custom-apparel">quote today</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "Why is 4-way stretch important for volleyball?", a: "Volleyball involves extreme ranges of motion, especially in the shoulders and legs. 4-way stretch fabric allows the garment to expand and contract in every direction without resisting the athlete's movement." },
+      { q: "Can you provide custom shorts and knee pads?", a: "We manufacture custom sublimated shorts to match the jerseys. While we don't manufacture knee pads, we can provide coordinated socks and warm-up gear." },
+      { q: "Will the colors fade after diving on the court?", a: "No. Our dye-sublimated designs are permanent. The ink is fused with the fibers, so even with the friction of diving and frequent washing, the colors remain vibrant." },
+      { q: "What is the best fabric weight for volleyball?", a: "A medium-weight (160-180 GSM) blend is ideal, providing enough durability for dives while remaining breathable for high-intensity play." },
+      { q: "How do I choose the right fit for my team?", a: "We recommend our 'Pro-Fit' for competitive teams, but we can also provide a more 'Relaxed-Fit' for recreational clubs. We can provide size sets for testing before production." }
+    ]
+  },
+  {
+    slug: "custom-badminton-team-kits",
+    title: "Custom Badminton Team Kits — Complete Guide",
+    description: "The ultimate guide to designing and manufacturing professional badminton kits. Learn about lightweight fabrics and mobility for quick racket movements.",
+    h1: "Professional Custom Badminton Team Kits: The Complete Guide",
+    category: "Sports Specific",
+    answerBlock: "Professional badminton kits must prioritize extreme lightness, rapid heat dissipation, and total freedom of movement for the shoulders and torso. Using 120-140 GSM ultra-lightweight micro-polyester and ergonomic 'raglan' sleeve construction, these kits are designed to support the rapid racket movements and explosive lunges required in high-level play. 100% dye-sublimation ensures the design never adds weight or restricts breathability.",
+    keywords: ["custom badminton kits", "badminton jersey manufacturer", "badminton uniform design", "performance badminton gear"],
+    imageAlt: "A professional badminton player in a high-performance custom team kit",
+    highlights: [
+      "Ultra-lightweight fabrics (120-140 GSM) to minimize athlete fatigue",
+      "Ergonomic raglan sleeves for unrestricted shoulder rotation",
+      "Rapid-dry technology for instant moisture management",
+      "Dye-sublimation for vibrant, permanent, and breathable branding",
+      "Side vents and mesh panels for enhanced airflow during long rallies"
+    ],
+    content: `
+      <p>Badminton is one of the fastest sports in the world, requiring lightning-fast reflexes and constant, explosive movement. A badminton kit must be practically weightless, ensuring that the athlete is never slowed down by their apparel, while providing the durability to survive a long season of training and competition.</p>
+
+      <h2>1. Fabric Engineering: The Science of Lightness</h2>
+      <p>At Vinayaga Garments, we use our lightest performance fabrics for badminton—typically 120-135 GSM micro-polyester with a 'honeycomb' or 'dimple' structure. These textures minimize the surface area of the fabric touching the skin, reducing 'cling' when the athlete is sweating and facilitating the fastest possible drying times.</p>
+
+      <h2>2. Ergonomic Engineering for Racket Sports</h2>
+      <h3>Raglan Sleeves and Shoulder Mobility</h3>
+      <p>The overhead smash and the rapid backhand reach require a shoulder construction that offers zero resistance. We utilize 'Raglan' sleeve patterns, where the sleeve extends in one piece fully to the collar. This eliminates the standard shoulder seam, providing a smooth, unrestricted range of motion for every racket swing.</p>
+
+      <p>See the technical details of our assembly in our <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Manufacturing Process Guide</a>.</p>
+
+      <h3>Side Vents and Kinetic Fit</h3>
+      <p>Our badminton shorts and jerseys feature side vents that allow for deep lunges without the fabric pulling or bunching. The silhouette is designed to be aerodynamic, minimizing drag as the player moves across the court.</p>
+
+      <h2>3. Branding and Aesthetic Excellence</h2>
+      <p>Because badminton is played at high speed, bold and clear branding is essential. Dye-sublimation allows for sharp, vibrant team colors and crisp sponsor logos. Unlike traditional prints, sublimated graphics have no 'hand-feel'—they are literally part of the fabric, ensuring the kit remains as breathable as a plain white shirt. Check our <a href="/guides/how-to-design-custom-team-jerseys">design tips</a> for more ideas.</p>
+
+      <h2>4. Professional Grade for All Levels</h2>
+      <p>From individual competitive players to national-level clubs, we provide the same high-quality technical attention to every order. Our goal is to ensure that your gear is a performance asset, not a distraction. Learn about our <a href="/guides/understanding-custom-apparel-pricing">pricing</a> and <a href="/guides/minimum-order-quantities-moqs-explained">MOQs</a> to plan your next order.</p>
+
+      <p>Ready to upgrade your team's look? <a href="/guides/how-to-get-a-quote-for-custom-apparel">Request a quote today</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What is the best fabric weight for badminton?", a: "Ultra-lightweight is best. We recommend 120-140 GSM micro-polyester to ensure the player feels as light as possible during fast rallies." },
+      { q: "Can you provide custom shorts and tracksuits?", a: "Yes, we manufacture a full range of badminton apparel including shorts with side vents, training tracksuits, and warm-up shirts." },
+      { q: "How do you ensure the jersey doesn't 'stick' to the body?", a: "We use fabrics with a specific 3D texture (like birds-eye or honeycomb) and advanced moisture-wicking treatments that prevent the 'cling' effect by keeping the fabric away from the skin." },
+      { q: "What is the minimum order for a custom club kit?", a: "Our standard MOQ starts at 50 units, but we can often be flexible for small clubs looking to establish their brand." },
+      { q: "How long will the sublimated design last?", a: "Our sublimation process is permanent. The colors will never fade, peel, or crack, no matter how many times the kit is washed or used in competition." }
+    ]
   }
 ];

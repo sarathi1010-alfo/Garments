@@ -27,6 +27,7 @@ export const products = [
   "Lounge Wear", "Nightwear", "Workwear", "Safety Apparel",
   "Sportswear", "Cricket Jerseys", "Football Kits", "School Uniforms",
   "Corporate T-Shirts", "Custom Apparel", "Kabaddi Jerseys",
+  "Basketball Jerseys", "Volleyball Kits", "Badminton Team Kits",
   "Marathon T-Shirts", "Chef Coats", "Safety Vests", "Reflective Jackets"
 ];
 
