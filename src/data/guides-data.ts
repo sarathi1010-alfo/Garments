@@ -833,6 +833,254 @@ export const guides: Guide[] = [
     ]
   },
   {
+    slug: "custom-basketball-jerseys",
+    title: "Custom Basketball Jerseys — Complete Guide",
+    description: "Design and manufacture elite basketball uniforms. Learn about lightweight mesh fabrics, pro-fit silhouettes, and high-impact branding.",
+    h1: "The Professional Guide to Custom Basketball Jerseys",
+    category: "Sports Specific",
+    answerBlock: "Professional basketball jerseys are engineered for maximum breathability and unrestricted range of motion. Utilizing lightweight, open-cell mesh fabrics and moisture-wicking technology, these garments ensure athletes stay cool and dry during high-intensity play. Custom manufacturing allows for tailored 'pro-fit' silhouettes and vibrant, permanent branding through advanced dye-sublimation processes.",
+    keywords: ["custom basketball jerseys", "basketball uniform manufacturer", "sublimated basketball kits", "pro basketball gear"],
+    imageAlt: "Professional basketball players in custom-designed team jerseys",
+    highlights: [
+      "Lightweight open-mesh fabrics for superior airflow and cooling",
+      "Wide armholes and specialized necklines for unrestricted movement",
+      "Dye-sublimation printing for permanent, high-vibrancy team designs",
+      "Moisture-wicking technology to manage sweat during intense competition",
+      "Reinforced stitching to withstand the physical nature of the game"
+    ],
+    content: `
+      <p>Basketball is a game of constant motion, jumping, and rapid directional changes. The apparel worn by athletes must support this agility while providing maximum comfort under intense physical stress. At Vinayaga Garments, we engineer basketball kits that balance technical performance with professional aesthetics.</p>
+
+      <h2>1. Fabric Engineering: The Breathability Factor</h2>
+      <p>The core of a great basketball jersey is the fabric. We utilize high-performance micro-mesh polyesters that feature an 'open-cell' structure. This allows for rapid air exchange, pulling heat away from the athlete's body and allowing sweat to evaporate instantly.</p>
+
+      <h2>2. Design and Ergonomics</h2>
+      <p>Range of motion is critical in basketball, especially for shooting and rebounding. Our jerseys are designed with optimized armhole depths and specialized 'V' or 'U' necklines that don't restrict the shoulders or neck. The 'Pro-Fit' silhouette ensures the garment stays close to the body without being tight, reducing the chance of it being caught or pulled.</p>
+
+      <p>Learn more about our manufacturing standards in our <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Step-by-Step Guide</a>.</p>
+
+      <h2>3. Branding via Dye-Sublimation</h2>
+      <p>Basketball identities are often bold and colorful. With dye-sublimation, we can integrate complex gradients, geometric patterns, and multiple sponsor logos directly into the fabric fibers. This ensures the design never cracks, peels, or fades, even after hundreds of games and washes.</p>
+
+      <p>For details on pricing, see our <a href="/guides/understanding-custom-apparel-pricing">Complete Pricing Guide</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What is the best fabric for basketball jerseys?", a: "A lightweight, 100% polyester micro-mesh (approx. 140-160 GSM) is ideal for its breathability and durability." },
+      { q: "Can you provide matching shorts and warm-up gear?", a: "Yes, we manufacture complete kits including sublimated shorts with elastic waistbands and matching shooting shirts." },
+      { q: "Are the jerseys reversible?", a: "We offer both single-sided and fully reversible basketball jersey options for training and tournament use." }
+    ]
+  },
+  {
+    slug: "custom-volleyball-kits",
+    title: "Custom Volleyball Kits — Complete Guide",
+    description: "Design high-performance volleyball uniforms. Explore high-stretch fabrics, ergonomic fits, and specialized gear for indoor and beach volleyball.",
+    h1: "The Definitive Guide to Custom Volleyball Kits",
+    category: "Sports Specific",
+    answerBlock: "Elite volleyball kits prioritize high elasticity and ergonomic design to support the explosive jumping and diving movements of the sport. Utilizing polyester-spandex blends with 4-way stretch and moisture-management finishes, these kits provide a second-skin fit that minimizes drag and maximizes comfort. Customization options include sublimated team identities and reinforced seams for long-term durability.",
+    keywords: ["custom volleyball kits", "volleyball jersey manufacturer", "beach volleyball uniforms", "volleyball gear design"],
+    imageAlt: "Volleyball team in high-performance custom uniforms during a match",
+    highlights: [
+      "High-stretch polyester-spandex blends for maximum 4-way mobility",
+      "Ergonomic seams designed to prevent chafing during dives and spikes",
+      "Moisture-wicking technology for rapid sweat evaporation",
+      "Durable, lightweight fabrics that withstand frequent floor contact",
+      "Tailored fits for both indoor and beach volleyball requirements"
+    ],
+    content: `
+      <p>Volleyball requires a unique blend of power, agility, and constant floor contact. The apparel must be able to move with the athlete during explosive spikes while being tough enough to survive repeated dives and slides.</p>
+
+      <h2>1. The Importance of 4-Way Stretch</h2>
+      <p>Unlike many other sports, volleyball involves significant overhead movement. We use specialized fabrics that incorporate high percentages of spandex (elastane) to provide 4-way stretch. This ensures that the jersey never restricts the athlete's reach during a block or a serve.</p>
+
+      <h2>2. Engineering for Contact</h2>
+      <p>Volleyball players are frequently in contact with the court surface. Our kits feature reinforced stitching and high-tensile fabrics that resist abrasion and pilling. This is especially important for volleyball shorts and leggings, which must maintain their integrity through a full season of play.</p>
+
+      <p>See our <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Manufacturing Process</a> to see how we ensure this durability.</p>
+
+      <h2>3. Specialized Fits for Indoor and Beach</h2>
+      <p>We provide specialized silhouettes for both indoor and beach volleyball. Indoor kits typically focus on 'Pro-Fit' jerseys and shorts, while beach volleyball gear utilizes lightweight, sand-resistant materials with higher UV protection for outdoor environments.</p>
+
+      <p>Understand how order volume affects your project in our <a href="/guides/minimum-order-quantities-moqs-explained">MOQ Guide</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What fabric is best for volleyball?", a: "A mid-weight polyester-spandex blend (85% poly, 15% spandex) is preferred for its balance of stretch and durability." },
+      { q: "Do you offer sleeveless and long-sleeve options?", a: "Yes, we manufacture sleeveless, short-sleeve, and long-sleeve volleyball jerseys to suit player preference and league rules." },
+      { q: "How do you ensure the logos don't fade?", a: "We use 100% dye-sublimation, which fuses the ink into the fabric, making the design permanent and fade-resistant." }
+    ]
+  },
+  {
+    slug: "performance-fabrics-explained",
+    title: "Performance Fabrics Explained — Complete Guide",
+    description: "A deep dive into the science of athletic textiles. Learn about moisture-wicking, breathability, and the latest innovations in sportswear materials.",
+    h1: "The Science of Performance Fabrics: A Comprehensive Guide",
+    category: "Fabric & Technology",
+    answerBlock: "Performance fabrics are technical textiles engineered to enhance athletic performance through advanced moisture management, thermoregulation, and durability. By utilizing synthetic fibers like polyester and nylon, combined with specialized knit structures and chemical finishes, these fabrics pull sweat away from the skin, facilitate rapid evaporation, and provide the necessary stretch and strength for modern sports requirements.",
+    keywords: ["performance fabrics", "moisture-wicking textiles", "sportswear materials", "technical fabrics guide", "athletic textile science"],
+    imageAlt: "Close-up of high-tech performance fabric showing the technical knit structure",
+    highlights: [
+      "Moisture-wicking: The capillary action that keeps athletes dry",
+      "Thermoregulation: How fabric structure helps manage body heat",
+      "Fiber Science: Comparing polyester, nylon, and spandex for sports",
+      "Knit Structures: The impact of mesh, interlock, and pique on performance",
+      "Sustainable Innovation: The rise of recycled and eco-friendly performance fibers"
+    ],
+    content: `
+      <p>The difference between a standard t-shirt and an elite athletic jersey lies in the science of the fabric. In high-performance manufacturing, the fabric is not just a covering; it is a critical piece of equipment designed to help the athlete maintain their peak state for longer.</p>
+
+      <h2>1. The Mechanics of Moisture Management</h2>
+      <p>The most important feature of any performance fabric is its ability to 'wick' moisture. This is achieved through capillary action, where the fiber structure pulls liquid sweat away from the skin to the outer surface of the fabric, where it can evaporate. This keeps the athlete dry, prevents the garment from becoming heavy with water, and aids in natural cooling.</p>
+
+      <p>For more on this specific topic, read our guide on <a href="/guides/moisture-wicking-fabrics-what-they-are-and-why-they-matter">Moisture-Wicking Fabrics</a>.</p>
+
+      <h2>2. Fiber Composition and Their Roles</h2>
+      <ul>
+        <li><strong>Polyester:</strong> The backbone of sportswear. It is durable, lightweight, hydrophobic (doesn't absorb water), and ideal for sublimation printing.</li>
+        <li><strong>Nylon:</strong> Known for its incredible strength and soft 'hand-feel.' Often used in high-contact sports and compression gear.</li>
+        <li><strong>Spandex (Elastane):</strong> Provides the necessary stretch and recovery for athletic movement. Even 5-10% spandex can transform a fabric's performance.</li>
+      </ul>
+
+      <h2>3. The Impact of Knit Structures</h2>
+      <p>How the fibers are woven or knitted is just as important as the fibers themselves. 'Mesh' structures allow for maximum airflow, 'Interlock' provides a smooth, durable surface, and 'Pique' offers a classic texture with enhanced breathability for polos.</p>
+
+      <p>Learn how we select these fabrics in our <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Manufacturing Process Guide</a>.</p>
+
+      <h2>4. The Future: Sustainable Performance</h2>
+      <p>Modern manufacturing is shifting toward recycled polyester (rPET) made from ocean-bound plastics. These fabrics offer the same technical benefits as virgin polyester while significantly reducing the environmental footprint of the garment.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What is GSM and why does it matter?", a: "GSM stands for Grams per Square Meter. It measures the weight and density of the fabric. Lower GSM (130-150) is better for speed and breathability, while higher GSM (220-280) is better for durability." },
+      { q: "Do performance fabrics lose their properties over time?", a: "High-quality fabrics with built-in technical structures maintain their performance for years. Chemically treated fabrics may see a gradual decline after 30-50 washes." },
+      { q: "Are performance fabrics safe for sensitive skin?", a: "Yes, our fabrics are OEKO-TEX certified, ensuring they are free from harmful chemicals and safe for prolonged skin contact." }
+    ]
+  },
+  {
+    slug: "how-to-choose-corporate-uniforms",
+    title: "How to Choose Corporate Uniforms — Complete Guide",
+    description: "Expert advice on selecting the right uniforms for your business. Focus on brand identity, employee comfort, and long-term durability.",
+    h1: "The Professional Guide to Selecting Corporate Uniforms",
+    category: "Industry Guides",
+    answerBlock: "Selecting corporate uniforms requires a strategic balance between brand representation, employee comfort, and functional durability. A successful uniform program considers the daily tasks of the staff, the professional image of the company, and the long-term cost of ownership. Prioritizing high-quality fabrics, professional fits, and consistent branding ensures that uniforms enhance both company culture and customer perception.",
+    keywords: ["corporate uniforms", "business apparel selection", "workwear guide", "company uniform branding"],
+    imageAlt: "A group of professionals in coordinated, high-quality corporate uniforms",
+    highlights: [
+      "Align uniform design with company brand identity and values",
+      "Prioritize breathable, easy-care fabrics for employee comfort",
+      "Ensure a range of sizes and fits for a diverse workforce",
+      "Choose durable branding methods like premium embroidery",
+      "Consider the daily environment and tasks of your employees"
+    ],
+    content: `
+      <p>A corporate uniform is a powerful branding tool that communicates professionalism and unity. For employees, it simplifies their daily routine and fosters a sense of belonging. For customers, it builds trust and makes the brand instantly recognizable.</p>
+
+      <h2>1. Defining Your Brand Image</h2>
+      <p>Your uniform is a walking billboard. The colors, style, and quality should reflect your company's positioning. A tech startup might opt for premium performance polos, while a luxury hotel would require high-end tailored shirts and trousers. Consistency across all roles—from front-desk staff to field technicians—is key to a cohesive brand.</p>
+
+      <h2>2. Comfort and Functionality</h2>
+      <p>An uncomfortable employee is a less productive employee. Consider the climate and the physical requirements of the job. For staff in active roles, moisture-wicking fabrics are essential. For office staff, easy-iron, breathable cotton blends provide the best balance of look and comfort.</p>
+
+      <p>Learn about our manufacturing quality in the <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Step-by-Step Guide</a>.</p>
+
+      <h2>3. Durability and Cost-per-Wear</h2>
+      <p>When budgeting for uniforms, look at the 'total cost of ownership.' A cheap shirt that needs to be replaced in three months is more expensive than a high-quality garment that lasts a year. We utilize reinforced stitching and high-colorfastness dyes to ensure our corporate wear stays looking new for longer.</p>
+
+      <p>Get a better understanding of costs in our <a href="/guides/understanding-custom-apparel-pricing">Pricing Guide</a>.</p>
+
+      <h2>4. Sizing and Inclusivity</h2>
+      <p>A uniform program only works if it fits everyone. Ensure your manufacturer provides a full range of sizes (from XS to 5XL) and offers both male and female cuts. Providing 'fit sets' for employees to try on before ordering is the best way to prevent sizing issues.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What is the best branding method for corporate wear?", a: "Embroidery is the standard for a premium, professional look on polos and shirts. For high-activity uniforms, sublimation or screen printing may be more practical." },
+      { q: "How many uniforms should I provide per employee?", a: "A standard recommendation is 3 to 5 sets per employee, depending on their work schedule and the frequency of laundry." },
+      { q: "Can you match our specific corporate Pantone colors?", a: "Yes, we use the Pantone Matching System to ensure your uniforms perfectly align with your brand guidelines." }
+    ]
+  },
+  {
+    slug: "custom-school-and-college-sports-kits",
+    title: "Custom School and College Sports Kits — Complete Guide",
+    description: "Equip your educational institution with professional-grade sports kits. Focus on durability, student pride, and scalable ordering.",
+    h1: "The Complete Guide to School and College Sports Kits",
+    category: "Industry Guides",
+    answerBlock: "Custom school and college sports kits are essential for building institutional pride and providing students with professional-grade athletic gear. These kits must be designed for extreme durability to withstand frequent use and washing, while offering modern performance features like moisture-wicking and breathability. Scalable ordering and consistent design over multiple years are critical for maintaining a cohesive athletic program.",
+    keywords: ["school sports kits", "college athletic uniforms", "educational institution apparel", "custom school jerseys"],
+    imageAlt: "College athletes in coordinated custom team kits representing their institution",
+    highlights: [
+      "Foster school spirit and unity through professional-grade branding",
+      "High-durability fabrics designed for frequent student use and washing",
+      "Multi-sport kits that provide value across different athletic programs",
+      "Scalable ordering systems for large student populations",
+      "Consistent design availability for year-over-year re-ordering"
+    ],
+    content: `
+      <p>For schools and colleges, sports are a vital part of the student experience. Professional-grade kits not only improve performance on the field but also build a strong sense of community and pride in the institution. However, managing apparel for hundreds or thousands of students requires a strategic approach.</p>
+
+      <h2>1. The Requirement for Extreme Durability</h2>
+      <p>School gear takes a beating. It's worn hard, washed frequently, and often passed between students or kept for multiple years. We utilize high-GSM fabrics and reinforced multi-needle stitching to ensure our kits survive the rigors of school and college athletics.</p>
+
+      <h2>2. Designing for Identity and Tradition</h2>
+      <p>School colors and crests are sacred. Our design process ensures that your institution's heritage is respected while bringing it into a modern, athletic silhouette. Dye-sublimation is ideal for schools as it allows for the integration of complex crests and sponsor logos without any extra cost.</p>
+
+      <p>See how we maintain these standards in our <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Manufacturing Guide</a>.</p>
+
+      <h2>3. Scalability and Management</h2>
+      <p>Ordering for an entire college can be complex. We provide tiered pricing and flexible MOQs to help institutions manage their budgets effectively. We also keep all designs on file, ensuring that the kit you buy this year will be available for new students five years from now.</p>
+
+      <p>Learn more about managing volumes in our <a href="/guides/minimum-order-quantities-moqs-explained">MOQ Guide</a>.</p>
+
+      <h2>4. Multi-Sport Versatility</h2>
+      <p>To maximize budget, many schools opt for a 'base' kit that can be used across multiple sports (e.g., athletics, football, and physical education). We help design versatile gear that provides the best return on investment for the institution.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "Can you provide kits for every sport my school offers?", a: "Yes, we manufacture for everything from cricket and football to kabaddi, basketball, and track & field." },
+      { q: "How do we handle different student sizes?", a: "We provide comprehensive size charts and can supply 'size sets' for students to try on during registration or team trials." },
+      { q: "Do you offer discounts for large school-wide orders?", a: "Yes, we provide significant economies of scale for institutions ordering for multiple teams or the entire student body." }
+    ]
+  },
+  {
+    slug: "moisture-wicking-fabrics-what-they-are-and-why-they-matter",
+    title: "Moisture-Wicking Fabrics — What They Are and Why They Matter",
+    description: "Learn the science behind moisture-wicking technology. Understand how these fabrics keep you cool and dry during athletic performance.",
+    h1: "Understanding Moisture-Wicking Fabrics: Science and Benefits",
+    category: "Fabric & Technology",
+    answerBlock: "Moisture-wicking fabrics are technical textiles designed to move sweat away from the skin to the outer surface of the garment, where it can evaporate quickly. This process, driven by capillary action and specialized fiber engineering, keeps athletes dry, regulates body temperature, and prevents the garment from becoming heavy and uncomfortable during high-intensity exercise.",
+    keywords: ["moisture-wicking fabric", "sweat-wicking technology", "athletic fabric science", "breathable sportswear"],
+    imageAlt: "Scientific representation of moisture moving through fabric fibers",
+    highlights: [
+      "Capillary Action: The engine behind moisture transport",
+      "Hydrophobic vs. Hydrophilic: The balance of fiber properties",
+      "Thermoregulation: Keeping the body cool through evaporation",
+      "Comfort: Preventing skin irritation and 'heavy' wet clothing",
+      "Durability: How moisture-wicking properties last through washes"
+    ],
+    content: `
+      <p>In modern sports, 'sweat' is the enemy of performance. Wet clothing is heavy, it causes chafing, and it can lead to rapid cooling or overheating. Moisture-wicking technology is the primary defense against these issues, transforming the way athletes experience their gear.</p>
+
+      <h2>1. The Science: How Wicking Works</h2>
+      <p>Most moisture-wicking fabrics are made from synthetic fibers like polyester. Unlike cotton, which absorbs and holds water, polyester fibers are 'hydrophobic' (water-fearing). By engineering these fibers with a specific shape (like a 'cross' or 'Y' shape) or using a specialized knit structure, we create channels that pull liquid sweat through the fabric via capillary action.</p>
+
+      <h2>2. The Benefits for the Athlete</h2>
+      <ul>
+        <li><strong>Dryness:</strong> By moving sweat away from the skin, the athlete feels drier and more comfortable.</li>
+        <li><strong>Temperature Control:</strong> Evaporative cooling is the body's natural way of staying cool. Wicking fabrics facilitate this process more efficiently than bare skin or cotton.</li>
+        <li><strong>Weight Management:</strong> A cotton shirt can double in weight when wet. Wicking fabrics stay light, ensuring the athlete's speed is never compromised.</li>
+      </ul>
+
+      <p>Learn more about general performance textiles in our <a href="/guides/performance-fabrics-explained">Performance Fabrics Guide</a>.</p>
+
+      <h2>3. Wicking vs. Breathability</h2>
+      <p>While often used interchangeably, they are different. Breathability refers to air moving through the fabric. Wicking refers to liquid moving through the fabric. For maximum performance, a garment needs both: a structure that allows air in and a fiber that moves sweat out.</p>
+
+      <p>See our <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Manufacturing Process</a> to see how we select these materials.</p>
+
+      <h2>4. Care and Maintenance</h2>
+      <p>To maintain the wicking properties of your gear, avoid using fabric softeners. Softeners can 'clog' the technical channels in the fibers, reducing their ability to move moisture. Always wash in cold or warm water and air dry when possible.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "Is 100% cotton moisture-wicking?", a: "No. Cotton is 'hydrophilic' and highly absorbent. It sucks up moisture and holds it, becoming heavy and taking a long time to dry." },
+      { q: "Do these properties wash out?", a: "In high-quality fabrics, the wicking is built into the physical structure of the fiber and will last the life of the garment. Low-end fabrics may use a chemical finish that eventually washes out." },
+      { q: "Why is wicking important for cold-weather sports?", a: "In the cold, if you sweat and that sweat stays against your skin, it can quickly lead to hypothermia once you stop moving. Wicking is crucial for keeping you dry and warm." }
+    ]
+  },
+  {
     slug: "custom-cricket-jerseys",
     title: "Custom Cricket Jerseys — Complete Guide",
     description: "The ultimate guide to designing and manufacturing professional cricket jerseys. Learn about specialized fabrics for long-format and T20 games.",
@@ -920,6 +1168,45 @@ export const guides: Guide[] = [
       { q: "What is the typical MOQ for a new football kit design?", a: "Our standard minimum for fully custom football kits starts at 50 units, which can be split across different sizes." },
       { q: "Can you match our club's traditional colors exactly?", a: "Yes. By using the Pantone Matching System (PMS), we can ensure that your new kits perfectly match your club's historical colors." },
       { q: "How long do the jerseys last?", a: "Our professional-grade sublimated jerseys are designed to last for multiple seasons of intense match play and regular washing without any fading or loss of quality." }
+    ]
+  },
+  {
+    slug: "custom-kabaddi-kits-guide",
+    title: "Custom Kabaddi Team Kits — Complete Guide",
+    description: "Kabaddi demands apparel that can withstand extreme physical contact. Learn how we engineer durable, high-grip kits for professional teams.",
+    h1: "The Professional Guide to Custom Kabaddi Team Kits",
+    category: "Sports Specific",
+    answerBlock: "Professional Kabaddi kits must be engineered for extreme durability and a tight fit. Utilizing high-tensile, reinforced polyester fabrics ensures the apparel can withstand the physical rigors of tackling without tearing. Pro-fit designs are essential to minimize drag and prevent opponents from easily grabbing the jersey during play.",
+    keywords: ["custom kabaddi kits", "kabaddi jersey manufacturer", "kabaddi uniform design", "durable sportswear"],
+    imageAlt: "A professional kabaddi team during a high-intensity match wearing custom kits",
+    highlights: [
+      "High-tensile reinforced polyester fabrics (200-220 GSM)",
+      "Pro-fit silhouettes to minimize grip surface for defenders",
+      "Reinforced double-stitching at all high-stress points",
+      "Full dye-sublimation for permanent, vibrant team branding",
+      "Moisture-management technology for peak athlete performance"
+    ],
+    content: `
+      <p>Kabaddi is a sport of intense physical contact, agility, and rapid movement. At Vinayaga Garments, we specialize in manufacturing Kabaddi kits that balance extreme durability with the flexibility required for high-performance raiding and tackling.</p>
+
+      <h2>1. Fabric Strength: The Tackle-Proof Standard</h2>
+      <p>Standard athletic fabrics often tear during a Kabaddi tackle. We use reinforced, high-GSM (Grams per Square Meter) interlock polyesters. These fabrics are specifically woven to resist tearing when pulled or stretched during intense gameplay.</p>
+
+      <h2>2. Fit and Ergonomics: Zero-Distraction Design</h2>
+      <p>A loose jersey is a liability in Kabaddi. Our Kabaddi kits feature a 'Pro-Fit' silhouette—tight to the body to minimize grip opportunities for defenders, but flexible enough to allow for a full range of motion.</p>
+
+      <h2>3. Grip and Texture</h2>
+      <p>For certain professional configurations, we can integrate textured surfaces on the chest and arms to provide slight grip advantages, though most teams prefer our ultra-smooth sublimated finish for a sleek, modern look.</p>
+
+      <h2>4. Customization via Dye-Sublimation</h2>
+      <p>Our sublimation process ensures that your team logos, player numbers, and sponsors are part of the fabric itself. They will never peel, crack, or fade, regardless of how many tackles the kit endures.</p>
+
+      <p>Ready to gear up for the next season? Contact Vinayaga Garments for professional-grade Kabaddi kits.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What fabric is best for Kabaddi jerseys?", a: "We recommend a heavy-duty, reinforced interlock polyester (200-220 GSM) that offers high tensile strength and elasticity." },
+      { q: "Do you offer custom designs for local Kabaddi clubs?", a: "Yes, we work with local clubs, corporate teams, and professional leagues to create completely custom designs." },
+      { q: "How long do the jerseys last?", a: "With our reinforced stitching and sublimation printing, our Kabaddi kits are designed to last multiple seasons of intense physical play." }
     ]
   }
 ];
