@@ -11,6 +11,7 @@ export interface Guide {
   highlights: string[];
   category: string;
   lastMod?: string;
+  featured?: boolean;
 }
 
 const QUOTE_CTA = `
@@ -36,6 +37,7 @@ export const guides: Guide[] = [
     answerBlock: "Custom apparel manufacturing is the process of creating garments from scratch based on specific client requirements, including custom designs, fabric selection, branding, and sizing. Unlike ready-made clothing, custom manufacturing allows for complete control over technical specifications, ensuring high-performance gear tailored for specific athletic or corporate needs.",
     keywords: ["custom apparel manufacturing", "apparel production process", "custom sportswear manufacturing", "garment manufacturing guide"],
     imageAlt: "Advanced custom apparel manufacturing facility showing precision stitching and design work",
+    featured: true,
     highlights: [
       "End-to-end control over fabric selection and technical specifications",
       "Advanced customization options including dye sublimation and embroidery",
@@ -237,6 +239,7 @@ export const guides: Guide[] = [
     answerBlock: "Professional Kabaddi team kits must prioritize high-tensile strength for grip resistance, superior moisture-wicking for sweat management, and full-body mobility. The ideal kit uses a high-GSM polyester-spandex blend with reinforced flatlock stitching and 100% dye-sublimated designs to ensure durability and professional appearance during intense physical contact.",
     keywords: ["custom kabaddi kits", "kabaddi jersey manufacturer", "kabaddi uniform design", "pro kabaddi gear"],
     imageAlt: "Professional Kabaddi players in high-performance custom team kits",
+    featured: true,
     highlights: [
       "High-tensile fabrics designed to withstand pulling and tugging",
       "Reinforced stitching in high-stress areas like the neck and underarms",
@@ -298,6 +301,7 @@ export const guides: Guide[] = [
     answerBlock: "The custom apparel manufacturing process is a multi-stage engineering pipeline involving Design & Tech Pack development, Precision Fabric Sourcing, Prototyping (Sampling), Bulk Production (Cutting & Stitching), Multi-Point Quality Assurance, and Global Logistics. Each stage is critical for ensuring that professional-grade garments meet the exacting standards of elite athletic and corporate performance, ensuring durability, fit, and brand integrity.",
     keywords: ["apparel manufacturing process", "garment production steps", "custom clothing manufacturing", "textile production workflow", "apparel factory pipeline", "clothing production guide"],
     imageAlt: "High-tech garment production line showing different stages of manufacturing with precision machinery",
+    featured: true,
     highlights: [
       "Tech Pack development: The engineering blueprint for every garment",
       "Sourcing and testing: How fabric GSM, stretch, and colorfastness are verified",
@@ -920,6 +924,88 @@ export const guides: Guide[] = [
       { q: "What is the typical MOQ for a new football kit design?", a: "Our standard minimum for fully custom football kits starts at 50 units, which can be split across different sizes." },
       { q: "Can you match our club's traditional colors exactly?", a: "Yes. By using the Pantone Matching System (PMS), we can ensure that your new kits perfectly match your club's historical colors." },
       { q: "How long do the jerseys last?", a: "Our professional-grade sublimated jerseys are designed to last for multiple seasons of intense match play and regular washing without any fading or loss of quality." }
+    ]
+  },
+  {
+    slug: "custom-basketball-jerseys",
+    title: "Custom Basketball Jerseys — Complete Guide",
+    description: "Design and manufacture professional basketball jerseys. Learn about the best fabrics for vertical movement, breathability, and moisture-wicking.",
+    h1: "Professional Custom Basketball Jerseys: The Complete Guide",
+    category: "Sports Specific",
+    answerBlock: "Professional basketball jerseys are engineered for maximum vertical mobility, superior moisture-wicking, and lightweight comfort. The ideal kit uses 100% moisture-management micro-mesh polyester with a tailored 'athletic-cut' to prevent excess fabric interference during shooting and jumping. Modern basketball apparel leverages dye-sublimation for vibrant team branding that remains breathable and never fades.",
+    keywords: ["custom basketball jerseys", "basketball uniform manufacturer", "basketball jersey design", "pro basketball gear"],
+    imageAlt: "A basketball player in a high-performance custom team jersey",
+    highlights: [
+      "Ultra-lightweight micro-mesh fabrics (130-145 GSM) for rapid movement",
+      "Tailored athletic silhouette to reduce fabric weight and drag",
+      "Wide armholes engineered for unrestricted shooting range",
+      "Dye-sublimation ensures numbers and logos never peel or crack",
+      "Superior sweat-management finishes for high-intensity indoor play"
+    ],
+    content: `
+      <p>Basketball is a game of verticality, explosive speed, and constant movement. The requirements for a basketball jersey are highly specific: it must be virtually weightless, exceptionally breathable, and offer a total range of motion for the upper body, especially during shooting and rebounding.</p>
+
+      <h2>1. The Science of Basketball Fabrics</h2>
+      <p>In basketball, every gram counts. At Vinayaga Garments, we utilize high-performance micro-mesh polyesters that offer a 'second-skin' feel. These fabrics feature a specialized knit structure that allows for maximum airflow, crucial for the high-temperature environments of indoor courts.</p>
+
+      <h2>2. Engineering the Perfect Shot</h2>
+      <p>A poorly designed jersey can actually interfere with a player's shooting mechanics. We engineer our jerseys with deep armholes and a tapered chest to ensure that the fabric never bunches or pulls during a jump shot. Our 'Pro-Fit' design is the result of testing with competitive athletes to find the perfect balance between style and performance.</p>
+
+      <p>Learn about our specialized construction in the <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Manufacturing Process Guide</a>.</p>
+
+      <h2>3. Branding and Customization</h2>
+      <p>With dye-sublimation, basketball teams have unlimited design freedom. From classic retro-inspired patterns to futuristic geometric gradients, our printing technology ensures that the colors are vibrant and permanent. Player numbers and names are fused into the fabric, meaning they won't peel off like traditional heat-press vinyl.</p>
+
+      <h2>4. Shorts and Compression Gear</h2>
+      <p>A complete basketball kit isn't just the jersey. We manufacture matching performance shorts with reinforced waistbands and integrated moisture-management zones. We also offer custom compression base layers that help with muscle recovery and sweat control.</p>
+
+      <p>Planning for your season? Check our guide on <a href="/guides/lead-times-in-custom-manufacturing">Manufacturing Lead Times</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What is the best fabric for basketball jerseys?", a: "A lightweight (140 GSM) micro-mesh polyester is the industry standard. it provides the best balance of breathability, durability, and moisture-wicking." },
+      { q: "Can I choose between a v-neck and a round-neck design?", a: "Yes, we offer multiple collar styles including V-neck, crew neck, and specialized wide-collar designs popular in professional leagues." },
+      { q: "What is the typical MOQ for custom basketball kits?", a: "Our minimums for fully custom basketball kits start at 50 units, which can include a mix of sizes from Small to 3XL." }
+    ]
+  },
+  {
+    slug: "custom-volleyball-kits",
+    title: "Custom Volleyball Kits — Complete Guide",
+    description: "The ultimate guide to custom volleyball uniforms. Explore specialized fabrics for explosive movement, floor impact, and team identity.",
+    h1: "Elite Custom Volleyball Kits: The Definitive Guide",
+    category: "Sports Specific",
+    answerBlock: "Elite volleyball kits are engineered for high-impact durability and total range of motion. They feature high-stretch polyester-spandex blends that allow for unrestricted spiking and diving. Professional volleyball apparel prioritizes moisture-wicking technology and reinforced stitching to survive constant floor contact, while dye-sublimation provides permanent, vibrant team branding.",
+    keywords: ["custom volleyball kits", "volleyball uniform manufacturer", "volleyball jersey design", "team volleyball apparel"],
+    imageAlt: "A volleyball player performing a spike in a custom team kit",
+    highlights: [
+      "4-way stretch fabrics for unrestricted jumping and spiking",
+      "High-tensile strength materials to withstand floor diving and friction",
+      "Breathable moisture-management technology for high-intensity play",
+      "Ergonomic fit to reduce fabric interference during net play",
+      "Permanent sublimated branding for professional team identity"
+    ],
+    content: `
+      <p>Volleyball requires a unique blend of agility and power. Whether it's a beach tournament or a professional indoor league, the apparel must support the explosive movements of the sport while being tough enough to handle constant diving and floor contact.</p>
+
+      <h2>1. Fabric Selection for High-Impact Play</h2>
+      <p>At Vinayaga Garments, we use specialized 'Action-Stretch' fabrics for volleyball. These are typically blends of polyester and elastane (spandex) that provide a full range of motion. For indoor volleyball, we prioritize fabrics with a smooth surface to reduce 'floor-burn' during dives.</p>
+
+      <h2>2. Design and Silhouette</h2>
+      <p>Volleyball kits need a streamlined fit. Loose fabric can be a liability at the net, potentially leading to net-touch violations. We offer both 'fitted' and 'semi-fitted' silhouettes, allowing teams to choose the look and feel that best suits their playing style. Our sleeveless and short-sleeve options are engineered to allow for maximum shoulder rotation.</p>
+
+      <p>See our <a href="/guides/how-to-design-custom-team-jerseys">Guide to Designing Team Jerseys</a> for more inspiration.</p>
+
+      <h2>3. Durability and Stitching</h2>
+      <p>Because volleyball involves frequent contact with the court surface, the stitching must be reinforced. We utilize flatlock seams that are not only stronger than traditional stitching but also lie flat against the skin to prevent irritation during intense movement.</p>
+
+      <h2>4. Sublimation: The Professional Edge</h2>
+      <p>Dye-sublimation is the perfect customization method for volleyball. Since the design is embedded in the fabric, it can't be scraped off during dives. This ensures your team crest and sponsor logos remain pristine throughout the entire season, no matter how many times you hit the floor.</p>
+
+      <p>Ready for a quote? See our guide on <a href="/guides/how-to-get-a-quote-for-custom-apparel">Requesting a Custom Quote</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What fabric is best for volleyball jerseys?", a: "A mid-weight polyester-spandex blend (approx 160-180 GSM) is ideal, providing the stretch needed for jumping and the durability needed for diving." },
+      { q: "Do you offer custom volleyball shorts?", a: "Yes, we manufacture matching high-stretch shorts and 'spandex' style bottoms specifically designed for volleyball movements." },
+      { q: "Can you provide kits for both indoor and beach volleyball?", a: "Absolutely. We adjust the fabric weights and silhouettes based on whether you are playing in a controlled indoor environment or under the sun on the beach." }
     ]
   }
 ];
