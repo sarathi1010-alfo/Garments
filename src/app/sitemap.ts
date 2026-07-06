@@ -15,11 +15,7 @@ import {
 import { guides } from '@/data/guides-data';
 import { slugify } from '@/utils/slugify';
 
-export async function generateSitemaps() {
-  return Array.from({ length: 1000 }, (_, i) => ({ id: i }));
-}
-
-export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
+export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://garment.alfo.online';
   const lastMod = new Date();
 
@@ -61,25 +57,10 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
     });
   });
 
-  const PAGE_SIZE = 20;
-  const startIndex = id * PAGE_SIZE;
-  let sitemapPages: string[] = [];
-
-  if (startIndex < realPages.length) {
-    sitemapPages = realPages.slice(startIndex, startIndex + PAGE_SIZE);
-  }
-
-  // If we don't have enough real pages to fill the 20 slots, fill the rest with unique URLs
-  let fillIndex = 0;
-  while (sitemapPages.length < PAGE_SIZE) {
-    sitemapPages.push(`/unique-generated-page-${id}-${fillIndex}`);
-    fillIndex++;
-  }
-
-  return sitemapPages.map((page) => ({
+  return realPages.map((page) => ({
     url: `${baseUrl}${page}`,
     lastModified: lastMod,
     changeFrequency: page === '' ? 'daily' : 'weekly',
-    priority: page === '' ? 1.0 : 0.8,
+    priority: page === '' ? 1.0 : (page.startsWith('/guides/') ? 0.9 : 0.8),
   }));
 }
