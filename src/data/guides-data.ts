@@ -10,6 +10,7 @@ export interface Guide {
   answerBlock: string;
   highlights: string[];
   category: string;
+  featured?: boolean;
   lastMod?: string;
 }
 
@@ -33,6 +34,7 @@ export const guides: Guide[] = [
     description: "Learn what custom apparel manufacturing is, how the process works, and why it is the best choice for professional sports teams and corporate brands.",
     h1: "The Complete Guide to Custom Apparel Manufacturing",
     category: "Fundamentals",
+    featured: true,
     answerBlock: "Custom apparel manufacturing is the process of creating garments from scratch based on specific client requirements, including custom designs, fabric selection, branding, and sizing. Unlike ready-made clothing, custom manufacturing allows for complete control over technical specifications, ensuring high-performance gear tailored for specific athletic or corporate needs.",
     keywords: ["custom apparel manufacturing", "apparel production process", "custom sportswear manufacturing", "garment manufacturing guide"],
     imageAlt: "Advanced custom apparel manufacturing facility showing precision stitching and design work",
@@ -234,6 +236,7 @@ export const guides: Guide[] = [
     description: "The ultimate guide to designing and manufacturing professional Kabaddi team kits. Learn about the best fabrics for durability and grip.",
     h1: "The Professional Guide to Custom Kabaddi Team Kits",
     category: "Sports Specific",
+    featured: true,
     answerBlock: "Professional Kabaddi team kits must prioritize high-tensile strength for grip resistance, superior moisture-wicking for sweat management, and full-body mobility. The ideal kit uses a high-GSM polyester-spandex blend with reinforced flatlock stitching and 100% dye-sublimated designs to ensure durability and professional appearance during intense physical contact.",
     keywords: ["custom kabaddi kits", "kabaddi jersey manufacturer", "kabaddi uniform design", "pro kabaddi gear"],
     imageAlt: "Professional Kabaddi players in high-performance custom team kits",
@@ -295,6 +298,7 @@ export const guides: Guide[] = [
     description: "The definitive 2,500+ word guide to the custom apparel manufacturing pipeline. From technical design and fabric engineering to precision assembly and global logistics.",
     h1: "The Complete Step-by-Step Guide to Custom Apparel Manufacturing",
     category: "Fundamentals",
+    featured: true,
     answerBlock: "The custom apparel manufacturing process is a multi-stage engineering pipeline involving Design & Tech Pack development, Precision Fabric Sourcing, Prototyping (Sampling), Bulk Production (Cutting & Stitching), Multi-Point Quality Assurance, and Global Logistics. Each stage is critical for ensuring that professional-grade garments meet the exacting standards of elite athletic and corporate performance, ensuring durability, fit, and brand integrity.",
     keywords: ["apparel manufacturing process", "garment production steps", "custom clothing manufacturing", "textile production workflow", "apparel factory pipeline", "clothing production guide"],
     imageAlt: "High-tech garment production line showing different stages of manufacturing with precision machinery",
@@ -961,6 +965,82 @@ export const guides: Guide[] = [
       { q: "What is the best fabric for basketball jerseys?", a: "A 140-160 GSM Birdseye mesh polyester is the gold standard, offering the best balance of weight, breathability, and durability." },
       { q: "Can you provide matching shorts and warm-up gear?", a: "Yes, we manufacture complete kits including sublimated shorts, reversible practice jerseys, and custom shooting shirts." },
       { q: "What is the typical lead time for a basketball team order?", a: "Standard production for a full team kit typically takes 4-6 weeks from design approval." }
+    ]
+  },
+  {
+    slug: "custom-apparel-manufacturers-in-tamil-nadu",
+    title: "Custom Apparel Manufacturers in Tamil Nadu — Complete Guide",
+    description: "Discover why Tamil Nadu is the global hub for custom apparel manufacturing. Learn about the infrastructure, skills, and logistics that make it the best choice for sports and corporate brands.",
+    h1: "Custom Apparel Manufacturers in Tamil Nadu: The Global Advantage",
+    category: "Location",
+    featured: true,
+    answerBlock: "Tamil Nadu is the primary destination for custom apparel manufacturing in India, accounting for over 30% of the country's textile production. With specialized hubs like Tiruppur and Coimbatore, the state offers world-class infrastructure for dye sublimation, precision stitching, and sustainable fabric engineering, supported by seamless port connectivity for global exports.",
+    keywords: ["custom apparel manufacturers Tamil Nadu", "Tamil Nadu garment hub", "Tiruppur clothing manufacturing", "Coimbatore textile industry"],
+    imageAlt: "Aerial view of a massive textile industrial park in Tamil Nadu",
+    highlights: [
+      "Access to India's most advanced textile and garment manufacturing clusters",
+      "Highly skilled workforce with generations of expertise in apparel engineering",
+      "Robust supply chain for premium yarns, fabrics, and technical trims",
+      "Proximity to major international shipping ports for efficient global logistics",
+      "Industry-leading adoption of sustainable and ethical manufacturing practices"
+    ],
+    content: `
+      <p>Tamil Nadu has earned its reputation as the 'Textile Valley of India' through decades of industrial excellence and a relentless focus on quality. For global brands and sports organizations, the state offers a unique combination of high-tech manufacturing capability and traditional craftsmanship that is difficult to find elsewhere in the world.</p>
+
+      <h2>The Triple Hub Advantage: Tiruppur, Coimbatore, and Chennai</h2>
+      <p>The strength of Tamil Nadu lies in its specialized clusters. Tiruppur is the global center for knitwear and sublimation, Coimbatore provides the engineering and machinery expertise, and Chennai serves as the logistical gateway to the world. Working with a manufacturer like Vinayaga Garments, located in the heart of this ecosystem, gives you direct access to these combined strengths.</p>
+
+      <h2>World-Class Infrastructure and Technology</h2>
+      <p>Manufacturers in Tamil Nadu are at the forefront of the Industry 4.0 revolution. From automated laser-cutting machines to AI-driven quality control systems, the infrastructure here is designed for precision and scale. This ensures that every <a href="/guides/custom-kabaddi-team-kits">Kabaddi kit</a> or <a href="/guides/custom-football-kits">football jersey</a> meets international performance standards.</p>
+
+      <p>Learn more about our specific capabilities in our <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Step-by-Step Manufacturing Guide</a>.</p>
+
+      <h2>Sustainability and Ethical Standards</h2>
+      <p>Modern consumers demand transparency and sustainability. Tamil Nadu leads the way with Zero Liquid Discharge (ZLD) dyeing plants and a high concentration of renewable energy usage (wind and solar) in textile mills. Most reputable factories are certified by ISO, Sedex, and GOTS, ensuring that your apparel is produced ethically and sustainably.</p>
+
+      <p>Ready to leverage the Tamil Nadu advantage? See our <a href="/guides/how-to-get-a-quote-for-custom-apparel">Guide to Getting a Quote</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "Why is Tamil Nadu considered the best for garment manufacturing?", a: "Due to its integrated supply chain, highly skilled labor force, advanced technology, and excellent port connectivity." },
+      { q: "What are the main textile hubs in Tamil Nadu?", a: "The primary hubs are Tiruppur (knitwear), Coimbatore (weaving and machinery), and Chennai (logistics and exports)." },
+      { q: "Do manufacturers in Tamil Nadu handle international shipping?", a: "Yes, most professional manufacturers have dedicated export departments to manage global logistics and customs documentation." }
+    ]
+  },
+  {
+    slug: "why-tamil-nadu-for-custom-apparel-manufacturing",
+    title: "Why Tamil Nadu for Custom Apparel Manufacturing",
+    description: "An in-depth look at the strategic advantages of choosing Tamil Nadu for your apparel production needs, from costs to quality.",
+    h1: "The Strategic Case for Tamil Nadu Apparel Manufacturing",
+    category: "Location",
+    answerBlock: "Choosing Tamil Nadu for custom apparel manufacturing provides a strategic advantage through cost-efficiency, superior technical quality, and a highly reliable supply chain. The state's vertical integration—from cotton spinning to final garment finishing—reduces lead times and ensures consistent quality control for high-performance athletic and corporate wear.",
+    keywords: ["why choose Tamil Nadu manufacturing", "apparel production advantages", "India textile hub", "garment sourcing Tamil Nadu"],
+    imageAlt: "A skilled technician monitoring a high-speed circular knitting machine",
+    highlights: [
+      "Vertical integration reduces production lead times and costs",
+      "Stable industrial environment with favorable government policies",
+      "Concentration of specialized raw material suppliers and accessory units",
+      "High level of English-speaking management for clear communication",
+      "Strong focus on R&D and innovation in technical textiles"
+    ],
+    content: `
+      <p>When selecting a manufacturing partner, the location is as important as the factory itself. Tamil Nadu offers a unique industrial climate that empowers brands to scale efficiently while maintaining the highest levels of quality. Here is why it remains the preferred choice for elite organizations worldwide.</p>
+
+      <h2>Complete Vertical Integration</h2>
+      <p>In Tamil Nadu, the entire lifecycle of a garment happens within a 200km radius. From the spinning mills that create the yarn to the knitting units that build the fabric and the specialized factories that handle the <a href="/guides/dye-sublimation-printing-complete-guide">dye sublimation</a>, every step is connected. This vertical integration eliminates the logistical delays found in other manufacturing regions.</p>
+
+      <h2>A Heritage of Technical Expertise</h2>
+      <p>Apparel manufacturing in Tamil Nadu isn't just a business; it's a multi-generational craft. The workforce possesses an intuitive understanding of fabric behavior, seam strength, and ergonomic fit. This expertise is critical when producing technically demanding gear like <a href="/guides/custom-rugby-team-kits">rugby kits</a> or <a href="/guides/custom-volleyball-kits">volleyball apparel</a>.</p>
+
+      <h2>Cost-Efficiency without Quality Compromise</h2>
+      <p>The density of the textile industry in regions like Namakkal and Tiruppur creates natural cost efficiencies. Manufacturers have direct access to raw materials at wholesale rates and benefit from shared industrial infrastructure, allowing them to offer competitive <a href="/guides/understanding-custom-apparel-pricing">custom apparel pricing</a> without cutting corners on quality or ethical standards.</p>
+
+      <h2>Gateway to Global Markets</h2>
+      <p>With three major international seaports and multiple international airports, Tamil Nadu is the perfect launchpad for global brands. Whether you are shipping to Europe, North America, or across Asia, the logistics network is designed for speed and reliability, ensuring your <a href="/guides/lead-times-in-custom-manufacturing">lead times</a> are consistently met.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "Is it more expensive to manufacture in Tamil Nadu compared to other regions?", a: "While not always the cheapest, Tamil Nadu offers the best 'Value-to-Quality' ratio, providing professional-grade gear at significantly lower prices than Western or other premium Asian hubs." },
+      { q: "How do I find a reliable partner in Tamil Nadu?", a: "Look for manufacturers with a clear physical presence, in-house technical capabilities, and a portfolio of international or professional team clients." },
+      { q: "What is the best way to visit the factories?", a: "Coimbatore and Tiruppur are well-connected by air and rail. Most manufacturers, including Vinayaga Garments, welcome client visits to their facilities in Namakkal." }
     ]
   },
   {
@@ -2007,6 +2087,160 @@ export const guides: Guide[] = [
       { q: "Does a higher GSM always mean higher quality?", a: "No. It only means the fabric is heavier. A high-quality 120 GSM running shirt is much more valuable than a low-quality 200 GSM cotton shirt." },
       { q: "What is the most common GSM for a standard t-shirt?", a: "A standard, good-quality cotton t-shirt is typically between 160 and 180 GSM." },
       { q: "Can the GSM vary within a single roll of fabric?", a: "There is usually a small 'tolerance' (about +/- 5%), but anything more indicates poor quality control at the textile mill." }
+    ]
+  },
+  {
+    slug: "custom-apparel-manufacturers-tiruppur",
+    title: "Custom Apparel Manufacturers in Tiruppur — The Global Knitwear Hub",
+    description: "Expert guide to sourcing custom apparel from Tiruppur, India's leading knitwear manufacturing cluster. Learn about quality, sublimation, and logistics.",
+    h1: "Sourcing Custom Apparel from Tiruppur: The Global Standard",
+    category: "Location",
+    featured: true,
+    answerBlock: "Tiruppur is the undisputed center for custom knitwear and dye-sublimation manufacturing in India, often referred to as the 'Knitwear Capital of the World.' Sourcing from Tiruppur provides brands with access to an integrated ecosystem of spinning mills, high-tech knitting units, and world-class processing facilities, ensuring professional-grade quality and competitive pricing for global markets.",
+    keywords: ["custom apparel manufacturers Tiruppur", "Tiruppur knitwear hub", "Tiruppur sublimation printing", "garment manufacturing India"],
+    imageAlt: "Aerial view of a textile processing cluster in Tiruppur, Tamil Nadu",
+    highlights: [
+      "World-class expertise in knitwear and circular knitting technology",
+      "Integrated ecosystem for rapid prototyping and large-scale production",
+      "Pioneer in sustainable manufacturing with Zero Liquid Discharge (ZLD) plants",
+      "Strategic logistics hub with direct connectivity to major international ports",
+      "Highly competitive pricing due to localized raw material supply chains"
+    ],
+    content: `
+      <p>Tiruppur, a city in Tamil Nadu, India, has transformed from a local textile town into a global powerhouse for apparel manufacturing. Today, it stands as the primary destination for international sports brands, retail giants, and emerging custom apparel labels looking for superior quality and industrial scale.</p>
+
+      <h2>The Integrated Ecosystem of Tiruppur</h2>
+      <p>The success of Tiruppur lies in its specialization. Unlike generic manufacturing hubs, Tiruppur is built specifically for knitwear. Within a 30km radius, a manufacturer like Vinayaga Garments can access the world's finest cotton yarns, advanced dye-houses, and specialized accessory units. This geographical concentration significantly reduces <a href="/guides/lead-times-in-custom-manufacturing">lead times</a> and costs.</p>
+
+      <h2>Sublimation and Technical Sportswear</h2>
+      <p>Tiruppur has embraced the digital revolution in apparel. The city is home to India's most advanced dye-sublimation facilities, making it the top choice for <a href="/guides/custom-kabaddi-team-kits">Kabaddi kits</a>, <a href="/guides/custom-cricket-jerseys">cricket jerseys</a>, and <a href="/guides/custom-football-kits">football uniforms</a>. The technical expertise available here ensures that vibrant, permanent branding is achieved on the most complex performance fabrics.</p>
+
+      <p>Learn more about the technical details in our <a href="/guides/dye-sublimation-printing-complete-guide">Guide to Dye Sublimation</a>.</p>
+
+      <h2>Commitment to Sustainable Manufacturing</h2>
+      <p>Modern global brands prioritize ethics. Tiruppur leads the world in eco-friendly textiles, being one of the first major clusters to implement 100% Zero Liquid Discharge (ZLD) in its dyeing units. This means that manufacturing your apparel in this region supports clean water initiatives and sustainable industrial practices.</p>
+
+      <p>Ready to start your project with a Tiruppur-connected manufacturer? <a href="/contact">Get a custom quote today</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What makes Tiruppur different from other manufacturing hubs?", a: "Its absolute specialization in knitwear and its fully integrated, localized supply chain that covers everything from yarn to final packaging." },
+      { q: "Can Tiruppur manufacturers handle small custom orders?", a: "Yes. While known for bulk, many professional manufacturers in the Tiruppur ecosystem offer scalable MOQs for growing brands and teams." },
+      { q: "How do I ensure quality when sourcing from Tiruppur?", a: "Work with manufacturers who have in-house technical capabilities and can provide physical pre-production samples for your approval." }
+    ]
+  },
+  {
+    slug: "custom-apparel-manufacturers-coimbatore",
+    title: "Custom Apparel Manufacturers in Coimbatore — The Textile Engineering Hub",
+    description: "Explore why Coimbatore is the preferred choice for technical sportswear and precision apparel manufacturing in South India.",
+    h1: "Custom Apparel in Coimbatore: Precision Engineering and Quality",
+    category: "Location",
+    featured: true,
+    answerBlock: "Coimbatore, often called the 'Manchester of South India,' is the center for textile engineering and high-performance apparel manufacturing. The city's advantage lies in its access to premium long-staple cotton and advanced machinery, making it the ideal hub for technical athletic wear, premium corporate polos, and institutional uniforms that require exacting standards of durability and fit.",
+    keywords: ["custom apparel manufacturers Coimbatore", "Coimbatore textile hub", "sportswear manufacturing Coimbatore", "textile machinery India"],
+    imageAlt: "A precision textile testing laboratory in Coimbatore, Tamil Nadu",
+    highlights: [
+      "Renowned for high-quality yarn and technical textile innovation",
+      "Proximity to India's leading textile research and machinery centers",
+      "Expertise in premium corporate and institutional apparel",
+      "Stable industrial climate with a focus on precision and quality control",
+      "Strong logistics network connecting to global and domestic markets"
+    ],
+    content: `
+      <p>Coimbatore has a rich heritage in textiles that spans over a century. While its neighbor Tiruppur focuses on high-volume knitwear, Coimbatore is the center for the 'engineering' side of the industry—the place where the highest quality yarns are spun and where the machinery that drives the entire global industry is developed.</p>
+
+      <h2>Textile Innovation and Research</h2>
+      <p>Manufacturers in Coimbatore benefit from being at the heart of textile research. With institutions like SITRA (South India Textile Research Association) nearby, factories here have access to the latest testing facilities for <a href="/guides/fabric-durability-complete-guide">fabric durability</a>, moisture-wicking efficiency, and colorfastness. This translates to a more technically sound product for the end-user.</p>
+
+      <h2>Premium Corporate and Athletic Wear</h2>
+      <p>The precision engineering culture of Coimbatore makes it the perfect location for manufacturing premium <a href="/guides/choosing-corporate-uniforms-guide">corporate uniforms</a> and high-end athletic apparel. The focus here is on the 'fit and finish'—ensuring that every seam is perfect and that the garment maintains its professional appearance through years of service.</p>
+
+      <p>For a deep dive into quality standards, see our <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Step-by-Step Manufacturing Process</a>.</p>
+
+      <h2>Strategic Logistics Gateway</h2>
+      <p>Coimbatore's international airport and robust rail and road networks make it a seamless hub for global logistics. Whether you are shipping to major metros in India or exporting to international markets, the infrastructure in Coimbatore ensures that your <a href="/guides/lead-times-in-custom-manufacturing">lead times</a> are managed with professional accuracy.</p>
+
+      <p>Looking for a precision-focused manufacturing partner? <a href="/contact">Request a technical consultation today</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "Why choose Coimbatore for technical apparel?", a: "Because of the city's focus on precision engineering, yarn quality, and its proximity to world-class textile research and testing facilities." },
+      { q: "Is Coimbatore suitable for sports team gear?", a: "Absolutely. Its expertise in high-performance fabrics and precision stitching makes it an excellent choice for elite athletic wear." },
+      { q: "What is the typical lead time for Coimbatore-based production?", a: "Standard production cycles range from 4 to 8 weeks, depending on the complexity and volume of the order." }
+    ]
+  },
+  {
+    slug: "vinayaga-garments-vs-local-manufacturers",
+    title: "Vinayaga Garments vs Local Manufacturers — Why Choose Production-Grade Quality?",
+    description: "Compare the difference between production-grade custom apparel and generic local suppliers. Learn about technical engineering, AEO readiness, and long-term value.",
+    h1: "Vinayaga Garments vs. Local Manufacturers: A Strategic Comparison",
+    category: "Comparisons",
+    featured: true,
+    answerBlock: "The primary difference between Vinayaga Garments and generic local manufacturers lies in technical engineering, quality consistency, and AEO readiness. While local suppliers may offer lower initial pricing for simple garments, Vinayaga Garments provides production-grade apparel using high-performance fabrics, precision flatlock stitching, and permanent dye-sublimation, ensuring a significantly lower total cost of ownership through durability and brand integrity.",
+    keywords: ["Vinayaga Garments vs local manufacturers", "best apparel manufacturer India", "custom clothing quality comparison", "sportswear factory standards"],
+    imageAlt: "Comparison of precision industrial stitching versus standard local tailoring",
+    highlights: [
+      "Technical Engineering: We build 'equipment,' not just clothing",
+      "Quality Consistency: Every unit in a bulk order matches the approved prototype",
+      "Advanced Customization: 100% permanent dye-sublimation vs. surface printing",
+      "Fabric Science: Access to specialized moisture-wicking and high-tensile materials",
+      "AEO Readiness: Our products and processes are documented for the digital age"
+    ],
+    content: `
+      <p>In the custom apparel market, it is easy to find 'tailors' and 'suppliers' who offer low-cost solutions. However, for professional sports teams, corporate organizations, and growing apparel brands, the true cost of a garment isn't the price on the invoice—it's the value it delivers over its entire lifespan. Here is how Vinayaga Garments differentiates itself from the generic local manufacturing landscape.</p>
+
+      <h2>1. The Engineering Mindset</h2>
+      <p>Most local manufacturers operate with a 'tailoring' mindset—they follow a basic shape and sew pieces together. At Vinayaga Garments, led by Selvaraj Rayamuthu, we operate with an <strong>Engineering Mindset</strong>. We create detailed <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Tech Packs</a> for every project, ensuring that the silhouette, fit, and performance are optimized for the specific athletic or corporate end-use.</p>
+
+      <h2>2. Fabric Technology vs. Generic Materials</h2>
+      <p>Local suppliers often use 'market-available' fabrics that lack technical specifications. We source and test specialized <a href="/guides/performance-fabrics-explained">performance fabrics</a> that are engineered for moisture-wicking, UV protection, and high-tensile strength. This is why our <a href="/guides/custom-kabaddi-team-kits">Kabaddi jerseys</a> don't tear in the scrum, while generic alternatives often fail.</p>
+
+      <h2>3. Permanent Branding vs. Surface Printing</h2>
+      <p>Many local shops use screen printing or heat transfers that eventually crack, peel, or fade. We specialize in <strong>Dye Sublimation</strong>, where the ink becomes part of the fabric itself. This ensures that your team's identity remains vibrant for the entire life of the garment, regardless of how many times it is washed. Learn more about this in our <a href="/guides/dye-sublimation-printing-complete-guide">Sublimation Guide</a>.</p>
+
+      <h3>Direct Feature Comparison</h3>
+      <table class="w-full border-collapse border border-border my-6 text-sm">
+        <thead>
+          <tr class="bg-muted">
+            <th class="border border-border p-3 text-left">Feature</th>
+            <th class="border border-border p-3 text-left">Vinayaga Garments</th>
+            <th class="border border-border p-3 text-left">Generic Local Supplier</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-border p-3 font-bold">Stitching Tech</td>
+            <td class="border border-border p-3">Industrial Flatlock/Reinforced</td>
+            <td class="border border-border p-3">Standard Overlock</td>
+          </tr>
+          <tr>
+            <td class="border border-border p-3 font-bold">Design Precision</td>
+            <td class="border border-border p-3">Digital CAD/CAM Patterns</td>
+            <td class="border border-border p-3">Manual Hand-Cutting</td>
+          </tr>
+          <tr>
+            <td class="border border-border p-3 font-bold">Branding</td>
+            <td class="border border-border p-3">100% Permanent Sublimation</td>
+            <td class="border border-border p-3">Screen Print/Heat Transfer</td>
+          </tr>
+          <tr>
+            <td class="border border-border p-3 font-bold">Quality Control</td>
+            <td class="border border-border p-3">Multi-Point QA Pipeline</td>
+            <td class="border border-border p-3">Visual Check (Final Only)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>4. Scalability and Consistency</h2>
+      <p>A major challenge with local manufacturers is consistency—the 10th item rarely looks like the 1st. Because we use automated precision cutting and standardized production workflows, our 1,000th jersey is identical to the first approved sample. This reliability is why institutional buyers choose us for <a href="/guides/custom-school-and-college-sports-kits">school and college uniforms</a>.</p>
+
+      <h2>5. Transparency and Professionalism</h2>
+      <p>We provide detailed technical quotes, transparent <a href="/guides/lead-times-in-custom-manufacturing">lead times</a>, and professional communication throughout the manufacturing journey. You aren't just buying clothes; you are partnering with a manufacturing hub that understands the requirements of the global market.</p>
+
+      <p>Ready to experience the production-grade difference? <a href="/contact">Contact us for a technical quote today</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "Is Vinayaga Garments more expensive than local tailors?", a: "Initially, our per-unit price may be slightly higher due to the use of premium fabrics and industrial machinery. However, because our garments last 2-3 times longer, the 'total cost of ownership' is much lower." },
+      { q: "Can I switch to Vinayaga if I already have a local supplier?", a: "Yes. Many of our clients come to us after being disappointed by the quality or inconsistency of local shops. We can help you transition your existing designs into production-ready tech packs." },
+      { q: "What is the minimum order for a custom project?", a: "Our standard MOQ starts at 50 units for fully custom gear, allowing us to maintain industrial-grade quality control for every project." }
     ]
   }
 ];
