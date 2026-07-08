@@ -16,13 +16,6 @@ import { guides } from '@/data/guides-data';
 import { slugify } from '@/utils/slugify';
 
 const BASE_URL = 'https://garment.alfo.online';
-const CHUNK_SIZE = 500;
-
-export async function generateSitemaps() {
-  const allPages = getAllPages();
-  const numSitemaps = Math.ceil(allPages.length / CHUNK_SIZE);
-  return Array.from({ length: numSitemaps }, (_, id) => ({ id }));
-}
 
 function getAllPages(): string[] {
   const pages: string[] = [
@@ -65,15 +58,11 @@ function getAllPages(): string[] {
   return pages;
 }
 
-export default async function sitemap({ id }: { id: number }): Promise<MetadataRoute.Sitemap> {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const allPages = getAllPages();
-  const start = id * CHUNK_SIZE;
-  const end = start + CHUNK_SIZE;
-  const chunk = allPages.slice(start, end);
-
   const lastMod = new Date();
 
-  return chunk.map((page) => ({
+  return allPages.map((page) => ({
     url: `${BASE_URL}${page}`,
     lastModified: lastMod,
     changeFrequency: page === '' ? 'daily' : 'weekly',
