@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { guides } from '@/data/guides-data';
+import { getInternalLinks } from '@/lib/seo-utils';
+import Link from 'next/link';
 import { TopNav } from "@/components/site/top-nav";
 import { SiteFooter } from "@/components/site/site-footer";
 import { SeoFooter } from "@/components/site/seo-footer";
@@ -142,6 +144,27 @@ export default async function GuidePage({ params }: PageProps) {
                   <h3 className="text-xl font-bold mb-3">{faq.q}</h3>
                   <p className="text-muted-foreground">{faq.a}</p>
                 </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Related Guides Section */}
+          <section className="mt-16 border-t pt-12">
+            <h2 className="text-3xl font-bold mb-8 text-primary">Related Industry Guides</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {getInternalLinks(`/guides/${slug}`).map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className="p-6 bg-muted hover:bg-muted/80 rounded-2xl transition-all border border-transparent hover:border-secondary flex items-center group"
+                >
+                  <span className="font-bold text-lg group-hover:text-secondary transition-colors">
+                    {link.label}
+                  </span>
+                  <span className="material-symbols-outlined ml-auto text-secondary opacity-0 group-hover:opacity-100 transition-opacity">
+                    arrow_forward
+                  </span>
+                </Link>
               ))}
             </div>
           </section>
