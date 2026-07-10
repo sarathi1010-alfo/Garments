@@ -3222,5 +3222,97 @@ export const guides: Guide[] = [
       { q: "Can you manufacture uniforms with reflective safety tape?", a: "Yes, we integrate certified reflective tapes that meet international safety standards for high-visibility workwear." },
       { q: "What is the typical lifespan of industrial workwear?", a: "Our 'Tough-Grade' workwear is engineered to last 12-18 months of daily use and regular industrial laundering when cared for properly." }
     ]
+  },
+  {
+    slug: "color-theory-in-sportswear-design",
+    title: "Color Theory in Sportswear Design — Complete Guide",
+    description: "Learn how to use color theory to create impactful and professional custom team jerseys. Explore psychology, contrast, and branding.",
+    h1: "The Ultimate Guide to Color Theory in Sportswear Design",
+    category: "Design",
+    answerBlock: "Color theory in sportswear design is the strategic use of color psychology, contrast, and visibility to build a powerful team identity. By understanding how colors interact on the field—and how they appear through digital lenses—teams can create jerseys that are both aesthetically striking and highly functional for player identification and brand authority.",
+    keywords: ["sportswear color theory", "jersey design colors", "team identity branding", "sublimation color matching"],
+    imageAlt: "A color wheel and fabric swatches being used to design a professional sports kit",
+    highlights: [
+      "Color Psychology: How red evokes aggression and blue builds trust",
+      "Visibility Standards: Why high-contrast palettes are essential for fast sports",
+      "Digital Accuracy: How colors translate from screen to sublimated fabric",
+      "Sponsor Harmony: Integrating sponsor logos without clashing with team colors",
+      "Trend Analysis: Using contemporary palettes to maintain a modern team image"
+    ],
+    content: `
+      <p>In the world of custom apparel, color is more than just a decoration; it is a communication tool. For a professional sports team or a corporate brand, the choice of colors on a jersey can influence fan perception, player psychology, and even the clarity of match broadcasts. At Vinayaga Garments, we combine artistic design with technical textile science to help you master the art of color theory.</p>
+
+      <h2>1. The Psychology of Competitive Color</h2>
+      <p>Colors evoke specific emotional and physiological responses. In sports, these responses can have a subtle impact on performance and perception:
+        <ul>
+          <li><strong>Red:</strong> Often associated with energy, power, and aggression. Studies suggest that teams wearing red may be perceived as more dominant.</li>
+          <li><strong>Blue:</strong> Communicates stability, trust, and professionalism. It is a favorite for corporate-linked sports teams.</li>
+          <li><strong>Yellow/Neon:</strong> High-visibility colors that demand attention and improve player identification in low-light environments.</li>
+        </ul>
+      </p>
+
+      <h2>2. Mastering Contrast and Visibility</h2>
+      <p>For fast-paced sports like <a href="/guides/custom-football-kits">Football</a> or <a href="/guides/custom-basketball-jerseys">Basketball</a>, contrast is a functional requirement. If the jersey colors are too similar to the pitch or court surface, it can slow down an athlete's reaction time. We utilize the 'Complementary Color' model—pairing colors from opposite sides of the color wheel (like Blue and Orange)—to ensure maximum 'pop' and legibility of player numbers.</p>
+
+      <p>Learn more about designing for visibility in our <a href="/guides/how-to-design-custom-team-jerseys">Jersey Design Guide</a>.</p>
+
+      <h2>3. The Technical Side: Sublimation and Color Matching</h2>
+      <p>One of the biggest challenges in manufacturing is ensuring the 'Navy Blue' you see on your monitor matches the 'Navy Blue' on the fabric. Because <strong>Dye Sublimation</strong> turns ink into gas, the fabric's base texture and GSM can influence the final shade. We use the <strong>Pantone Matching System (PMS)</strong> to ensure absolute consistency across your entire kit bag. For a breakdown of the printing technology, see our <a href="/guides/dye-sublimation-printing-complete-guide">Sublimation Guide</a>.</p>
+
+      <h2>4. Branding and Sponsor Integration</h2>
+      <p>A professional jersey often features multiple sponsors. A common mistake is allowing sponsor colors to clash with the team's primary identity. We help you use 'Neutral Zones' or 'Logo Boxing' to ensure that even the most vibrant sponsor logos sit harmoniously within your design without diluting your team's visual authority.</p>
+
+      <p>Ready to select your team's palette? <a href="/contact">Contact our design team for a consultation</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What are the best colors for a new team identity?", a: "Choose colors that represent your team's values but also consider your local environment to ensure high visibility on the field." },
+      { q: "Will the colors on my jersey fade over time?", a: "With our dye-sublimation process, the ink is permanently fused into the fabric, meaning your colors will remain vibrant for the life of the garment." },
+      { q: "Can you match my existing brand colors exactly?", a: "Yes, by using specific Pantone (PMS) codes, we can ensure a perfect match with your existing brand assets." }
+    ]
+  },
+  {
+    slug: "how-to-add-logos-to-custom-apparel",
+    title: "How to Add Logos to Custom Apparel — Step-by-Step Guide",
+    description: "Discover the best methods for adding logos to your custom gear. Compare sublimation, embroidery, and screen printing for brand impact.",
+    h1: "The Step-by-Step Guide to Adding Logos to Custom Apparel",
+    category: "Design",
+    answerBlock: "Adding logos to custom apparel requires choosing the right technology based on your fabric type and branding goals. For high-performance sportswear, dye-sublimation is the gold standard for weightless, permanent branding. For corporate wear, embroidery offers a premium, textured feel. Understanding file formats and placement 'safe zones' is essential for achieving a professional, retail-grade finish on your custom gear.",
+    keywords: ["add logos to apparel", "jersey branding guide", "embroidery vs sublimation", "logo placement tips", "custom apparel branding"],
+    imageAlt: "A close-up of different logo application methods on high-quality fabrics",
+    highlights: [
+      "Vector Graphics: Why AI and EPS files are mandatory for sharp branding",
+      "Application Methods: Choosing between sublimation, embroidery, and transfers",
+      "Placement Strategy: Navigating 'Safe Zones' and seam lines for visibility",
+      "Scaling: Ensuring logos look perfect from size XS to 5XL",
+      "Durability: Selecting the method that survives the rigors of the sport"
+    ],
+    content: `
+      <p>Your logo is the most important element of your custom apparel. It represents your team's pride, your company's professionalism, and your sponsors' investment. However, adding a logo correctly involves more than just 'pasting' an image onto a shirt. It is a technical process that requires the right files, the right technology, and an understanding of garment construction. At Vinayaga Garments, we help you navigate these choices to ensure your branding is as durable as it is striking.</p>
+
+      <h2>1. Start with the Right Blueprint: Vector Files</h2>
+      <p>The most common mistake in apparel branding is providing low-resolution images (like .JPG or .PNG). For professional manufacturing, we require <strong>Vector files</strong> (.AI, .EPS, or .SVG). Vector graphics are mathematical paths, meaning they can be scaled up to the size of a billboard or down to a chest logo without ever losing sharpness. This is the foundation of a 'Production-Grade' finish.</p>
+
+      <h2>2. Choosing Your Branding Technology</h2>
+      <p>The method we use depends on your fabric and your goals:
+        <ul>
+          <li><strong>Dye Sublimation:</strong> Ideal for <a href="/guides/custom-kabaddi-team-kits">sports kits</a>. The logo is 'dyed' into the fabric, adding zero weight and maintaining 100% breathability. It never peels or cracks.</li>
+          <li><strong>Embroidery:</strong> Best for <a href="/guides/choosing-corporate-uniforms-guide">corporate polos</a> and jackets. It provides a premium, 3D texture that communicates authority and tradition.</li>
+          <li><strong>Heat Transfers:</strong> Used for individual player names and numbers, providing a clean, high-contrast finish.</li>
+        </ul>
+      </p>
+
+      <h2>3. Strategic Placement and 'Safe Zones'</h2>
+      <p>A logo's impact is determined by its placement. We help you identify 'Safe Zones'—areas away from seams, collars, and underarms where your branding will be most visible and won't be distorted during assembly. For jerseys, this typically includes the center chest, upper back, and shoulders. Learn more in our <a href="/guides/custom-apparel-manufacturing-process-step-by-step">Manufacturing Process Guide</a>.</p>
+
+      <h2>4. Scaling Across Sizes</h2>
+      <p>A logo that looks perfectly sized on a Large jersey might appear too small on a 3XL or too large on a Small. Our design team uses 'Proportional Scaling' to ensure that your branding remains consistent and impactful across your entire team's size range.</p>
+
+      <p>Ready to brand your next collection? <a href="/contact">Send us your logos for a technical review</a>.</p>
+    ` + QUOTE_CTA,
+    faqs: [
+      { q: "What is the best file format for my logo?", a: "Always provide vector formats like AI, EPS, or SVG for the sharpest, professional-grade results." },
+      { q: "Does adding more logos increase the price?", a: "In <strong>Dye Sublimation</strong>, no! You can add as many sponsor logos as you want for the same unit price." },
+      { q: "Which is better: embroidery or sublimation?", a: "Sublimation is better for athletic performance and complex designs, while embroidery is superior for a premium, corporate look on heavier fabrics." }
+    ]
   }
 ];

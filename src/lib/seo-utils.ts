@@ -12,6 +12,7 @@ import {
   sellers,
   geoLocations
 } from '../data/seo-data';
+import { guides } from '../data/guides-data';
 import { slugify } from '@/utils/slugify';
 import { CONTACT } from './contact';
 
@@ -292,6 +293,14 @@ export function getInternalLinks(currentPath: string) {
   } else if (category === 'fabrics') {
     const adjacent = getAdjacent(fabricTypes, slug, 3);
     adjacent.forEach(f => links.push({ href: `/fabrics/${slugify(f)}`, label: `Explore ${f} Fabric` }));
+  } else if (category === 'guides') {
+    const adjacent = getAdjacent(guides.map(g => g.slug), slug, 4);
+    adjacent.forEach(s => {
+      const guide = guides.find(g => g.slug === s);
+      if (guide) {
+        links.push({ href: `/guides/${s}`, label: guide.title.split('—')[0].trim() });
+      }
+    });
   } else {
     // Default fallback
     const p = products.slice(0, 5);
