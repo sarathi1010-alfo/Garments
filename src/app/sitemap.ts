@@ -16,7 +16,6 @@ import { guides } from '@/data/guides-data';
 import { slugify } from '@/utils/slugify';
 
 const BASE_URL = 'https://garment.alfo.online';
-const CHUNK_SIZE = 500;
 
 function getAllPages(): string[] {
   const pages: string[] = [
@@ -59,28 +58,11 @@ function getAllPages(): string[] {
   return pages;
 }
 
-export async function generateSitemaps() {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const allPages = getAllPages();
-  const numSitemaps = Math.ceil(allPages.length / CHUNK_SIZE);
-  return Array.from({ length: numSitemaps }, (_, id) => ({ id }));
-}
-
-export default async function sitemap({
-  id,
-}: {
-  id: number;
-}): Promise<MetadataRoute.Sitemap> {
-  // id is passed as a promise in Next.js 15+ for sitemaps in some environments
-  const sitemapId = await (id as any);
-  const allPages = getAllPages();
-
-  const start = sitemapId * CHUNK_SIZE;
-  const end = start + CHUNK_SIZE;
-  const pages = allPages.slice(start, end);
-
   const lastMod = new Date();
 
-  return pages.map((page) => ({
+  return allPages.map((page) => ({
     url: `${BASE_URL}${page}`,
     lastModified: lastMod,
     changeFrequency: (page === '' ? 'daily' : 'weekly') as any,
