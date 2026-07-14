@@ -16,6 +16,7 @@ import { guides } from '@/data/guides-data';
 import { slugify } from '@/utils/slugify';
 
 const BASE_URL = 'https://garment.alfo.online';
+const CHUNK_SIZE = 500;
 
 function getAllPages(): string[] {
   const pages: string[] = [
@@ -34,6 +35,9 @@ function getAllPages(): string[] {
     '/cities',
     '/guides',
     '/contact',
+    '/about',
+    '/faq',
+    '/manufacturing',
   ];
 
   guides.forEach(g => pages.push(`/guides/${g.slug}`));
@@ -58,11 +62,25 @@ function getAllPages(): string[] {
   return pages;
 }
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+export async function generateSitemaps() {
   const allPages = getAllPages();
+  const numSitemaps = Math.ceil(allPages.length / CHUNK_SIZE);
+  return Array.from({ length: numSitemaps }, (_, id) => ({ id }));
+}
+
+export default async function sitemap(props: any): Promise<MetadataRoute.Sitemap> {
+  // In Next.js 15+, the id parameter is passed as a Promise within props.
+  // We await the entire props object or just props.id if it's a promise.
+  const resolvedProps = await props;
+  const id = Number(resolvedProps.id) || 0;
+
+  const allPages = getAllPages();
+  const start = id * CHUNK_SIZE;
+  const end = start + CHUNK_SIZE;
+  const pages = allPages.slice(start, end);
   const lastMod = new Date();
 
-  return allPages.map((page) => ({
+  return pages.map((page) => ({
     url: `${BASE_URL}${page}`,
     lastModified: lastMod,
     changeFrequency: (page === '' ? 'daily' : 'weekly') as any,

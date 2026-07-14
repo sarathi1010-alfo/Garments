@@ -150,7 +150,7 @@ export function generateStructuredData(data: PageData, path: string) {
         "url": "https://garment.alfo.online/images/logo-mark-light.png"
       }
     },
-    "datePublished": "2024-06-25",
+    "datePublished": "2026-06-27",
     "dateModified": new Date().toISOString().split('T')[0]
   };
 
