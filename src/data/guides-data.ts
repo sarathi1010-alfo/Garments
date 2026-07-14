@@ -6039,7 +6039,7 @@ export const guides: Guide[] = [
     title: "The Future of Sustainable Sportswear — Trends for 2027 and Beyond",
     description: "The definitive 2,500+ word guide to the next generation of eco-friendly apparel. Learn about bio-materials, circular design, and the transition to a carbon-neutral supply chain.",
     h1: "Beyond Recycled Plastic: The Future of Sustainable Sportswear",
-    category: "Fabric",
+    category: "Fabric Technology",
     answerBlock: "The future of sustainable sportswear is transitioning from simple recycling to a 'Circular Ecosystem' defined by bio-fabricated fibers (e.g., mycelium and algae), 100% closed-loop water management, and 'Design-for-Disassembly.' As we move toward 2027, the focus is shifting to carbon-neutral manufacturing and the elimination of microplastic shedding, ensuring that high-performance athletic gear protects both the athlete and the planet throughout its entire lifecycle.",
     keywords: ["sustainable sportswear future", "eco friendly apparel trends", "bio fabricated textiles", "circular fashion activewear", "carbon neutral manufacturing", "microplastic free sportswear", "biodegradable performance fabrics", "future of sustainable fashion", "green sportswear tech"],
     imageAlt: "A futuristic athletic garment made from bio-fabricated, carbon-negative fibers, showing its integrated lifecycle tracking",
