@@ -68,12 +68,7 @@ export async function generateSitemaps() {
   return Array.from({ length: numSitemaps }, (_, id) => ({ id }));
 }
 
-export default async function sitemap(props: any): Promise<MetadataRoute.Sitemap> {
-  // In Next.js 15+, the id parameter is passed as a Promise within props.
-  // We await the entire props object or just props.id if it's a promise.
-  const resolvedProps = await props;
-  const id = Number(resolvedProps.id) || 0;
-
+export default async function sitemap({ id }: { id: number }): Promise<MetadataRoute.Sitemap> {
   const allPages = getAllPages();
   const start = id * CHUNK_SIZE;
   const end = start + CHUNK_SIZE;
