@@ -94,7 +94,7 @@ export function SiteFooter() {
             </a>
             <a
               className="font-body-md text-body-md text-on-primary-container/80 hover:text-secondary transition-colors"
-              href="#process"
+              href="/about"
             >
               About Us
             </a>
