@@ -7,9 +7,9 @@ import { whatsappLink } from "@/lib/contact";
 import Image from "next/image";
 
 const NAV_LINKS = [
-  { label: "Products", href: "/#featured" },
-  { label: "Custom Services", href: "/#capabilities" },
-  { label: "About Us", href: "/#process" },
+  { label: "Products", href: "/products" },
+  { label: "Custom Services", href: "/manufacturing" },
+  { label: "About Us", href: "/about" },
   { label: "Guides", href: "/guides" },
   { label: "Get a Quote", href: "/contact" },
 ];
@@ -23,7 +23,7 @@ export function TopNav() {
         {/* Brand Logo */}
         <a
           className="flex items-center gap-2 md:gap-3 group min-w-0"
-          href="#"
+          href="/"
           aria-label="Vinayaga Garments — home"
         >
           <Image

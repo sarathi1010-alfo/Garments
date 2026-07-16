@@ -74,7 +74,7 @@ export function Hero() {
               WhatsApp
             </a>
             <a
-              href="#featured"
+              href="/products"
               className="bg-transparent border-b border-primary text-primary px-2 py-4 rounded-none font-label-md text-label-md uppercase tracking-[0.1em] hover:text-secondary hover:border-secondary transition-all duration-300 inline-flex justify-center items-center cursor-pointer"
             >
               Explore Products
