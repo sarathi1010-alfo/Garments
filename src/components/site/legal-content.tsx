@@ -368,7 +368,9 @@ export const TERMS_DOC: LegalDoc = {
   ),
 };
 
-export const LEGAL_DOCS: Record<string, LegalDoc> = {
+export type LegalDocId = "privacy" | "sustainability" | "terms";
+
+export const LEGAL_DOCS: Record<LegalDocId, LegalDoc> = {
   privacy: PRIVACY_DOC,
   sustainability: SUSTAINABILITY_DOC,
   terms: TERMS_DOC,
