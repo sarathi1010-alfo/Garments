@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { PageData } from './content-templates';
 import {
   districts,
@@ -16,7 +17,7 @@ import { guides } from '../data/guides-data';
 import { slugify } from '@/utils/slugify';
 import { CONTACT } from './contact';
 
-export function generateMetadata(data: PageData, path: string) {
+export function generateMetadata(data: PageData, path: string): Metadata {
   const baseUrl = 'https://garment.alfo.online';
   const url = `${baseUrl}${path}`;
 
@@ -31,7 +32,7 @@ export function generateMetadata(data: PageData, path: string) {
         index: true,
         follow: true,
         'max-video-preview': -1,
-        'max-image-preview': 'large',
+        'max-image-preview': 'large' as const,
         'max-snippet': -1,
       },
     },
