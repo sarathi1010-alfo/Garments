@@ -1,3 +1,21 @@
+
+export interface Guide {
+  slug: string;
+  title: string;
+  description: string;
+  h1: string;
+  category: string;
+  featured?: boolean;
+  answerBlock: string;
+  keywords: string[];
+  imageAlt: string;
+  highlights: string[];
+  content: string;
+  faqs: { q: string; a: string }[];
+  lastMod?: string;
+  publishedAt?: string;
+}
+
 export const districts = [
   "Ariyalur", "Chengalpattu", "Chennai", "Coimbatore", "Cuddalore",
   "Dharmapuri", "Dindigul", "Erode", "Kallakurichi", "Kanchipuram",
