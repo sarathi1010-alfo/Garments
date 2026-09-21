@@ -18063,4 +18063,146 @@ Both technical materials are produced across South Indian technical textile corr
     }
   ]
 }
+,
+{
+  "slug": "custom-sublimated-kabaddi-team-kits-fabric-engineering-manufacturing-guide",
+  "title": "Custom Sublimated Kabaddi Team Kits: Fabric Engineering, Stitch Precision & Manufacturing Guide",
+  "description": "Technical guide on manufacturing high-performance custom Kabaddi team jerseys and shorts, focusing on tear-resistant moisture-wicking interlock fabrics, reinforced flatlock seams, vibrant dye sublimation printing, and athletic ergonomic fit.",
+  "h1": "Custom Sublimated Kabaddi Team Kits: Fabric Engineering, Stitch Precision & Manufacturing Guide",
+  "category": "Sports & Team Kits",
+  "featured": true,
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "answerBlock": "Custom sublimated Kabaddi team kits require high-tensile polyester-spandex interlock fabrics (220–260 GSM), heavy-duty 6-needle 4-thread flatlock stitching, and high-temperature Italian dye sublimation printing. Engineered specifically for high-friction contact sports, these jerseys and shorts provide maximum tear resistance, zero surface fading, dynamic 4-way stretch, and rapid moisture evaporation during intense raider and defender maneuvers.",
+  "keywords": [
+    "custom kabaddi team kits",
+    "kabaddi jersey manufacturer",
+    "sublimated kabaddi uniforms",
+    "durable kabaddi sportswear Tamil Nadu",
+    "Vinayaga Garments sportswear"
+  ],
+  "highlights": [
+    "Heavy-duty 220–260 GSM moisture-wicking micro-interlock fabric resists intense pulling and tackling",
+    "6-needle 4-thread flatlock seam construction prevents chafing and seam blowouts during matches",
+    "Full-coverage 200°C dye sublimation embeds vibrant graphics directly into fabric polymer fibers",
+    "Ergonomic athletic raglan cut maximizes upper body freedom for raiders and defenders"
+  ],
+  "content": "<h2>High-Contact Sportswear Demand: Engineering Kabaddi Uniforms</h2><p>Kabaddi is an intense, full-contact sport where jerseys and shorts endure extreme gripping, pulling, friction, and mat abrasion. Standard polyester sports tees quickly tear at shoulder seams or lose elasticity under match conditions. Manufacturing professional-grade <strong>Custom Sublimated Kabaddi Team Kits</strong> requires specialized fabric selection, reinforced seam mechanics, and fade-proof dye sublimation technology.</p><p>Key structural requirements for professional Kabaddi apparel include:</p><ul><li><strong>High-Tensile Interlock Fabrics:</strong> Utilizing 220 to 260 GSM circular-knit polyester blended with 8–12% elastane, delivering superior bursting strength (>850 kPa) while maintaining 4-way stretch recovery.</li><li><strong>Flatlock Seam Reinforcement:</strong> Deploying 6-needle 4-thread flatlock stitching with high-tenacity nylon threads along armholes, side seams, and crotch gussets to absorb multi-directional impact forces.</li><li><strong>Integrated Moisture Management:</strong> Hydrophilic yarn treatments and micro-capillary channels quickly pull sweat away from the body to the outer fabric surface, keeping players cool and lightweight throughout 40-minute matches.</li></ul><hr class=\"my-8 border-slate-200\" /><h2>Fabric & Performance Benchmark Comparison</h2><p>The table below compares standard gym wear specifications against Vinayaga Garments' engineered Kabaddi kit standards:</p><div class=\"overflow-x-auto my-6\"><table class=\"w-full border-collapse border border-slate-200 text-left text-sm\"><thead class=\"bg-slate-100\"><tr><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Performance Metric</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Standard Retail Sportswear</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Vinayaga Custom Kabaddi Kit Standard</th></tr></thead><tbody><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Fabric Density & Weight</td><td class=\"border border-slate-200 p-2 text-slate-700\">140–160 GSM single jersey</td><td class=\"border border-slate-200 p-2 text-slate-700\">220–260 GSM heavy interlock knit</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Bursting Strength (ASTM D3786)</td><td class=\"border border-slate-200 p-2 text-slate-700\">450–550 kPa (Prone to tearing)</td><td class=\"border border-slate-200 p-2 text-slate-700\">&gt;880 kPa (High-impact tear resistance)</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Seam Construction</td><td class=\"border border-slate-200 p-2 text-slate-700\">3-thread overlock seam</td><td class=\"border border-slate-200 p-2 text-slate-700\">6-needle 4-thread flatlock reinforcement</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Color Permanence (Sublimation)</td><td class=\"border border-slate-200 p-2 text-slate-700\">Surface screen print (Cracks & peels)</td><td class=\"border border-slate-200 p-2 text-slate-700\">200&deg;C deep dye sublimation (Zero fading)</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Moisture Wicking Speed (AATCC 195)</td><td class=\"border border-slate-200 p-2 text-slate-700\">Moderate (&gt;10 sec absorption)</td><td class=\"border border-slate-200 p-2 text-slate-700\">Instantaneous (&lt;2 sec absorption)</td></tr></tbody></table></div><hr class=\"my-8 border-slate-200\" /><h2>Full-Color Dye Sublimation Printing Technology</h2><p>Dye sublimation fuses non-toxic, eco-friendly Italian ink into the synthetic fibers under 200°C heat and pneumatic pressure. Because the dye becomes part of the fiber structure rather than an external layer, sublimated Kabaddi jerseys remain 100% breathable, lightweight, and completely resistant to cracking or peeling even after dozens of aggressive matches and wash cycles.</p><hr class=\"my-8 border-slate-200\" /><h2>Custom Manufacturing Excellence at Vinayaga Garments</h2><p>Based in Tamil Nadu, <strong>Vinayaga Garments</strong> is led by founder Selvaraj Rayamuthu. Specializing in custom athletic sportswear for professional teams, schools, and tournament leagues across India, Vinayaga Garments provides end-to-end design, sublimation, precision stitching, and fast doorstep delivery.</p><hr class=\"my-8 border-slate-200\" /><h2>Related Sportswear Guides & Regional Sourcing</h2><p>Explore related sportswear manufacturing guides and regional textile sourcing corridors:</p><p>Discover regional knit fabric and printing infrastructure in <a href=\"/guides/tirupur-coimbatore-sportswear-knits-sublimation-printing-manufacturing-hub\">Tirupur & Coimbatore Sportswear Knits & Sublimation Printing Hub</a>.</p><p>Compare customization methods in <a href=\"/guides/dye-sublimation-printing-vs-screen-printing-custom-sportswear-comparison\">Dye Sublimation Printing vs. Screen Printing in Custom Sportswear</a>.</p><p>Read our foundational guide on <a href=\"/guides/custom-kabaddi-team-kits\">Custom Kabaddi Team Kits: Design, Fabrics & Manufacturing</a>.</p>",
+  "faqs": [
+    {
+      "q": "Why is fabric GSM crucial for Kabaddi jerseys?",
+      "a": "Kabaddi involves heavy tackling and pulling. A GSM of 220–260 ensures high fabric density and bursting strength (>880 kPa) to prevent tears and garment stretching."
+    },
+    {
+      "q": "What seam stitching is best for contact sportswear like Kabaddi?",
+      "a": "6-needle 4-thread flatlock stitching is optimal because it creates flat, ultra-strong seam joins that do not chafe the skin or burst under heavy strain."
+    },
+    {
+      "q": "Does dye sublimation affect jersey breathability or weight?",
+      "a": "No, dye sublimation turns ink into gas that bonds directly inside the synthetic polymer fibers, leaving zero heavy rubbery feel and maintaining 100% airflow."
+    },
+    {
+      "q": "Can Vinayaga Garments print custom player names, numbers, and sponsor logos on Kabaddi kits?",
+      "a": "Yes, full-coverage custom sublimation allows unlimited logos, player names, numbers, and gradient patterns at no extra cost per graphic."
+    },
+    {
+      "q": "What is the typical turnaround time for custom Kabaddi team orders?",
+      "a": "Vinayaga Garments manufactures and dispatches bulk custom Kabaddi team kits within 7 to 10 working days."
+    }
+  ]
+},
+{
+  "slug": "tirupur-coimbatore-sportswear-knits-sublimation-printing-manufacturing-hub",
+  "title": "Tirupur & Coimbatore Sportswear Knits & Sublimation Printing Hub: Complete Sourcing & Manufacturing Guide",
+  "description": "Sourcing guide detailing the Tirupur and Coimbatore textile cluster in Tamil Nadu, highlighting high-tenacity knit processing, large-format sublimation printing infrastructure, and export-grade sportswear production.",
+  "h1": "Tirupur & Coimbatore Sportswear Knits & Sublimation Printing Hub",
+  "category": "Location / Regional Sourcing",
+  "featured": true,
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "answerBlock": "The Tirupur and Coimbatore textile cluster in Tamil Nadu forms India's premier manufacturing ecosystem for custom athletic apparel and technical knits. Combining advanced circular knitting mills, eco-friendly Zero Liquid Discharge (ZLD) dyeing facilities, and high-capacity roll-to-roll sublimation printing plants, this regional hub delivers fast-turnaround, export-grade custom sportswear for domestic and global markets.",
+  "keywords": [
+    "Tirupur sportswear manufacturer",
+    "Coimbatore sublimation printing hub",
+    "Tamil Nadu athletic apparel sourcing",
+    "custom sportswear knits Tirupur",
+    "Vinayaga Garments Tamil Nadu"
+  ],
+  "highlights": [
+    "Tirupur knitwear belt produces over 70% of India's custom athletic knitwear and t-shirts",
+    "Coimbatore advanced textile machinery hubs supply high-gauge circular knitting equipment",
+    "100% Zero Liquid Discharge (ZLD) dyeing parks ensure eco-compliant, sustainable fabric processing",
+    "Integrated supply chain allows raw yarn to finished sublimated apparel delivery in under 10 days"
+  ],
+  "content": "<h2>The Industrial Ecosystem of Tirupur & Coimbatore</h2><p>Known globally as the knitwear capital of India, the <strong>Tirupur & Coimbatore Textile Corridor</strong> in western Tamil Nadu accounts for the majority of India’s cotton and synthetic apparel exports. Coimbatore provides world-class spinning machinery, high-tenacity yarn texturizing, and engineering support, while Tirupur excels in high-capacity circular knitting, eco-dyeing, cutting, precision stitching, and large-format dye sublimation printing.</p><p>Key manufacturing strengths of the Tirupur-Coimbatore activewear hub include:</p><ul><li><strong>High-Gauge Circular Knitting:</strong> State-of-the-art Mayer & Cie and Terrot knitting machines producing 24G–36G micro-interlock, waffle mesh, and 4-way stretch spandex knits.</li><li><strong>Large-Format Sublimation Printing:</strong> High-speed industrial inkjet printers and rotary heat transfer presses capable of printing thousands of custom athletic garments daily with pin-sharp detail.</li><li><strong>Zero Liquid Discharge (ZLD) Eco-Dyeing:</strong> Government-mandated ZLD processing plants that recycle 98%+ of water, ensuring zero toxic effluent discharge into regional waterways.</li></ul><hr class=\"my-8 border-slate-200\" /><h2>Hub Capability & Infrastructure Metrics</h2><p>The table below highlights the operational advantages of sourcing sportswear directly from the Tirupur-Coimbatore corridor:</p><div class=\"overflow-x-auto my-6\"><table class=\"w-full border-collapse border border-slate-200 text-left text-sm\"><thead class=\"bg-slate-100\"><tr><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Manufacturing Vector</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Tirupur & Coimbatore Cluster Capacity</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Quality & Export Benchmark</th></tr></thead><tbody><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Sublimation Printing Capacity</td><td class=\"border border-slate-200 p-2 text-slate-700\">&gt;500,000 meters / day across regional units</td><td class=\"border border-slate-200 p-2 text-slate-700\">1440 DPI high-definition transfer print</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Water Recycling Standard</td><td class=\"border border-slate-200 p-2 text-slate-700\">100% ZLD Mandated (98%+ recovery)</td><td class=\"border border-slate-200 p-2 text-slate-700\">bluesign & OEKO-TEX Class I compliance</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Fabric Variety</td><td class=\"border border-slate-200 p-2 text-slate-700\">Micro-polyester, Honeycomb mesh, Spandex blends</td><td class=\"border border-slate-200 p-2 text-slate-700\">ISO 105 color fastness Grade 4.5+</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Domestic Logistics Transit</td><td class=\"border border-slate-200 p-2 text-slate-700\">Direct highway & rail links to all major Indian cities</td><td class=\"border border-slate-200 p-2 text-slate-700\">24 to 48-hour express transit</td></tr></tbody></table></div><hr class=\"my-8 border-slate-200\" /><h2>Why Global & Indian Brands Source from Tamil Nadu</h2><p>By sourcing custom athletic kits and activewear from Tamil Nadu's specialized industrial corridor, sportswear brands benefit from complete vertical integration. Yarn spinning, fabric knitting, eco-dyeing, digital sublimation printing, cut-and-sew, and final packaging all happen within a 30-kilometer radius, drastically reducing manufacturing lead times and logistics costs.</p><hr class=\"my-8 border-slate-200\" /><h2>Manufacturing Operations at Vinayaga Garments</h2><p>Leveraging deep operational roots in Tamil Nadu, <strong>Vinayaga Garments</strong> (founded by Selvaraj Rayamuthu) connects sports teams, corporate clients, and athletic organizations directly to top-tier Tirupur-Coimbatore processing capabilities. We deliver premium, custom-sublimated sports kits with low minimum order quantities and strict quality control.</p><hr class=\"my-8 border-slate-200\" /><h2>Related Regional Sourcing & Sportswear Guides</h2><p>Explore related regional sourcing guides and custom sportswear manufacturing resources:</p><p>Learn about custom Kabaddi kit engineering in <a href=\"/guides/custom-sublimated-kabaddi-team-kits-fabric-engineering-manufacturing-guide\">Custom Sublimated Kabaddi Team Kits: Fabric Engineering & Stitch Precision</a>.</p><p>Compare customization technologies in <a href=\"/guides/dye-sublimation-printing-vs-screen-printing-custom-sportswear-comparison\">Dye Sublimation Printing vs. Screen Printing in Custom Sportswear</a>.</p><p>Read our Tamil Nadu regional guide on <a href=\"/guides/custom-apparel-manufacturers-in-tamil-nadu-guide\">Custom Apparel Manufacturers in Tamil Nadu</a>.</p>",
+  "faqs": [
+    {
+      "q": "Why is Tirupur known as the knitwear hub of India?",
+      "a": "Tirupur produces over 70% of India's knitwear exports, housing thousands of specialized circular knitting, eco-dyeing, printing, and garment manufacturing facilities."
+    },
+    {
+      "q": "What role does Coimbatore play in the sportswear supply chain?",
+      "a": "Coimbatore supplies high-speed textile spinning machinery, synthetic filament texturizing mills, and advanced technical engineering support for the regional apparel industry."
+    },
+    {
+      "q": "How does Zero Liquid Discharge (ZLD) benefit eco-friendly activewear production?",
+      "a": "ZLD technology recovers and recycles over 98% of dyeing water, preventing chemical discharge into rivers and ensuring environmentally sustainable manufacturing."
+    },
+    {
+      "q": "Can Vinayaga Garments handle custom sportswear orders from outside Tamil Nadu?",
+      "a": "Yes, Vinayaga Garments supplies custom athletic team kits, corporate sportswear, and uniforms to clients across all major Indian states and international destinations."
+    },
+    {
+      "q": "What fabrics are most popular for sublimated sportswear in Tirupur?",
+      "a": "100% micro-polyester interlock, honeycomb mesh, bird's eye mesh, and polyester-spandex stretch blends are the top choices for sublimated jerseys."
+    }
+  ]
+},
+{
+  "slug": "dye-sublimation-printing-vs-screen-printing-custom-sportswear-comparison",
+  "title": "Dye Sublimation Printing vs. Screen Printing in Custom Sportswear — Complete Technical Comparison",
+  "description": "Technical comparison between dye sublimation printing and screen printing for custom athletic apparel, evaluating breathability, durability, design complexity, cost per unit, and ideal applications.",
+  "h1": "Dye Sublimation Printing vs. Screen Printing in Custom Sportswear",
+  "category": "Fabric & Customization Technology",
+  "featured": true,
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "answerBlock": "Dye sublimation printing fuses ink directly into synthetic fabric polymer fibers at 200°C, leaving zero heavy rubbery feel, preserving 100% fabric breathability, and guaranteeing zero fading or peeling over time. Screen printing applies a layer of plastisol or water-based ink onto the fabric surface, which is cost-effective for simple 1-to-3 color designs in bulk cotton apparel but can crack, peel, and restrict breathability on performance sportswear.",
+  "keywords": [
+    "dye sublimation vs screen printing",
+    "sublimation jersey printing",
+    "custom sportswear printing methods",
+    "durable team kit printing",
+    "Vinayaga Garments printing technology"
+  ],
+  "highlights": [
+    "Dye sublimation embeds dye directly inside synthetic fibers for permanent, fade-proof color",
+    "Preserves 100% fabric breathability and moisture-wicking performance on athletic jerseys",
+    "Allows unlimited colors, gradients, sponsor logos, and player numbers without per-color setup fees",
+    "Screen printing remains economical for bulk single-color cotton t-shirts and corporate event wear"
+  ],
+  "content": "<h2>Overview of Custom Sportswear Customization Methods</h2><p>Choosing the right printing technique is essential when ordering custom team kits, athletic jerseys, or promotional apparel. The two dominant industrial printing technologies in garment manufacturing are <strong>Dye Sublimation Printing</strong> and <strong>Traditional Screen Printing</strong>. Understanding the mechanical differences, fabric requirements, and performance characteristics of each method helps team managers and corporate buyers select the best option.</p><p>Key technological distinctions include:</p><ul><li><strong>Dye Sublimation Printing:</strong> A digital process where disperse dyes are printed onto transfer paper and sublimated into gaseous form under 200°C heat and pressure, permanently bonding with synthetic polyester fibers.</li><li><strong>Screen Printing:</strong> A mechanical stencil process where liquid plastisol or water-based ink is squeegeed through mesh screens onto the fabric surface, forming a cured topical layer.</li></ul><hr class=\"my-8 border-slate-200\" /><h2>Technical Feature Matrix: Sublimation vs. Screen Printing</h2><p>The comparison table below details key performance and economic factors for custom apparel buyers:</p><div class=\"overflow-x-auto my-6\"><table class=\"w-full border-collapse border border-slate-200 text-left text-sm\"><thead class=\"bg-slate-100\"><tr><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Evaluation Factor</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Dye Sublimation Printing</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Traditional Screen Printing</th></tr></thead><tbody><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Color & Graphic Capability</td><td class=\"border border-slate-200 p-2 text-slate-700\">Unlimited colors, photo gradients, fine detail</td><td class=\"border border-slate-200 p-2 text-slate-700\">Best for 1–4 spot colors; high setup cost for gradients</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Fabric Feel (Handfeel)</td><td class=\"border border-slate-200 p-2 text-slate-700\">Zero feel (Ink bonded inside fibers)</td><td class=\"border border-slate-200 p-2 text-slate-700\">Raised rubbery layer (Plastisol) or soft feel (Water-based)</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Breathability & Wicking</td><td class=\"border border-slate-200 p-2 text-slate-700\">100% uncompromised airflow and wicking</td><td class=\"border border-slate-200 p-2 text-slate-700\">Blocks fabric pores under printed areas</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Durability & Fading</td><td class=\"border border-slate-200 p-2 text-slate-700\">Permanent color; zero cracking or peeling</td><td class=\"border border-slate-200 p-2 text-slate-700\">Can crack or peel after repeated heavy washes</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Compatible Fabrics</td><td class=\"border border-slate-200 p-2 text-slate-700\">100% Polyester & high-polyester blends</td><td class=\"border border-slate-200 p-2 text-slate-700\">Cotton, Polyester, Blends, Canvas, Fleece</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Economical Order Quantity</td><td class=\"border border-slate-200 p-2 text-slate-700\">Cost-effective for small to large runs (Low MOQ)</td><td class=\"border border-slate-200 p-2 text-slate-700\">Most economical for large volume (500+ pcs) simple designs</td></tr></tbody></table></div><hr class=\"my-8 border-slate-200\" /><h2>Performance Impact on Athletic Kits</h2><p>For high-intensity sports like Kabaddi, Football, Cricket, and Basketball, players generate substantial body heat and sweat. Screen-printed chest logos create \"sweat patches\" because thick ink layers block fabric ventilation. Dye sublimation avoids this problem entirely, making it the industry standard for professional athletic jerseys.</p><hr class=\"my-8 border-slate-200\" /><h2>Custom Apparel Expertise at Vinayaga Garments</h2><p>At <strong>Vinayaga Garments</strong>, founder Selvaraj Rayamuthu operates state-of-the-art dye sublimation and screen printing units in Tamil Nadu. We assist teams and corporate organizations in selecting the ideal printing technology tailored to their fabric choice, design complexity, budget, and performance requirements.</p><hr class=\"my-8 border-slate-200\" /><h2>Related Guides & Technology Links</h2><p>Explore related sportswear manufacturing guides and regional textile resources:</p><p>Learn about custom Kabaddi team kit manufacturing in <a href=\"/guides/custom-sublimated-kabaddi-team-kits-fabric-engineering-manufacturing-guide\">Custom Sublimated Kabaddi Team Kits: Fabric Engineering & Stitch Precision</a>.</p><p>Discover regional printing and knitting hubs in <a href=\"/guides/tirupur-coimbatore-sportswear-knits-sublimation-printing-manufacturing-hub\">Tirupur & Coimbatore Sportswear Knits & Sublimation Printing Hub</a>.</p><p>Read our guide on <a href=\"/guides/dye-sublimation-printing-complete-guide\">Dye Sublimation Printing — Complete Guide</a>.</p>",
+  "faqs": [
+    {
+      "q": "Why is dye sublimation preferred for athletic jerseys over screen printing?",
+      "a": "Dye sublimation embeds color inside synthetic fibers without blocking fabric pores, maintaining 100% breathability, moisture wicking, and flexibility while preventing cracking."
+    },
+    {
+      "q": "Can dye sublimation be done on 100% cotton t-shirts?",
+      "a": "No, sublimation dye requires synthetic polymer fibers (like polyester) to bond. For cotton apparel, screen printing or direct-to-film (DTF) printing is used."
+    },
+    {
+      "q": "Does dye sublimation cost more when adding multiple sponsor logos?",
+      "a": "No, because sublimation prints the entire garment graphic in a single pass, you can add unlimited logos, player names, and numbers without extra per-color fees."
+    },
+    {
+      "q": "When is screen printing a better choice than dye sublimation?",
+      "a": "Screen printing is better for simple 1-to-2 color logos on bulk cotton t-shirts, hoodies, canvas bags, or uniform polo shirts where fabric breathability is less critical."
+    },
+    {
+      "q": "How does Vinayaga Garments ensure color accuracy in sublimated sportswear?",
+      "a": "Vinayaga Garments uses calibrated Pantone color matching, high-resolution digital RIP software, and premium Italian sublimation inks for vibrant, true-to-life colors."
+    }
+  ]
+}
 ];
