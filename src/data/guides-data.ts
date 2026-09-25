@@ -19055,4 +19055,146 @@ Both technical materials are produced across South Indian technical textile corr
       }
 ]
   }
+,
+  {
+  "slug": "custom-tennis-padel-team-uniforms-uv-protective-pique-knits-motion-gussets-guide",
+  "title": "Custom Tennis & Padel Team Uniforms: UV-Protective Piqué Knits, Ergonomic Motion Gussets & Sweatband Integration",
+  "description": "Technical manufacturing guide for custom tennis and padel team kits. Covers UPF 50+ micro-piqué elastane knits, 3D overhead shoulder motion gussets, anti-chafing flatlock seam placement, and integrated moisture-absorbing collars and sweatbands.",
+  "h1": "Custom Tennis & Padel Team Uniforms: UV-Protective Piqué Knits, Ergonomic Motion Gussets & Sweatband Integration",
+  "category": "Sports & Team Kits",
+  "featured": true,
+  "datePublished": "2026-10-30",
+  "dateModified": "2026-10-30",
+  "answerBlock": "Custom tennis and padel team uniforms require high-filament micro-piqué polyester-elastane fabrics (140–160 GSM) treated with titanium dioxide UPF 50+ UV blockers for outdoor sun protection. Featuring 3D underarm motion gussets that allow uninhibited overhead serve extension without shirt ride-up, anti-chafing 6-needle flatlock seams, and integrated moisture-wicking sweatband trims, Vinayaga Garments engineers professional racket sport apparel built for maximum agility and thermal comfort.",
+  "keywords": [
+    "custom tennis uniforms manufacturing",
+    "padel team kit supplier",
+    "UPF 50+ tennis polo sublimation",
+    "ergonomic shoulder gusset sportswear",
+    "Vinayaga Garments tennis apparel"
+  ],
+  "highlights": [
+    "140–160 GSM engineered micro-piqué polyester-elastane knits deliver superior ventilation and 4-way mechanical stretch",
+    "Inherent titanium dioxide UPF 50+ solar protection blocks 98%+ of harmful UVA/UVB rays during prolonged outdoor court play",
+    "3D underarm and shoulder motion gussets eliminate shirt lift during overhead serves, smashes, and aggressive padel wall retrieves",
+    "Hydrophilic inner collar and cuff trims absorb sweat instantly, maintaining optical clarity and racket grip confidence"
+  ],
+  "content": "<h2>Court Motion Dynamics & Racquet Sport Ergonomics</h2><p>Tennis and padel demand instantaneous lateral acceleration, explosive overhead extensions during serves and smashes, and continuous exposure to harsh outdoor solar radiation. Standard athletic t-shirts restrict shoulder rotation and suffer from shirt ride-up, causing discomfort and distraction during match play.</p><p>To solve these technical challenges, <strong>Vinayaga Garments</strong> manufactures custom tennis and padel team uniforms utilizing high-gauge <strong>micro-piqué polyester-elastane blends</strong>, <strong>3D overhead motion gussets</strong>, and <strong>UPF 50+ solar shielding finishes</strong>.</p><hr class=\"my-8 border-slate-200\" /><h2>Fabric Engineering: Micro-Piqué vs. Interlock Knits for Court Sports</h2><p>Micro-piqué knit construction features a tiny geometric waffle texture that reduces fabric-to-skin surface contact area by 35%. This unique structure creates micro-air channels that accelerate evaporative cooling while preventing fabric cling during heavy perspiration.</p><div class=\"overflow-x-auto my-6\"><table class=\"w-full border-collapse border border-slate-200 text-left text-sm\"><thead class=\"bg-slate-100\"><tr><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Performance Property</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Standard Smooth Interlock</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Engineered Micro-Piqué Elastane</th></tr></thead><tbody><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Fabric Weight & Composition</td><td class=\"border border-slate-200 p-2 text-slate-700\">160–180 GSM (100% Polyester)</td><td class=\"border border-slate-200 p-2 text-slate-700\">145 GSM (88% Micro-Polyester / 12% Spandex)</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Skin Contact Area</td><td class=\"border border-slate-200 p-2 text-slate-700\">High (100% flat surface contact)</td><td class=\"border border-slate-200 p-2 text-slate-700\">Low (65% contact with micro-air channels)</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Solar Protection Rating</td><td class=\"border border-slate-200 p-2 text-slate-700\">UPF 15 – UPF 20</td><td class=\"border border-slate-200 p-2 text-slate-700\">UPF 50+ (Titanium Dioxide Infused)</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Overhead Stretch Extension</td><td class=\"border border-slate-200 p-2 text-slate-700\">15% Mechanical Stretch</td><td class=\"border border-slate-200 p-2 text-slate-700\">45%+ 4-Way Elastane Stretch</td></tr></tbody></table></div><hr class=\"my-8 border-slate-200\" /><h2>3D Motion Gussets & Anti-Chafing Seam Placement</h2><p>By incorporating a continuous diamond-shaped underarm gusset, Vinayaga Garments decouples sleeve movement from the main torso panel. Players can reach overhead for full-extension serves without pulling up the hemline. All main joinery utilizes 6-needle 4-thread flatlock stitching with soft textured poly-amide threads to eliminate skin chafing.</p><hr class=\"my-8 border-slate-200\" /><h2>Related Court Sport & Technical Textile Resources</h2><p>Explore related team kit manufacturing and advanced technical textile resources:</p><p>Learn about heat-dispersing conductive fibers in <a href=\"/guides/graphene-infused-thermal-conducting-fibers-static-dissipative-textiles-guide\">Graphene-Infused Thermal Conducting Fibers & Static Dissipative Textiles in Custom Sportswear</a>.</p><p>Discover heavy-duty narrow webbing tapes in <a href=\"/guides/rajapalayam-virudhunagar-industrial-webbing-belt-high-tenacity-tapes-heavy-duty-canvas-hub\">Rajapalayam & Virudhunagar Industrial Webbing Belt: High-Tenacity Cotton-Polyester Tapes & Heavy-Duty Canvas Sourcing</a>.</p><p>Read about thermoregulation finishes in <a href=\"/guides/phase-change-material-pcm-microencapsulation-thermoregulation-finishes-guide\">Phase-Change Material (PCM) Microencapsulation & Thermoregulation Finishes in Activewear</a>.</p><p>Explore lightweight running apparel engineering in <a href=\"/guides/custom-running-singlets-trail-athletics-apparel-aerodynamic-cuts-frictionless-seams-guide\">Custom Running Singlets & Trail Athletics Apparel: Aerodynamic Cuts, Frictionless Seams & Reflective Elements</a>.</p>",
+  "faqs": [
+    {
+      "q": "What fabric is best for custom tennis and padel team uniforms?",
+      "a": "A 140–160 GSM micro-piqué micro-polyester with 10–12% elastane/spandex provides optimal airflow, light weight, UPF 50+ sun protection, and 4-way stretch."
+    },
+    {
+      "q": "How do 3D motion gussets improve performance during overhead serve motions?",
+      "a": "3D underarm motion gussets separate sleeve movement from the torso panel, allowing players to extend arms overhead without pulling up the jersey hem."
+    },
+    {
+      "q": "Can custom team logos and sponsor graphics be sublimated on micro-piqué fabric?",
+      "a": "Yes. Vinayaga Garments uses high-definition thermal dye sublimation at 210°C, embedding vibrant colors directly into the micro-piqué fibers without blocking fabric pores."
+    },
+    {
+      "q": "What UPF solar rating do Vinayaga Garments tennis kits offer?",
+      "a": "Our tennis and padel apparel incorporates titanium dioxide fiber treatments achieving UPF 50+ protection, blocking over 98% of harmful UVA and UVB radiation."
+    },
+    {
+      "q": "What is the minimum order quantity (MOQ) for custom padel team kits?",
+      "a": "Vinayaga Garments accommodates custom tennis and padel kit orders starting at low MOQs of 10 sets per design with full customization."
+    }
+  ]
+},
+  {
+  "slug": "rajapalayam-virudhunagar-industrial-webbing-belt-high-tenacity-tapes-heavy-duty-canvas-hub",
+  "title": "Rajapalayam & Virudhunagar Industrial Webbing Belt: High-Tenacity Cotton-Polyester Tapes & Heavy-Duty Canvas Sourcing",
+  "description": "Sourcing guide for the Rajapalayam and Virudhunagar technical textile cluster in Tamil Nadu. Details high-tenacity cotton-polyester narrow webbing tapes, shuttleless needle loom elastic bands, heavy-duty canvas bag handles, and OEKO-TEX eco-dyeing.",
+  "h1": "Rajapalayam & Virudhunagar Industrial Webbing Belt: High-Tenacity Cotton-Polyester Tapes & Heavy-Duty Canvas Sourcing",
+  "category": "Location / Regional Sourcing",
+  "featured": true,
+  "datePublished": "2026-10-30",
+  "dateModified": "2026-10-30",
+  "answerBlock": "The Rajapalayam and Virudhunagar textile corridor in Tamil Nadu is India's leading hub for high-tenacity narrow fabric webbing, industrial cotton-polyester tapes, and heavy-duty canvas trims. Equipped with high-speed shuttleless Mueller needle looms, continuous dye ranges, and automated tensile testing facilities, this region supplies Vinayaga Garments with durable bag straps, reinforced waistbands, high-tension elastic tapes, and heavy canvas fabric for athletic carry bags and sports apparel accessories.",
+  "keywords": [
+    "Rajapalayam industrial webbing manufacturer",
+    "Virudhunagar heavy duty canvas fabric sourcing",
+    "narrow fabric tape supplier Tamil Nadu",
+    "cotton polyester webbing elastic bands",
+    "Vinayaga Garments regional sourcing hub"
+  ],
+  "highlights": [
+    "Rajapalayam-Virudhunagar cluster produces over 150 million meters of industrial narrow fabric tapes and elastic webbing annually",
+    "Shuttleless needle looms produce dense 1.2mm–3.5mm thick high-tenacity polyester-cotton webbing with tensile strength up to 12,000 N",
+    "Zero Liquid Discharge (ZLD) continuous eco-dyeing units ensure colorfastness ratings of Grade 4.5+ under ISO 105-C06",
+    "Direct factory integration with Vinayaga Garments enables rapid prototyping (48-hour turnarounds) for custom sports bags and apparel elastics"
+  ],
+  "content": "<h2>The Industrial Narrow Fabric & Heavy Canvas Capital of Southern India</h2><p>Located in southern Tamil Nadu, the twin manufacturing centers of <strong>Rajapalayam and Virudhunagar</strong> form India's premier technical cluster for narrow woven tapes, industrial webbing belts, elastic bands, and heavy-duty duck canvas fabrics. Historically renowned for cotton spinning and ginning, the region has modernized into a high-precision shuttleless needle loom weaving hub.</p><p><strong>Vinayaga Garments</strong> leverages direct supply chain integration with Rajapalayam and Virudhunagar mills to source high-tenacity webbing, reinforced bag handles, and heavy canvas trims for athletic team equipment and custom activewear accessories.</p><hr class=\"my-8 border-slate-200\" /><h2>Narrow Webbing Tapes & Canvas Specifications</h2><p>From high-load luggage straps to ultra-soft jacquard elastic waistbands, mills in Rajapalayam utilize high-grade ring-spun cotton and high-tenacity filament polyester yarns woven under extreme warp tension.</p><div class=\"overflow-x-auto my-6\"><table class=\"w-full border-collapse border border-slate-200 text-left text-sm\"><thead class=\"bg-slate-100\"><tr><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Material Grade</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Weave Architecture</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Tensile Breaking Load</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Primary Apparel Application</th></tr></thead><tbody><tr><td class=\"border border-slate-200 p-2 text-slate-700\">High-Tenacity Polyester Webbing</td><td class=\"border border-slate-200 p-2 text-slate-700\">Heavy Plain / Herringbone Twill (2.5mm thickness)</td><td class=\"border border-slate-200 p-2 text-slate-700\">8,500 N – 12,000 N</td><td class=\"border border-slate-200 p-2 text-slate-700\">Team Duffel Bag Straps, D-Ring Belts, Gear Tie-Downs</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Cotton-Poly Blend Tapes</td><td class=\"border border-slate-200 p-2 text-slate-700\">Tubular / Folded Ribbon Tape (1.2mm thickness)</td><td class=\"border border-slate-200 p-2 text-slate-700\">3,200 N – 4,500 N</td><td class=\"border border-slate-200 p-2 text-slate-700\">Drawcords, Hood Ties, Reinforced Neck Seam Tapes</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Heavy-Duty Duck Canvas (#10 / #12)</td><td class=\"border border-slate-200 p-2 text-slate-700\">Tight Dual-Ply Woven Cotton (350–450 GSM)</td><td class=\"border border-slate-200 p-2 text-slate-700\">1,800 N Warp / 1,400 N Weft</td><td class=\"border border-slate-200 p-2 text-slate-700\">Equipment Holdalls, Heavy Outerwear Panels, Accessories</td></tr></tbody></table></div><hr class=\"my-8 border-slate-200\" /><h2>Eco-Dyeing & Quality Assurance Standards</h2><p>Virudhunagar processing units utilize automated pad-steam continuous dyeing lines with OEKO-TEX Standard 100 Class 1 eco-certified reactive dyes. All effluent undergoes multi-stage Zero Liquid Discharge (ZLD) purification, aligning with Vinayaga Garments' commitment to sustainable manufacturing.</p><hr class=\"my-8 border-slate-200\" /><h2>Related Regional Sourcing & Technical Apparel Guides</h2><p>Explore related regional sourcing hubs and custom activewear manufacturing guides:</p><p>Learn about narrow elastic webbing in <a href=\"/guides/theni-dindigul-technical-weaving-knitted-elastic-corridor-spandex-narrow-webbing-hub\">Theni & Dindigul Technical Weaving & Knitted Elastic Corridor: High-Tenacity Spandex & Narrow Webbing Sourcing</a>.</p><p>Discover custom racquet sports apparel in <a href=\"/guides/custom-tennis-padel-team-uniforms-uv-protective-pique-knits-motion-gussets-guide\">Custom Tennis & Padel Team Uniforms: UV-Protective Piqué Knits, Ergonomic Motion Gussets & Sweatband Integration</a>.</p><p>Read about static dissipative smart textiles in <a href=\"/guides/graphene-infused-thermal-conducting-fibers-static-dissipative-textiles-guide\">Graphene-Infused Thermal Conducting Fibers & Static Dissipative Textiles in Custom Sportswear</a>.</p><p>Explore jacquard knitting and collar engineering in <a href=\"/guides/erode-namakkal-technical-textile-corridor-jacquard-knits-collar-engineering-hub\">Erode & Namakkal Technical Textile Corridor: Jacquard Knits, Collar Engineering & Eco-Dyeing</a>.</p>",
+  "faqs": [
+    {
+      "q": "What narrow fabric products are manufactured in Rajapalayam and Virudhunagar?",
+      "a": "The region produces high-tenacity polyester industrial webbing, cotton-poly drawcords, elastic waistbands, binding tapes, and heavy-duty duck canvas fabrics."
+    },
+    {
+      "q": "What is the tensile strength of Rajapalayam industrial webbing tapes?",
+      "a": "Depending on yarn denier and thickness (1.2mm–3.5mm), webbing breaking loads range from 3,200 N for drawcords up to 12,000 N for heavy load straps."
+    },
+    {
+      "q": "How does Vinayaga Garments utilize Virudhunagar heavy canvas?",
+      "a": "Virudhunagar heavy-duty duck canvas (350–450 GSM) is used for custom team gear duffel bags, ball carriers, and heavy outer shell apparel accents."
+    },
+    {
+      "q": "Are the webbing dyeing facilities in Virudhunagar environmentally compliant?",
+      "a": "Yes. Mills in the Virudhunagar corridor operate ZLD (Zero Liquid Discharge) water treatment plants and use OEKO-TEX Standard 100 Class 1 eco-certified dyes."
+    },
+    {
+      "q": "What lead time is required for custom woven webbing tapes?",
+      "a": "Sample tape strike-offs are completed in 3 business days, with bulk production rolls delivered to Vinayaga Garments within 5 to 7 days."
+    }
+  ]
+},
+  {
+  "slug": "graphene-infused-thermal-conducting-fibers-static-dissipative-textiles-guide",
+  "title": "Graphene-Infused Thermal Conducting Fibers & Static Dissipative Textiles in Custom Sportswear",
+  "description": "Technical guide on graphene-infused synthetic fibers in custom sportswear manufacturing. Explores melt-extruded graphene nanosheets, thermal energy dissipation, anti-static charge discharge, natural antibacterial performance, and wash durability.",
+  "h1": "Graphene-Infused Thermal Conducting Fibers & Static Dissipative Textiles in Custom Sportswear",
+  "category": "Fabric & Customization Technology",
+  "featured": true,
+  "datePublished": "2026-10-30",
+  "dateModified": "2026-10-30",
+  "answerBlock": "Graphene-infused fibers integrate single-layer carbon nanosheets into synthetic polymer matrixes (nylon and polyester) during filament melt extrusion. Featuring an intrinsic thermal conductivity of up to 4,800 W/mK, graphene smart textiles rapidly disperse hot spots across the garment surface, prevent electrostatic charge build-up during intense friction, and inhibit 99.9% of odor-causing bacteria growth without toxic chemical coatings.",
+  "keywords": [
+    "graphene infused sportswear fabric",
+    "thermal conducting athletic apparel",
+    "anti static smart textiles custom jerseys",
+    "melt extruded graphene polymer filament",
+    "Vinayaga Garments technical fabric innovation"
+  ],
+  "highlights": [
+    "Single-layer graphene nanosheets embedded into polymer core matrix deliver permanent thermal conduction and anti-static performance",
+    "Thermal camera analysis demonstrates a 3.2°C surface heat dispersion acceleration compared to standard untreated nylon",
+    "Surface resistivity reduced to < 10^8 ohms/sq, completely eliminating static cling and friction sparks in dry conditions",
+    "Permanent wash resistance maintaining 99.9% antibacterial efficacy (AATCC 100) after 50+ commercial laundering cycles"
+  ],
+  "content": "<h2>The Physics of Graphene Nanomaterials in Textile Engineering</h2><p>Graphene—a two-dimensional honeycomb lattice of carbon atoms—possesses extraordinary physical properties, including exceptional electrical conductivity, mechanical strength, and an unmatched thermal conductivity of up to 4,800 W/mK. When embedded into synthetic textile fibers, graphene transforms standard activewear into dynamic smart textiles.</p><p><strong>Vinayaga Garments</strong> utilizes advanced <strong>graphene-infused nylon 6,6 and polyester filaments</strong> to produce high-performance compression garments, baselayers, and custom athletic kits with superior thermoregulation and anti-static shielding.</p><hr class=\"my-8 border-slate-200\" /><h2>Melt Extrusion vs. Surface Coating: Permanent Performance</h2><p>Unlike topical finishes that wash away over time, graphene nanosheets are compounded directly into molten masterbatch polymer resin before fiber extrusion. As a result, the carbon nanoparticles remain permanently encapsulated within the core filament structure.</p><div class=\"overflow-x-auto my-6\"><table class=\"w-full border-collapse border border-slate-200 text-left text-sm\"><thead class=\"bg-slate-100\"><tr><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Performance Metric</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Standard Untreated Polyester</th><th class=\"border border-slate-200 p-2 font-semibold text-slate-800\">Graphene-Infused Melt-Extruded Fiber</th></tr></thead><tbody><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Thermal Conductivity (W/mK)</td><td class=\"border border-slate-200 p-2 text-slate-700\">0.15 W/mK (Thermal Insulator)</td><td class=\"border border-slate-200 p-2 text-slate-700\">25.0 – 45.0 W/mK (High Thermal Disperser)</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Surface Resistivity (ohms/sq)</td><td class=\"border border-slate-200 p-2 text-slate-700\">10^13 ohms/sq (Prone to High Static Cling)</td><td class=\"border border-slate-200 p-2 text-slate-700\">< 10^8 ohms/sq (Static Dissipative)</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Antibacterial Efficacy (AATCC 100)</td><td class=\"border border-slate-200 p-2 text-slate-700\">0% Reduction</td><td class=\"border border-slate-200 p-2 text-slate-700\">99.9% Bacterial Growth Reduction</td></tr><tr><td class=\"border border-slate-200 p-2 text-slate-700\">Laundering Durability (ISO 6330)</td><td class=\"border border-slate-200 p-2 text-slate-700\">N/A</td><td class=\"border border-slate-200 p-2 text-slate-700\">50+ Wash Cycles (Zero Degradation)</td></tr></tbody></table></div><hr class=\"my-8 border-slate-200\" /><h2>Thermal Dispersion & Static Charge Dissipation Mechanisms</h2><p>During intense physical activity, high-friction areas (such as the back and chest) generate metabolic hot spots. Embedded graphene nanosheets draw excess thermal energy away from localized areas and distribute it evenly across the entire surface area of the jersey, accelerating heat dissipation into the surrounding atmosphere.</p><hr class=\"my-8 border-slate-200\" /><h2>Related Smart Textile & Technical Apparel Resources</h2><p>Explore related smart fabric innovations and custom sportswear guides:</p><p>Learn about microencapsulated phase-change thermoregulation in <a href=\"/guides/phase-change-material-pcm-microencapsulation-thermoregulation-finishes-guide\">Phase-Change Material (PCM) Microencapsulation & Thermoregulation Finishes in Activewear</a>.</p><p>Discover court sport apparel engineering in <a href=\"/guides/custom-tennis-padel-team-uniforms-uv-protective-pique-knits-motion-gussets-guide\">Custom Tennis & Padel Team Uniforms: UV-Protective Piqué Knits, Ergonomic Motion Gussets & Sweatband Integration</a>.</p><p>Read about industrial narrow webbing sourcing in <a href=\"/guides/rajapalayam-virudhunagar-industrial-webbing-belt-high-tenacity-tapes-heavy-duty-canvas-hub\">Rajapalayam & Virudhunagar Industrial Webbing Belt: High-Tenacity Cotton-Polyester Tapes & Heavy-Duty Canvas Sourcing</a>.</p><p>Explore anti-slip silicone elastomer coatings in <a href=\"/guides/high-friction-grip-coatings-anti-slip-silicone-elastomer-applications-guide\">High-Friction Grip Coatings & Anti-Slip Silicone Elastomer Applications in Custom Sportswear</a>.</p>",
+  "faqs": [
+    {
+      "q": "What are graphene-infused fibers in sportswear?",
+      "a": "Graphene-infused fibers are synthetic filaments (nylon or polyester) melt-extruded with single-layer carbon nanosheets to provide intrinsic thermal conductivity, static dissipation, and natural odor control."
+    },
+    {
+      "q": "How does graphene help regulate body temperature during exercise?",
+      "a": "Graphene's ultra-high thermal conductivity (up to 4,800 W/mK) rapidly transfers heat away from high-temperature metabolic hot spots on the body, dispersing heat evenly across the fabric surface."
+    },
+    {
+      "q": "Does graphene fabric eliminate static cling in dry climates?",
+      "a": "Yes. Graphene lowers electrical surface resistivity to under 10^8 ohms/sq, allowing static charges generated by friction to dissipate harmlessly instead of building up."
+    },
+    {
+      "q": "Are graphene-infused garments safe for skin contact?",
+      "a": "Yes. Graphene nanoparticles are permanently locked inside the polymer fiber matrix, preventing skin leaching and meeting OEKO-TEX Standard 100 eco-safety criteria."
+    },
+    {
+      "q": "Does the antibacterial performance of graphene wash out?",
+      "a": "No. Because graphene is melt-extruded inside the fiber core rather than applied as a surface finish, antibacterial efficacy (99.9%) persists after 50+ wash cycles."
+    }
+  ]
+}
 ];
