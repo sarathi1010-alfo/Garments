@@ -885,3 +885,6 @@
 /cities/tuticorin/srivaikuntam
 /cities/tuticorin/ottapidaram
 /cities/tuticorin/ettayapuram
+/guides/custom-open-water-water-polo-rough-water-caps-robes-guide
+/guides/kumbakonam-swamimalai-technical-braiding-twine-sourcing-belt
+/guides/micro-fluidic-cooling-capillary-evaporative-activewear-guide
