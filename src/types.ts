@@ -1,0 +1,37 @@
+export interface Guide {
+  id?: string;
+  slug: string;
+  title: string;
+  description?: string;
+  h1?: string;
+  category: string;
+  readTime?: string;
+  date?: string;
+  publishDate?: string;
+  publishedDate?: string;
+  datePublished?: string;
+  dateModified?: string;
+  metaTitle?: string;
+  metaDescription?: string;
+  seo?: any;
+  authorRole?: string;
+  quickAnswer?: string;
+  lastUpdated?: string;
+  format?: string;
+  categorySlug?: string;
+  excerpt?: string;
+  tags?: string[];
+  author?: string | { name: string; title: string };
+  summary?: string;
+  keyTakeaways?: string[];
+  featured?: boolean;
+  answerBlock?: string;
+  keywords?: string[];
+  imageAlt?: string;
+  highlight?: string[];
+  highlights?: string[];
+  content: string;
+  faqs?: { q: string; a: string }[];
+  lastMod?: string;
+  publishedAt?: string;
+}

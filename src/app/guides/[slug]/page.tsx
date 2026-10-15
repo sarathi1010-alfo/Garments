@@ -47,7 +47,7 @@ export default async function GuidePage({ params }: PageProps) {
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": guide.faqs.map(faq => ({
+    "mainEntity": (guide.faqs || []).map(faq => ({
       "@type": "Question",
       "name": faq.q,
       "acceptedAnswer": {
@@ -120,33 +120,37 @@ export default async function GuidePage({ params }: PageProps) {
           <div className="guide-content mb-12" dangerouslySetInnerHTML={{ __html: guide.content }} />
 
           {/* Key Highlights */}
-          <div className="my-12 p-8 bg-muted/50 rounded-2xl border border-border">
-            <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-              <span className="material-symbols-outlined text-primary">check_circle</span>
-              Key Takeaways
-            </h2>
-            <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 list-none p-0 m-0">
-              {guide.highlights.map((highlight, idx) => (
-                <li key={idx} className="flex gap-3 items-start p-0 m-0">
-                  <span className="material-symbols-outlined text-secondary shrink-0 mt-0.5">star</span>
-                  <span className="text-on-surface">{highlight}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+          {guide.highlights && guide.highlights.length > 0 && (
+            <div className="my-12 p-8 bg-muted/50 rounded-2xl border border-border">
+              <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+                <span className="material-symbols-outlined text-primary">check_circle</span>
+                Key Takeaways
+              </h2>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 list-none p-0 m-0">
+                {guide.highlights.map((highlight, idx) => (
+                  <li key={idx} className="flex gap-3 items-start p-0 m-0">
+                    <span className="material-symbols-outlined text-secondary shrink-0 mt-0.5">star</span>
+                    <span className="text-on-surface">{highlight}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* FAQ Section */}
-          <section className="mt-16 border-t pt-12">
-            <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
-            <div className="space-y-8">
-              {guide.faqs.map((faq, idx) => (
-                <div key={idx} className="bg-muted/30 p-6 rounded-xl">
-                  <h3 className="text-xl font-bold mb-3">{faq.q}</h3>
-                  <p className="text-muted-foreground">{faq.a}</p>
-                </div>
-              ))}
-            </div>
-          </section>
+          {guide.faqs && guide.faqs.length > 0 && (
+            <section className="mt-16 border-t pt-12">
+              <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+              <div className="space-y-8">
+                {guide.faqs.map((faq, idx) => (
+                  <div key={idx} className="bg-muted/30 p-6 rounded-xl">
+                    <h3 className="text-xl font-bold mb-3">{faq.q}</h3>
+                    <p className="text-muted-foreground">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* Related Guides Section */}
           <section className="mt-16 border-t pt-12">
