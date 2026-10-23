@@ -40,7 +40,6 @@ export function generateMetadata(data: PageData, path: string): Metadata {
       canonical: url,
       languages: {
         'en-IN': url,
-        'ta': url,
         'x-default': url,
       },
     },
