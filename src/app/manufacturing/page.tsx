@@ -129,7 +129,7 @@ export default function ManufacturingPage() {
               Request Technical Quote
               <span className="material-symbols-outlined">arrow_forward</span>
             </Link>
-            <Link href="/guides/custom-apparel-manufacturing-process-step-by-step" className="inline-flex items-center gap-2 bg-muted text-on-surface px-8 py-4 rounded-xl font-bold hover:bg-muted/80 transition-colors">
+            <Link href="/guides/custom-open-water-water-polo-post-event-award-protocol-crew-outerwear-guide" className="inline-flex items-center gap-2 bg-muted text-on-surface px-8 py-4 rounded-xl font-bold hover:bg-muted/80 transition-colors">
               Explore Our Process
             </Link>
           </div>
