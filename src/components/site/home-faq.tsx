@@ -7,28 +7,24 @@ import {
 
 const FAQS = [
   {
-    q: "What types of custom apparel do you manufacture?",
-    a: "We specialize in high-performance athletic apparel including custom Kabaddi kits, cricket jerseys, football uniforms, and basketball gear. We also produce premium corporate polos, educational institution sports kits, and custom marathon t-shirts.",
+    q: "What is the minimum order quantity (MOQ) for custom sportswear?",
+    a: "Our standard MOQ starts at 50 pieces per design, allowing emerging athletic brands and sports clubs to order customized apparel without excessive inventory risk.",
   },
   {
-    q: "What is your typical Minimum Order Quantity (MOQ)?",
-    a: "Our standard MOQs typically start at 50-100 units for fully custom sublimated sports kits and 200-300 units for corporate wear. We offer flexibility for long-term partners and growing brands.",
+    q: "What printing techniques do you use for athletic uniforms?",
+    a: "We specialize in high-definition digital dye-sublimation, screen printing, high-density silicone transfer, and precision embroidery. Sublimation ensures zero peeling or fading.",
   },
   {
-    q: "How long does the manufacturing process take?",
-    a: "A standard production cycle takes 6 to 10 weeks. This includes 1-2 weeks for technical design, 1-2 weeks for sampling/approval, 3-5 weeks for bulk production, and 1-2 weeks for shipping and logistics.",
+    q: "What fabrics are available for performance sportswear?",
+    a: "We manufacture with premium moisture-wicking polyester, interlock spandex blends, breathable bird-eye mesh, anti-bacterial dry-fit textiles, and fleece blends.",
   },
   {
-    q: "What is Dye Sublimation printing?",
-    a: "Dye sublimation is a digital printing technology where ink is fused directly into the fabric fibers using heat and pressure. It ensures vibrant, permanent designs that never peel, crack, or fade while maintaining 100% fabric breathability.",
+    q: "What is the typical turnaround time for custom apparel orders?",
+    a: "Sample development takes 5 to 7 business days. Full bulk production completes within 14 to 21 business days depending on order volume and customization complexity.",
   },
   {
-    q: "Where is Vinayaga Garments located?",
-    a: "Our primary manufacturing facility is located in Mallasamudram, Namakkal District, Tamil Nadu, India. We operate within the vertically integrated textile ecosystem of South India, including the hubs of Tirupur and Coimbatore.",
-  },
-  {
-    q: "Do you provide international shipping?",
-    a: "Yes, we coordinate global logistics from our hub in Tamil Nadu. We manage export documentation and offer both air freight (5-7 days) and cost-effective sea freight (4-6 weeks) options for international clients.",
+    q: "Do you provide private label services and custom neck tags?",
+    a: "Yes, we offer full private-label OEM manufacturing including heat-sealed neck tags, woven labels, custom hangtags, and branded polybag packaging.",
   },
 ];
 

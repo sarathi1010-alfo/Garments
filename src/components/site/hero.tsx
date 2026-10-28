@@ -23,17 +23,16 @@ export function Hero() {
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           >
             <h1 className="font-headline-xl text-headline-lg-mobile md:text-headline-xl text-primary leading-tight">
-              Engineered for <br />
-              Performance.
-              <br />
+              Precision Engineered <br />
+              Custom Athletic Apparel <br />
               <span className="font-serif-display text-secondary italic block mt-2 text-[1.05em] md:text-[1.1em] font-medium tracking-normal">
-                Tailored for Trust.
+                Manufacturer
               </span>
             </h1>
           </motion.div>
 
           <motion.p
-            className="font-body-lg text-body-lg text-on-surface-variant max-w-md leading-relaxed"
+            className="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed"
             initial={reduce ? false : { opacity: 0, y: 24 }}
             animate={reduce ? undefined : { opacity: 1, y: 0 }}
             transition={{
@@ -42,9 +41,7 @@ export function Hero() {
               ease: [0.16, 1, 0.3, 1],
             }}
           >
-            Premium custom athletic apparel manufacturing. We merge high-performance
-            fabrics with precise engineering to deliver gear that stands the test of
-            time, designed exactly to your specifications.
+            Vinayaga Garments is a specialized B2B custom athletic apparel manufacturer delivering high-performance teamwear, sublimated jerseys, activewear, and private-label sportswear. We combine technical moisture-wicking textiles with precision flatlock stitching, automated sublimation cutting, and rigorous quality control for sports teams, fitness brands, and corporate athletic programs worldwide.
           </motion.p>
 
           <motion.div
@@ -59,7 +56,7 @@ export function Hero() {
           >
             <a
               href="/contact"
-              className="bg-primary text-on-primary px-8 md:px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer"
+              className="bg-primary text-on-primary px-8 md:px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer min-h-[44px] min-w-[44px] focus-visible:ring-2 focus-visible:ring-secondary focus:outline-none"
             >
               Get a Quote
               <ArrowRight className="size-[18px]" />
@@ -68,14 +65,14 @@ export function Hero() {
               href={whatsappLink()}
               target="_blank"
               rel="nofollow external noopener noreferrer"
-              className="bg-secondary text-on-secondary px-8 md:px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer"
+              className="bg-secondary text-on-secondary px-8 md:px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer min-h-[44px] min-w-[44px] focus-visible:ring-2 focus-visible:ring-primary focus:outline-none"
             >
               <MessageCircle className="size-[18px]" />
               WhatsApp
             </a>
             <a
               href="/products"
-              className="bg-transparent border-b border-primary text-primary px-2 py-4 rounded-none font-label-md text-label-md uppercase tracking-[0.1em] hover:text-secondary hover:border-secondary transition-all duration-300 inline-flex justify-center items-center cursor-pointer"
+              className="bg-transparent border-b border-primary text-primary px-4 py-4 rounded-none font-label-md text-label-md uppercase tracking-[0.1em] hover:text-secondary hover:border-secondary transition-all duration-300 inline-flex justify-center items-center cursor-pointer min-h-[44px] min-w-[44px] focus-visible:ring-2 focus-visible:ring-secondary focus:outline-none"
             >
               Explore Products
               <ArrowRight className="size-[18px] ml-3" />
@@ -84,23 +81,18 @@ export function Hero() {
         </div>
 
         {/* Image — Bleeding right (desktop) / stacked above text (mobile) */}
-        <motion.div
+        <div
           className="lg:col-span-7 h-[42vh] sm:h-[55vh] lg:h-[85vh] w-full relative mt-0 mb-8 lg:mt-0 lg:mb-0 lg:translate-x-12 lg:scale-125 z-10 order-1 lg:order-2"
-          initial={reduce ? false : { opacity: 0, scale: 0.96 }}
-          animate={
-            reduce ? undefined : { opacity: 1, scale: 1 }
-          }
-          transition={{ duration: 0.9, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
         >
           <Image
             src="/images/hero-jersey.png"
-            alt="A striking studio photograph of a premium, custom-designed sports jersey on an invisible mannequin. The jersey features sleek, high-tech fabric with subtle geometric sublimation patterns in deep navy and brilliant gold accents, with dramatic directional lighting highlighting the texture and precision stitching."
+            alt="Custom athletic apparel manufacturer sports jersey featuring precision sublimation printing and high-performance fabric"
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 58vw"
             className="w-full h-full object-contain"
           />
-        </motion.div>
+        </div>
       </div>
     </section>
   );
