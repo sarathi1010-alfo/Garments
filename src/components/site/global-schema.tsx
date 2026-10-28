@@ -61,6 +61,69 @@ export function GlobalSchema() {
     }
   };
 
+  const webApplicationSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: "Vinayaga Garments Custom Athletic Apparel Manufacturer",
+    url: "https://garment.alfo.online",
+    description:
+      "Precision-engineered custom sportswear and athletic apparel manufacturing platform.",
+    applicationCategory: "BusinessApplication",
+    operatingSystem: "All",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+  };
+
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: "How to Order Custom Athletic Apparel from Vinayaga Garments",
+    description:
+      "A 4-step streamlined manufacturing process for custom teamwear and athletic apparel.",
+    step: [
+      {
+        "@type": "HowToStep",
+        position: 1,
+        name: "Select Apparel Style",
+        text: "Browse performance jerseys, training shorts, hoodies, and compression wear.",
+      },
+      {
+        "@type": "HowToStep",
+        position: 2,
+        name: "Submit Design & Specs",
+        text: "Provide your vector artwork, PMS color codes, custom sizing breakdowns, and fabric preferences.",
+      },
+      {
+        "@type": "HowToStep",
+        position: 3,
+        name: "Sample Approval",
+        text: "Receive pre-production digital mockups and physical sample verification for fit and color accuracy.",
+      },
+      {
+        "@type": "HowToStep",
+        position: 4,
+        name: "Bulk Production & Delivery",
+        text: "High-capacity automated manufacturing with global tracked door-to-door delivery.",
+      },
+    ],
+  };
+
+  const breadcrumbListSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://garment.alfo.online",
+      },
+    ],
+  };
+
   return (
     <>
       <script
@@ -70,6 +133,18 @@ export function GlobalSchema() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webApplicationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbListSchema) }}
       />
     </>
   );

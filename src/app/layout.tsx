@@ -28,24 +28,44 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Vinayaga Garments | Premium Custom Apparel",
+  metadataBase: new URL("https://garment.alfo.online"),
+  title: "Custom Athletic Apparel Manufacturer | Vinayaga Garments",
   description:
-    "Premium custom athletic apparel manufacturing. We merge high-performance fabrics with precise engineering to deliver gear that stands the test of time, designed exactly to your specifications.",
+    "Custom athletic apparel manufacturer delivering precision sportswear, sublimated team jerseys, activewear, and reliable high-volume B2B wholesale orders.",
   keywords: [
-    "custom athletic apparel",
-    "sublimation printing",
-    "team kits",
-    "corporate sportswear",
-    "performance polos",
+    "custom athletic apparel manufacturer",
+    "sublimated sportswear manufacturer",
+    "custom team jerseys wholesale",
+    "private label athletic clothing",
+    "performance apparel manufacturing",
     "Vinayaga Garments",
   ],
   authors: [{ name: "Vinayaga Garments" }],
+  alternates: {
+    canonical: "https://garment.alfo.online/",
+  },
   openGraph: {
-    title: "Vinayaga Garments | Premium Custom Apparel",
+    title: "Custom Athletic Apparel Manufacturer | Vinayaga Garments",
     description:
-      "Engineered for Performance. Tailored for Trust. Premium custom athletic apparel manufacturing.",
+      "Custom athletic apparel manufacturer delivering precision sportswear, sublimated team jerseys, activewear, and reliable high-volume B2B wholesale orders.",
+    url: "https://garment.alfo.online/",
     siteName: "Vinayaga Garments",
+    images: [
+      {
+        url: "https://garment.alfo.online/icon.png",
+        width: 180,
+        height: 180,
+        alt: "Vinayaga Garments Custom Athletic Apparel",
+      },
+    ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Athletic Apparel Manufacturer | Vinayaga Garments",
+    description:
+      "Custom athletic apparel manufacturer delivering precision sportswear, sublimated team jerseys, activewear, and reliable high-volume B2B wholesale orders.",
+    images: ["https://garment.alfo.online/icon.png"],
   },
 };
 
