@@ -45,7 +45,7 @@ export default function ContactPage() {
               <a
                 href={whatsappLink()}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="flex items-center gap-4 p-4 bg-secondary/10 rounded-xl border border-secondary/20 hover:bg-secondary/20 transition-all group"
               >
                 <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white">

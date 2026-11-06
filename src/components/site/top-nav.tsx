@@ -5,6 +5,7 @@ import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetTitle, SheetDescrip
 import { Menu, MessageCircle } from "lucide-react";
 import { whatsappLink } from "@/lib/contact";
 import Image from "next/image";
+import { trackEvent } from "@/lib/gtag";
 
 const NAV_LINKS = [
   { label: "Products", href: "/products" },
@@ -46,6 +47,11 @@ export function TopNav() {
               key={link.label}
               className="text-on-surface-variant hover:text-primary transition-colors duration-300"
               href={link.href}
+              onClick={() => {
+                if (link.href === "/contact") {
+                  trackEvent("order_request", { source: "top_nav" });
+                }
+              }}
             >
               {link.label}
             </a>
@@ -58,6 +64,7 @@ export function TopNav() {
             href={whatsappLink()}
             target="_blank"
             rel="nofollow external noopener noreferrer"
+            onClick={() => trackEvent("contact_inquiry", { channel: "whatsapp", source: "top_nav" })}
             className="bg-secondary text-on-secondary px-8 py-3 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex items-center gap-2 cursor-pointer"
           >
             <MessageCircle className="size-[18px]" />
@@ -102,6 +109,11 @@ export function TopNav() {
                     <a
                       className="text-on-surface-variant hover:text-primary transition-colors duration-300 py-1"
                       href={link.href}
+                      onClick={() => {
+                        if (link.href === "/contact") {
+                          trackEvent("order_request", { source: "mobile_nav" });
+                        }
+                      }}
                     >
                       {link.label}
                     </a>
@@ -113,6 +125,7 @@ export function TopNav() {
                   href={whatsappLink()}
                   target="_blank"
                   rel="nofollow external noopener noreferrer"
+                  onClick={() => trackEvent("contact_inquiry", { channel: "whatsapp", source: "mobile_nav" })}
                   className="bg-secondary text-on-secondary px-8 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <MessageCircle className="size-[18px]" />

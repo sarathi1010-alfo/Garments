@@ -33,7 +33,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', '${GA4_ID}');`}
+
+if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+  window['ga-disable-${GA4_ID}'] = true;
+} else {
+  gtag('config', '${GA4_ID}', {
+    cookie_domain: 'auto',
+    linker: { domains: ['alfo.online', 'sm-clinics.vercel.app', 'pdfutility.app'] },
+    cookie_flags: 'SameSite=None;Secure'
+  });
+}`}
       </Script>
     </>
   );

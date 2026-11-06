@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import { whatsappLink } from "@/lib/contact";
+import { trackEvent } from "@/lib/gtag";
 
 export function Hero() {
   const reduce = useReducedMotion();
@@ -56,6 +57,7 @@ export function Hero() {
           >
             <a
               href="/contact"
+              onClick={() => trackEvent('order_request', { source: 'hero_quote' })}
               className="bg-primary text-on-primary px-8 md:px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer min-h-[44px] min-w-[44px] focus-visible:ring-2 focus-visible:ring-secondary focus:outline-none"
             >
               Get a Quote
@@ -65,6 +67,7 @@ export function Hero() {
               href={whatsappLink()}
               target="_blank"
               rel="nofollow external noopener noreferrer"
+              onClick={() => trackEvent('contact_inquiry', { channel: 'whatsapp', source: 'hero' })}
               className="bg-secondary text-on-secondary px-8 md:px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex justify-center items-center gap-3 cursor-pointer min-h-[44px] min-w-[44px] focus-visible:ring-2 focus-visible:ring-primary focus:outline-none"
             >
               <MessageCircle className="size-[18px]" />

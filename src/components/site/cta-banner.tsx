@@ -3,6 +3,7 @@
 import { MessageCircle } from "lucide-react";
 import { Reveal } from "./reveal";
 import { CONTACT, whatsappLink } from "@/lib/contact";
+import { trackEvent } from "@/lib/gtag";
 
 export function CtaBanner() {
   return (
@@ -23,6 +24,7 @@ export function CtaBanner() {
               href={whatsappLink()}
               target="_blank"
               rel="nofollow external noopener noreferrer"
+              onClick={() => trackEvent('contact_inquiry', { channel: 'whatsapp', source: 'cta_banner' })}
               className="bg-secondary text-on-secondary px-8 md:px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:opacity-90 transition-opacity duration-300 inline-flex items-center justify-center gap-3 cursor-pointer"
             >
               <MessageCircle className="size-[18px]" />
@@ -30,6 +32,7 @@ export function CtaBanner() {
             </a>
             <a
               href={`mailto:${CONTACT.emailHref.replace("mailto:", "")}`}
+              onClick={() => trackEvent('contact_inquiry', { channel: 'email', source: 'cta_banner' })}
               className="bg-transparent border border-on-primary/30 text-on-primary px-8 md:px-10 py-4 rounded-md font-label-md text-label-md uppercase tracking-[0.1em] hover:bg-on-primary/10 hover:border-on-primary/50 transition-all duration-300 inline-flex items-center justify-center cursor-pointer"
             >
               Email Us

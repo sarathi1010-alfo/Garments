@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { motion, useReducedMotion, AnimatePresence } from "framer-motion";
 import { MessageCircle, X } from "lucide-react";
 import { CONTACT, whatsappLink } from "@/lib/contact";
+import { trackEvent } from "@/lib/gtag";
 
 /**
  * Floating WhatsApp button — persistent quick-access on all sections.
@@ -65,6 +66,7 @@ export function FloatingWhatsApp() {
             target="_blank"
             rel="nofollow external noopener noreferrer"
             aria-label={`Chat with ${CONTACT.brand} on WhatsApp`}
+            onClick={() => trackEvent("contact_inquiry", { channel: "whatsapp", source: "floating_widget" })}
             className="group flex items-center justify-center size-14 rounded-full text-white shadow-lg hover:scale-105 active:scale-95 transition-transform duration-300 cursor-pointer"
             style={{ backgroundColor: "#25D366" }}
           >
