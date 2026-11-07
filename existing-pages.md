@@ -1,6 +1,6 @@
 # Existing Pages on garment.alfo.online
 
-Total Pages: 1217
+Total Pages: 1220
 
 ## List of all routes:
 - `/`
@@ -1220,3 +1220,6 @@ Total Pages: 1217
 - `/cities/tuticorin/srivaikuntam`
 - `/cities/tuticorin/ottapidaram`
 - `/cities/tuticorin/ettayapuram`
+- `/guides/custom-open-water-water-polo-course-corner-tower-maintenance-tender-outerwear-guide`
+- `/guides/periyakulam-batlagundu-mountain-highway-agro-textile-heavy-canvas-corridor`
+- `/guides/piezo-capacitive-micro-dynamic-tri-axial-rotational-shear-dynamic-impact-activewear-guide`
