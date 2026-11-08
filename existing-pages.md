@@ -1,6 +1,6 @@
 # Existing Pages on garment.alfo.online
 
-Total Pages: 1220
+Total Pages: 1223
 
 ## List of all routes:
 - `/`
@@ -1223,3 +1223,6 @@ Total Pages: 1220
 - `/guides/custom-open-water-water-polo-course-corner-tower-maintenance-tender-outerwear-guide`
 - `/guides/periyakulam-batlagundu-mountain-highway-agro-textile-heavy-canvas-corridor`
 - `/guides/piezo-capacitive-micro-dynamic-tri-axial-rotational-shear-dynamic-impact-activewear-guide`
+- `/guides/custom-open-water-water-polo-course-corner-tower-solar-power-electrical-tender-outerwear-guide`
+- `/guides/batlagundu-nilakottai-horticultural-shade-netting-industrial-cordage-corridor`
+- `/guides/piezo-capacitive-micro-dynamic-multi-axis-torsional-velocity-angular-acceleration-activewear-guide`
