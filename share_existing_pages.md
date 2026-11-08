@@ -5,11 +5,11 @@
 1. **Sitemap (`/sitemap.xml`)**:
    - **Status**: ✅ Fully Implemented and Active (`src/app/sitemap.ts`)
    - Dynamically generated via Next.js Metadata Route API (`MetadataRoute.Sitemap`).
-   - Automatically crawls and indexes all primary static routes, category pages, districts, products, fabrics, cities, and 579 educational and technical guides (1,220 total routes).
+   - Automatically crawls and indexes all primary static routes, category pages, districts, products, fabrics, cities, and 585 educational and technical guides (1,226 total routes).
 
 2. **Content Architecture**:
    - **Status**: ✅ Fully Built out
-   - A total of 1,220 static routes are prerendered and live, featuring 579 production-grade, AEO-optimized technical and educational guides across Sports & Team Kits, Location/Regional Sourcing, and Fabric & Customization Technology clusters.
+   - A total of 1,226 static routes are prerendered and live, featuring 585 production-grade, AEO-optimized technical and educational guides across Sports & Team Kits, Location/Regional Sourcing, and Fabric & Customization Technology clusters.
 
 3. **Contact & Quote Page (`/contact`)**:
    - **Status**: ✅ Fully Implemented (`src/app/contact/page.tsx`)
@@ -24,7 +24,7 @@
 - `/about` — About Vinayaga Garments & Alfo Ecosystem
 - `/faq` — Comprehensive Custom Apparel FAQ
 - `/manufacturing` — Manufacturing Process & Quality Standards
-- `/guides` — Knowledge Hub & Guide Index (579 guides)
+- `/guides` — Knowledge Hub & Guide Index (585 guides)
 - `/products` — Product Catalog & Category Hub
 - `/fabrics` — Technical Fabric Specifications Hub
 - `/districts` — Tamil Nadu & Regional Manufacturing Hubs
@@ -40,9 +40,9 @@
 
 ---
 
-## Detailed Breakdown of Sub-Pages (1,220 Total Prerendered Static Routes)
+## Detailed Breakdown of Sub-Pages (1,226 Total Prerendered Static Routes)
 
-### 1. Educational & Technical Guides (`/guides/[slug]` — 579 Pages)
+### 1. Educational & Technical Guides (`/guides/[slug]` — 585 Pages)
 Structured across key topical clusters:
 - **Cluster A: Fundamentals & Manufacturing Processes**:
   - `/guides/what-is-custom-apparel-manufacturing`
