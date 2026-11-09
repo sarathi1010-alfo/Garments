@@ -1,6 +1,6 @@
 # Existing Pages on garment.alfo.online
 
-Total Pages: 1223
+Total Pages: 1229
 
 ## List of all routes:
 - `/`
@@ -1229,3 +1229,6 @@ Total Pages: 1223
 - `/guides/custom-open-water-water-polo-course-corner-tower-optical-sensor-var-camera-rigging-outerwear-guide`
 - `/guides/nilakottai-vadipatti-floricultural-packaging-technical-agro-cordage-belt`
 - `/guides/piezo-capacitive-micro-dynamic-multi-axis-dynamic-rotational-torque-torsional-moment-activewear-guide`
+- `/guides/custom-open-water-water-polo-course-corner-tower-optical-fiber-signal-rigging-outerwear-guide`
+- `/guides/vadipatti-sholavandan-high-tenacity-banana-fiber-agro-polymer-cordage-corridor`
+- `/guides/piezo-capacitive-micro-dynamic-multi-axis-dynamic-torsional-shear-strain-activewear-guide`
