@@ -1,6 +1,6 @@
 # Existing Pages on garment.alfo.online
 
-Total Pages: 1229
+Total Pages: 1232
 
 ## List of all routes:
 - `/`
@@ -1235,3 +1235,6 @@ Total Pages: 1229
 - `/guides/custom-open-water-water-polo-course-corner-tower-structural-cable-tensioning-tender-outerwear-guide`
 - `/guides/sholavandan-madurai-west-river-basin-industrial-coir-bio-polymer-geotextile-belt`
 - `/guides/piezo-capacitive-micro-dynamic-multi-axis-dynamic-torsional-shear-velocity-angular-damping-activewear-guide`
+- `/guides/custom-open-water-water-polo-course-corner-tower-optical-fiber-fusion-splice-repair-tender-outerwear-guide`
+- `/guides/madurai-west-usilampatti-agro-fleece-horticultural-shade-mesh-corridor`
+- `/guides/piezo-capacitive-micro-dynamic-multi-axis-dynamic-torsional-shear-resonance-kinetic-harmonic-activewear-guide`
