@@ -5,11 +5,11 @@
 1. **Sitemap (`/sitemap.xml`)**:
    - **Status**: ✅ Fully Implemented and Active (`src/app/sitemap.ts`)
    - Dynamically generated via Next.js Metadata Route API (`MetadataRoute.Sitemap`).
-   - Automatically crawls and indexes all primary static routes, category pages, districts, products, fabrics, cities, and 588 educational and technical guides (1,229 total routes).
+   - Automatically crawls and indexes all primary static routes, category pages, districts, products, fabrics, cities, and 591 educational and technical guides (1,232 total routes).
 
 2. **Content Architecture**:
    - **Status**: ✅ Fully Built out
-   - A total of 1,229 static routes are prerendered and live, featuring 588 production-grade, AEO-optimized technical and educational guides across Sports & Team Kits, Location/Regional Sourcing, and Fabric & Customization Technology clusters.
+   - A total of 1,232 static routes are prerendered and live, featuring 591 production-grade, AEO-optimized technical and educational guides across Sports & Team Kits, Location/Regional Sourcing, and Fabric & Customization Technology clusters.
 
 3. **Contact & Quote Page (`/contact`)**:
    - **Status**: ✅ Fully Implemented (`src/app/contact/page.tsx`)

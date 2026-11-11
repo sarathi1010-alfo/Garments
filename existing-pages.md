@@ -1232,3 +1232,6 @@ Total Pages: 1229
 - `/guides/custom-open-water-water-polo-course-corner-tower-optical-fiber-signal-rigging-outerwear-guide`
 - `/guides/vadipatti-sholavandan-high-tenacity-banana-fiber-agro-polymer-cordage-corridor`
 - `/guides/piezo-capacitive-micro-dynamic-multi-axis-dynamic-torsional-shear-strain-activewear-guide`
+- `/guides/custom-open-water-water-polo-course-corner-tower-structural-cable-tensioning-tender-outerwear-guide`
+- `/guides/sholavandan-madurai-west-river-basin-industrial-coir-bio-polymer-geotextile-belt`
+- `/guides/piezo-capacitive-micro-dynamic-multi-axis-dynamic-torsional-shear-velocity-angular-damping-activewear-guide`
